@@ -1,0 +1,12 @@
+{
+  "name": "js-obfuscation-baseline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Baseline de ofuscación tradicional usando javascript-obfuscator",
+  "scripts": {
+    "baseline": "node runs/obfuscator.js"
+  },
+  "dependencies": {
+    "javascript-obfuscator": "^4.0.2"
+  }
+}

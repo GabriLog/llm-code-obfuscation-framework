@@ -1,0 +1,36 @@
+{
+  "original": {
+    "small": {
+      "factorial.js": {
+        "lines": 14,
+        "description": "Calcula el factorial de un número."
+      },
+      "fibonacci.js": {
+        "lines": 19,
+        "description": "Genera los primeros n números de Fibonacci."
+      },
+      "is_prime.js": {
+        "lines": 19,
+        "description": "Determina si un número es primo."
+      }
+    },
+    "large": {
+      "analize_numbers.js": {
+        "lines": 45,
+        "description": "Analiza números primos hasta un límite dado, calculando cantidad, suma, promedio y valor máximo."
+      },
+      "matrix_statistics.js": {
+        "lines": 56,
+        "description": "Genera una matriz aleatoria y calcula estadísticas como suma, promedio, máximo y mínimo."
+      },
+      "simple_calculator": {
+        "lines": 46,
+        "description": "Calculadora que realiza operaciones básicas, factorial y comprobación de primos"
+      }
+    }
+  },
+  "obfuscation": {
+    "small": {},
+    "large": {}
+  }
+}
