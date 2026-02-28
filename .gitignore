@@ -4,7 +4,5 @@ __pycache__/
 venv/
 .env
 .env.*
-results/
-outputs/
 .DS_Store
 Thumbs.db

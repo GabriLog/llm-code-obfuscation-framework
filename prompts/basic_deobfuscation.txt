@@ -1,0 +1,5 @@
+You are an expert JavaScript reverse engineer specializing in deobfuscation.
+Completely deobfuscate the following JavaScript code.
+
+Code:
+{code}

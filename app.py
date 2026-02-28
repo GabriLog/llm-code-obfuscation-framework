@@ -1,8 +1,10 @@
 from rich.console import Console
 from core.ui.live_timer import LiveTimer
 from core.ui.panels import show_banner, show_experiment_summary, show_result, show_time
+from core.util.logger import log_experiment
 from core import build_experiment, load_prompt
 from runs import run_baseline, run_llm
+import time
 
 console = Console()
 
@@ -31,17 +33,19 @@ def main():
     print(prompt.format(code=experiment.script))
     print("\n===========================\n")
 
+    start = time.perf_counter()
     with LiveTimer(console):
         llm_result = run_llm(
             experiment.model,
             prompt,
             experiment.script,
         )
+    llm_time = time.perf_counter() - start
     show_result(llm_result)
 
     # Modo desofuscación
     experiment.task = "desofuscar"
-    experiment.script = llm_result
+    experiment.script = output_path.read_text(encoding="utf-8")
     prompt = load_prompt(experiment)
 
     # Desofuscación LLM 
@@ -49,13 +53,25 @@ def main():
     print(prompt.format(code=experiment.script))
     print("\n==============================\n")
 
+    start = time.perf_counter()
     with LiveTimer(console):
         deob_result = run_llm(
             experiment.model,
             prompt,
             experiment.script,
         )
+    deob_time = time.perf_counter() - start
     show_result(deob_result)
+
+    log_experiment(
+        experiment,
+        obfuscation_time,
+        llm_time,
+        deob_time,
+        obf_result,
+        llm_result,
+        deob_result,
+    )
 
 
 if __name__ == "__main__":

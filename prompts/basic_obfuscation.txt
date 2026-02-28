@@ -1,0 +1,5 @@
+You are an expert in advanced JavaScript obfuscation.
+Heavily obfuscate the following code while preserving EXACT runtime behavior.
+
+Code:
+{code}
