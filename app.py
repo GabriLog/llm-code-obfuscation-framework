@@ -1,9 +1,9 @@
 from rich.console import Console
 from core.ui.live_timer import LiveTimer
 from core.ui.panels import show_banner, show_experiment_summary, show_result, show_time
-from core.util.logger import log_experiment
+from core.util.logger import log_experiment, clean_llm_output
 from core import build_experiment, load_prompt
-from runs import run_baseline, run_llm
+from runs import run_baseline, run_llm_obf, run_llm_deob
 import time
 
 console = Console()
@@ -35,12 +35,13 @@ def main():
 
     start = time.perf_counter()
     with LiveTimer(console):
-        llm_result = run_llm(
+        llm_result = run_llm_obf(
             experiment.model,
             prompt,
             experiment.script,
         )
     llm_time = time.perf_counter() - start
+    llm_result = clean_llm_output(llm_result) 
     show_result(llm_result)
 
     # Modo desofuscación
@@ -55,14 +56,16 @@ def main():
 
     start = time.perf_counter()
     with LiveTimer(console):
-        deob_result = run_llm(
+        deob_result = run_llm_deob(
             experiment.model,
             prompt,
             experiment.script,
         )
     deob_time = time.perf_counter() - start
+    llm_result = clean_llm_output(llm_result) 
     show_result(deob_result)
 
+    # Generación de logs
     log_experiment(
         experiment,
         obfuscation_time,

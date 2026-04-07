@@ -1,5 +1,4 @@
 You are an expert JavaScript reverse engineer specializing in deobfuscation.
-
 Completely deobfuscate the following JavaScript code.
 
 Requirements:
@@ -17,7 +16,6 @@ CRITICAL:
 - Do NOT include comments.
 - Do NOT use markdown.
 - Do NOT include backticks.
-- The first character must be a valid JavaScript token.
 
 Code:
 {code}

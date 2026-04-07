@@ -1,13 +1,13 @@
 {
-  "codellama:7b": {
-    "ofuscar": "prompts/generic_obfuscation.txt",
-    "desofuscar": "prompts/generic_deobfuscation.txt"
-  },
   "qwen2.5-coder:7b": {
     "ofuscar": "prompts/generic_obfuscation.txt",
     "desofuscar": "prompts/generic_deobfuscation.txt"
   },
   "mistral:7b": {
+    "ofuscar": "prompts/generic_obfuscation.txt",
+    "desofuscar": "prompts/generic_deobfuscation.txt"
+  },
+  "llama3.2:3b":{
     "ofuscar": "prompts/generic_obfuscation.txt",
     "desofuscar": "prompts/generic_deobfuscation.txt"
   },

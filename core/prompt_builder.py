@@ -35,10 +35,17 @@ def build_fewshot(base_prompt, examples):
     for original, transformed in examples:
         safe_original = original.replace("{", "{{").replace("}", "}}")
         safe_transformed = transformed.replace("{", "{{").replace("}", "}}")
-        examples_block += f"\nExample:\n\nOriginal:\n{safe_original}\n\nTransformed:\n{safe_transformed}"
-    
+        examples_block += (
+            f"\n### EXAMPLE START ###\n"
+            f"INPUT:\n{safe_original}\n"
+            f"OUTPUT:\n{safe_transformed}\n"
+            f"### EXAMPLE END ###\n"
+        )
     final_prompt = base_prompt.replace(
         "Code:\n{code}",
-        f"{examples_block}\n\n\nCode:\n{{code}}"
+        f"{examples_block}\n"
+        f"Now apply the same transformation to the following code.\n"
+        f"INPUT:\n{{code}}\n"
+        f"OUTPUT:"
     )
     return PromptTemplate.from_template(final_prompt)

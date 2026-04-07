@@ -1,8 +1,7 @@
 You are an expert in advanced JavaScript obfuscation.
-
 Heavily obfuscate the following code while preserving EXACT runtime behavior.
 
-Apply the following transformations:
+Requirements:
 - Rename all identifiers to meaningless names
 - Use hexadecimal numeric literals
 - Convert string literals into encoded representations (e.g., base64 or char codes)
@@ -15,10 +14,10 @@ The result should be extremely difficult for a human to understand.
 
 CRITICAL:
 - Output ONLY raw JavaScript code.
-- Do NOT use markdown.
-- Do NOT use backticks.
 - Do NOT include explanations.
-- The first character must be a valid JavaScript token.
+- Do NOT include comments.
+- Do NOT use markdown.
+- Do NOT include backticks.
 
 Code:
 {code}
