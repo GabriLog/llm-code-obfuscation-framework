@@ -1,0 +1,93 @@
+Experiment Timestamp: 2026-04-12 13:47:18.077752
+
+--- Experiment Summary ---
+Model: mistral:7b
+Strategy: zero-shot
+Dataset: small
+Script: factorial.js
+
+--- Obfuscation Traditional ---
+Time: 0.98s
+Result:
+function a0_0x2f76(_0x55e0c6,_0x173000){_0x55e0c6=_0x55e0c6-0x17f;const _0x3471d3=a0_0x3471();let _0x2f76b0=_0x3471d3[_0x55e0c6];if(a0_0x2f76['jLdjcl']===undefined){var _0x47634a=function(_0x55986a){const _0x346d1d='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x50e7f0='',_0x520720='';for(let _0x2735e4=0x0,_0xd6cb80,_0x47166d,_0x5890b5=0x0;_0x47166d=_0x55986a['charAt'](_0x5890b5++);~_0x47166d&&(_0xd6cb80=_0x2735e4%0x4?_0xd6cb80*0x40+_0x47166d:_0x47166d,_0x2735e4++%0x4)?_0x50e7f0+=String['fromCharCode'](0xff&_0xd6cb80>>(-0x2*_0x2735e4&0x6)):0x0){_0x47166d=_0x346d1d['indexOf'](_0x47166d);}for(let _0x1736ee=0x0,_0x37acee=_0x50e7f0['length'];_0x1736ee<_0x37acee;_0x1736ee++){_0x520720+='%'+('00'+_0x50e7f0['charCodeAt'](_0x1736ee)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x520720);};a0_0x2f76['IHEdir']=_0x47634a,a0_0x2f76['muKVnm']={},a0_0x2f76['jLdjcl']=!![];}const _0x13a817=_0x3471d3[0x0],_0x3d86a4=_0x55e0c6+_0x13a817,_0x38b467=a0_0x2f76['muKVnm'][_0x3d86a4];return!_0x38b467?(_0x2f76b0=a0_0x2f76['IHEdir'](_0x2f76b0),a0_0x2f76['muKVnm'][_0x3d86a4]=_0x2f76b0):_0x2f76b0=_0x38b467,_0x2f76b0;}const a0_0x41a307=a0_0x2f76;(function(_0x3d04a8,_0xaebc28){const _0x17f1da=a0_0x2f76,_0x4bf7f0=_0x3d04a8();while(!![]){try{const _0x315757=-parseInt(_0x17f1da(0x187))/0x1+parseInt(_0x17f1da(0x188))/0x2+-parseInt(_0x17f1da(0x181))/0x3+parseInt(_0x17f1da(0x189))/0x4+parseInt(_0x17f1da(0x184))/0x5*(-parseInt(_0x17f1da(0x18a))/0x6)+parseInt(_0x17f1da(0x185))/0x7+parseInt(_0x17f1da(0x182))/0x8;if(_0x315757===_0xaebc28)break;else _0x4bf7f0['push'](_0x4bf7f0['shift']());}catch(_0x33ad41){_0x4bf7f0['push'](_0x4bf7f0['shift']());}}}(a0_0x3471,0xb4ea5));function a0_0x3471(){const _0x5950fe=['AxnjBNrLz2vY','twD0EMG','Bg9N','nde3mte4mNjhEefbvq','mtiYnJm4mdH1ufrSr08','CNrlqxe','ntyWnwj3BgPhvq','nZaXmtu5ovHtsM9WBa','sw5WDxqGBxvZDcbIzsbHig5VBI1UzwDHDgL2zsbPBNrLz2vY','mtqXnZy5m3vZzNvmra','mtu2mZeXnfLMAuDnwG','mJGWmtuZmKzWAgLqvq','mJuWmM9RCLLuqq','yNDuuw4'];a0_0x3471=function(){return _0x5950fe;};return a0_0x3471();}function factorial(_0xb51178){const _0xdb3276=a0_0x2f76,_0x15ff84={'rtKAq':_0xdb3276(0x186),'Mgtzh':function(_0x291cca,_0x5e60e4){return _0x291cca===_0x5e60e4;},'bwTQn':function(_0x5bd376,_0xdf1eb9){return _0x5bd376<=_0xdf1eb9;}};if(!Number[_0xdb3276(0x18c)](_0xb51178)||_0xb51178<0x0)throw new Error(_0x15ff84[_0xdb3276(0x183)]);else{if(_0x15ff84[_0xdb3276(0x17f)](_0xb51178,0x0))return 0x1;else{let _0x3d30c4=0x1;for(let _0x4e6605=0x1;_0x15ff84[_0xdb3276(0x18b)](_0x4e6605,_0xb51178);_0x4e6605++){_0x3d30c4*=_0x4e6605;}return _0x3d30c4;}}}console[a0_0x41a307(0x180)](factorial(0x5));
+
+--- Obfuscation LLM ---
+Time: 157.10s
+Result:
+const a = function(n) {
+    if (!Number_isInteger(n) || n < 0x64) {
+        throw new Error("Input must be a non-negative integer");
+    } else if (n === 0x30) {
+        return 0x1;
+    } else {
+        let result = 0x1;
+        for (let i = 0x1; i <= n; i++) {
+            result *= i;
+        }
+        return result;
+    }
+};
+const b = [];
+b[0x0] = "0".charCodeAt(0);
+b[0x1] = "1".charCodeAt(0);
+for (let i = 0x2; i <= 0x2a; i++) {
+    b[i] = String_fromCharCode(b[i - 0x1], b[i - 0x2]);
+}
+const c = function() {
+    return b[this[0]];
+};
+const d = function(n) {
+    this[0] = n;
+    return c.call(this);
+};
+const e = [];
+for (let i = 0x0; i <= 0xf; i++) {
+    e[i] = a(i);
+}
+console_log(d.apply(e, [0x5]));
+
+--- Deobfuscation LLM ---
+Time: 691.55s
+Result:
+const base64Decode = (base64Encoded) => {
+  const base64Chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
+  let decodedString = '', encodedChar, i;
+
+  for (i = 0; i < base64Encoded.length; i++) {
+    encodedChar = base64Chars.indexOf(base64Encoded[i]);
+    if (encodedChar !== -1) {
+      decodedString += String.fromCharCode((0xff & ((decodedString.length % 4 ? decodedString.length : 0x42) / 4 * encodedChar + (0x3 & (decodedString.length % 4)) ? 64 : encodedChar << -2));
+    }
+  }
+
+  return decodeURIComponent(decodedString);
+};
+
+const cache = {};
+function getOrSet(key, fn) {
+  if (!cache[key]) {
+    cache[key] = fn();
+  }
+  return cache[key];
+}
+
+const base64EncodedFunctions = 'AxnjBNrLz2vYtwD0EMGBg9Nnde3mte4mNjhEefbvqmtiYnJm4mdH1ufrSr08CNrlqxe ntyWnwj3BgPhvqnZaXmtu5ovHtsM9WBa sw5WDxqGBxvZDcbIzsbHig5VBI1UzwDHDgL2zsbPBNrLz2vY mtqXnZy5m3vZzNvmra mtu2mZeXnfLMAuDnwG mJGWmtuZmKzWAgLqvq mJuWmM9RCLLuqq yNDuuw4'.split('');
+const base64EncodedFunctionNames = 'twD0EMG Bg9N nde3mte4mNjhEefbvq mtiYnJm4mdH1ufrSr08 CNrlqxe ntyWnwj3BgPhvq nZaXmtu5ovHtsM9WBa sw5WDxqGBxvZDcbIzsbHig5VBI1UzwDHDgL2zsbPBNrLz2vY mtqXnZy5m3vZzNvmra mtu2mZeXnfLMAuDnwG mJGWmtuZmKzWAgLqvq mJuWmM9RCLLuqq yNDuuw4'.split('');
+const base64EncodedFunctionBodies = [];
+for (let i = 0; i < base64EncodedFunctions.length; ++i) {
+  const decodedName = base64Decoded(base64EncodedFunctionNames[i]);
+  const decodedBody = base64Decoded(base64EncodedFunctions[i]);
+  base64EncodedFunctionBodies[decodedName] = decodedBody;
+}
+const factorial = getOrSet('factorial', () => {
+  return function (n) {
+    if (!Number.isInteger(n) || n < 0) throw new Error("'n' must be a non-negative integer");
+    if (n === 0) return 1;
+    let result = 1;
+    for (let i = 2; i <= n; ++i) {
+      result *= i;
+    }
+    return result;
+  };
+});
+console.log(factorial(5));

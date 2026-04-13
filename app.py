@@ -62,7 +62,7 @@ def main():
             experiment.script,
         )
     deob_time = time.perf_counter() - start
-    llm_result = clean_llm_output(llm_result) 
+    deob_result = clean_llm_output(deob_result) 
     show_result(deob_result)
 
     # Generación de logs

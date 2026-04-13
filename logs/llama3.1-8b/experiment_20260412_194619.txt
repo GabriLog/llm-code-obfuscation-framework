@@ -1,0 +1,132 @@
+Experiment Timestamp: 2026-04-12 19:46:19.041866
+
+--- Experiment Summary ---
+Model: llama3.1:8b
+Strategy: few-shot
+Dataset: large
+Script: analize_numbers.js
+
+--- Obfuscation Traditional ---
+Time: 1.71s
+Result:
+(function(_0x3fcd2b,_0x27b639){const _0x5ac1f8=a0_0x4425,_0xc324bd=_0x3fcd2b();while(!![]){try{const _0x55409b=parseInt(_0x5ac1f8(0x1c1))/0x1+-parseInt(_0x5ac1f8(0x19e))/0x2*(parseInt(_0x5ac1f8(0x1ac))/0x3)+parseInt(_0x5ac1f8(0x1a9))/0x4*(parseInt(_0x5ac1f8(0x1c6))/0x5)+-parseInt(_0x5ac1f8(0x1ab))/0x6*(parseInt(_0x5ac1f8(0x19f))/0x7)+parseInt(_0x5ac1f8(0x1ba))/0x8+parseInt(_0x5ac1f8(0x1ad))/0x9+-parseInt(_0x5ac1f8(0x1c2))/0xa;if(_0x55409b===_0x27b639)break;else _0xc324bd['push'](_0xc324bd['shift']());}catch(_0x39a9e2){_0xc324bd['push'](_0xc324bd['shift']());}}}(a0_0x3961,0x7e976));function a0_0x4425(_0x3fdaba,_0x6edea0){_0x3fdaba=_0x3fdaba-0x19c;const _0x39612e=a0_0x3961();let _0x44252c=_0x39612e[_0x3fdaba];if(a0_0x4425['xEOwdX']===undefined){var _0xcd3858=function(_0x3312bf){const _0x307a83='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x5c4eb3='',_0x2cf18b='';for(let _0x312e15=0x0,_0x19e160,_0x11c73b,_0x35b574=0x0;_0x11c73b=_0x3312bf['charAt'](_0x35b574++);~_0x11c73b&&(_0x19e160=_0x312e15%0x4?_0x19e160*0x40+_0x11c73b:_0x11c73b,_0x312e15++%0x4)?_0x5c4eb3+=String['fromCharCode'](0xff&_0x19e160>>(-0x2*_0x312e15&0x6)):0x0){_0x11c73b=_0x307a83['indexOf'](_0x11c73b);}for(let _0x3ae7db=0x0,_0x16c312=_0x5c4eb3['length'];_0x3ae7db<_0x16c312;_0x3ae7db++){_0x2cf18b+='%'+('00'+_0x5c4eb3['charCodeAt'](_0x3ae7db)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x2cf18b);};a0_0x4425['ZiRyCr']=_0xcd3858,a0_0x4425['uPfryM']={},a0_0x4425['xEOwdX']=!![];}const _0x24a2b7=_0x39612e[0x0],_0x3c68aa=_0x3fdaba+_0x24a2b7,_0x4445ee=a0_0x4425['uPfryM'][_0x3c68aa];return!_0x4445ee?(_0x44252c=a0_0x4425['ZiRyCr'](_0x44252c),a0_0x4425['uPfryM'][_0x3c68aa]=_0x44252c):_0x44252c=_0x4445ee,_0x44252c;}function a0_0x3961(){const _0x14f43e=['u3vTytOG','BgvUz3rO','s2v5ALC','uhrzyKC','A1Lquxy','u0DQC3y','AfrxuLm','ywvkA28','renIqwi','C01Uq04','ntmXntq0me5qwKzQva','wu5Osg0','ChvZAa','sw5WDxqGBxvZDcbIzsbHig5VBI1UzwDHDgL2zsbPBNrLz2vY','tCoHEgLTBZOG','svDKy1q','Bg9N','mZi4ndu4uwfqq2Xl','nJuWoti4mfLJweveEq','EgDrCuW','C0jAAuq','AfLIwvK','mJbowurQu1y','BMrjq3K','yNPqwgq','qw7dOwXPC2LZigrLig7dUM1LCM9ZihbYAw1VCZO','D0Hdrhi','mZC0nZi2BwXMrePW','ntzkA1PbyMW','Bwf4','tfjhq1m','twvKAwe6ia','uwnozKi','C3vT','vxvdBwm','BwHWC00','qwrxCxi','tuHqzhm','otGWmZmYEuLJz0Lo','tmoTBwL0ztOG','mJi0mtqYte5tuKzt','mtv6ENjgwhi','mZG4nZa3m1PJuujIBq','Dg9gAxHLza','yxzLCMfNzq'];a0_0x3961=function(){return _0x14f43e;};return a0_0x3961();}function isPrime(_0xdb0d56){const _0x2a5266=a0_0x4425,_0x34cf6b={'sMnCN':function(_0x494a2f,_0x8d59df){return _0x494a2f===_0x8d59df;},'mhpsM':function(_0x39d00d,_0x1ff139){return _0x39d00d<_0x1ff139;},'LRGCS':function(_0x5290cc,_0x2b6de5){return _0x5290cc!==_0x2b6de5;},'YNhHm':_0x2a5266(0x1a3),'KhZQH':_0x2a5266(0x1bd),'KeyjW':function(_0x54f85c,_0xfa03ac){return _0x54f85c<=_0xfa03ac;},'bzPXd':'TYNAG','hYbYY':_0x2a5266(0x19d),'MHPds':function(_0x82831d,_0x21ebb8){return _0x82831d%_0x21ebb8;},'mieCg':function(_0x1e2e77,_0x3e9aa){return _0x1e2e77<=_0x3e9aa;},'SGjsv':function(_0x42468d,_0x2a987e){return _0x42468d*_0x2a987e;}};if(!Number['isInteger'](_0xdb0d56)||_0x34cf6b[_0x2a5266(0x1a6)](_0xdb0d56,0x0)){if(_0x34cf6b[_0x2a5266(0x1a1)](_0x34cf6b[_0x2a5266(0x1bb)],_0x34cf6b['YNhHm'])){if(_0x34cf6b['sMnCN'](_0x33c2ee%_0x3fef35,0x0)||_0x34cf6b[_0x2a5266(0x1b9)](_0x58e843%(_0x13d4d2+0x2),0x0))return![];}else throw new Error(_0x34cf6b['KhZQH']);}else{if(_0x34cf6b[_0x2a5266(0x1b2)](_0xdb0d56,0x1))return![];else{if(_0xdb0d56<=0x3)return _0x34cf6b['LRGCS'](_0x34cf6b[_0x2a5266(0x1c8)],_0x34cf6b[_0x2a5266(0x1c5)])?!![]:![];else{if(_0x34cf6b[_0x2a5266(0x1a8)](_0xdb0d56,0x2)===0x0||_0x34cf6b[_0x2a5266(0x1b9)](_0x34cf6b[_0x2a5266(0x1a8)](_0xdb0d56,0x3),0x0))return![];else{for(let _0x4418cc=0x5;_0x34cf6b['mieCg'](_0x34cf6b[_0x2a5266(0x1b5)](_0x4418cc,_0x4418cc),_0xdb0d56);_0x4418cc+=0x6){if(_0x34cf6b[_0x2a5266(0x1b9)](_0xdb0d56%_0x4418cc,0x0)||_0x34cf6b[_0x2a5266(0x1b9)](_0xdb0d56%(_0x4418cc+0x2),0x0))return![];}return!![];}}}}}function analyzeNumbers(_0xe66c97){const _0x7862cc=a0_0x4425,_0x29a6e2={'hTWRS':function(_0x11b684,_0x349440){return _0x11b684<=_0x349440;},'IWdcT':function(_0x423f06,_0x354961){return _0x423f06*_0x354961;},'UuCmc':function(_0x4a1296,_0x361711){return _0x4a1296===_0x361711;},'AdWqr':function(_0x2a1e70,_0x560e4b){return _0x2a1e70%_0x560e4b;},'kYPQv':function(_0x2d9af5,_0x56fc76){return _0x2d9af5===_0x56fc76;},'DCbAb':function(_0x1e1cf4,_0x482704){return _0x1e1cf4+_0x482704;},'sBZiD':function(_0x458e5e,_0x4a5c2e){return _0x458e5e<=_0x4a5c2e;},'xgQqL':'aeJko','ndICy':function(_0xd3d067,_0x272b5f){return _0xd3d067/_0x272b5f;},'PtYbG':function(_0x5a0344,_0x560c3d){return _0x5a0344-_0x560c3d;}};let _0x2dda32=[],_0x3a6734=0x0;for(let _0x48f442=0x1;_0x29a6e2[_0x7862cc(0x1c4)](_0x48f442,_0xe66c97);_0x48f442++){if(isPrime(_0x48f442)){if(_0x29a6e2[_0x7862cc(0x1c3)]!==_0x7862cc(0x1b7)){for(let _0x5c506f=0x5;_0x29a6e2[_0x7862cc(0x1b6)](_0x29a6e2[_0x7862cc(0x1bf)](_0x5c506f,_0x5c506f),_0x2273d6);_0x5c506f+=0x6){if(_0x29a6e2[_0x7862cc(0x1a5)](_0x29a6e2['AdWqr'](_0x2542c1,_0x5c506f),0x0)||_0x29a6e2[_0x7862cc(0x1b4)](_0x29a6e2[_0x7862cc(0x1a7)](_0x1011cc,_0x29a6e2[_0x7862cc(0x1b8)](_0x5c506f,0x2)),0x0))return![];}return!![];}else _0x2dda32[_0x7862cc(0x1bc)](_0x48f442),_0x3a6734+=_0x48f442;}}return{'count':_0x2dda32['length'],'sum':_0x3a6734,'average':_0x2dda32['length']>0x0?_0x29a6e2[_0x7862cc(0x1c7)](_0x3a6734,_0x2dda32[_0x7862cc(0x1b1)]):0x0,'max':_0x2dda32[_0x29a6e2[_0x7862cc(0x1b3)](_0x2dda32['length'],0x1)]};}function main(){const _0x4a863f=a0_0x4425,_0x462b1a={'fnfKw':function(_0x344f6b,_0x3c7fdd){return _0x344f6b(_0x3c7fdd);}},_0x5a0d29=0xc8,_0x5074a1=_0x462b1a['fnfKw'](analyzeNumbers,_0x5a0d29);console[_0x4a863f(0x1c0)](_0x4a863f(0x19c)),console['log'](_0x4a863f(0x1aa)+_0x5a0d29),console[_0x4a863f(0x1c0)]('Cantidad:\x20'+_0x5074a1['count']),console[_0x4a863f(0x1c0)](_0x4a863f(0x1b0)+_0x5074a1[_0x4a863f(0x1a4)]),console[_0x4a863f(0x1c0)](_0x4a863f(0x1a2)+_0x5074a1[_0x4a863f(0x1af)][_0x4a863f(0x1ae)](0x2)),console[_0x4a863f(0x1c0)](_0x4a863f(0x1be)+_0x5074a1[_0x4a863f(0x1a0)]);}main();
+
+--- Obfuscation LLM ---
+Time: 1166.71s
+Result:
+function a0_0x10d() {
+    const _0x1c7 = ['isPrime', 'analyzeNumbers', 'main'];
+    return _0x1c7;
+}
+
+function a0_0x5f2e() {
+    const _0x2e37ec = ['zNLgBui', 'zMvSzLi', 'vg90ywWGzwXLBwvUDg9ZoIa', 'CMfUzg9T', 'cKvZDgfKW61ZDgLJyxm6', 'mtu5ntKWCu9Xt3nL', 'BwLU', 'twLdDfa', 'mtq0BgzwuxLr', 'Dg9gAxHLza', 'mtC0nZu1ngTczuntwa', 'mJy0odqWmfnTA1jotW', 'CvH1y0S', 'C3vT', 'mJG1otzqqLfQA1q', 'tufiBwu', 'AuD4DMK', 'B0Trq3m', 'ChvZAa', 'B3Hqu2G', 'sfzjs2e', 'ndqXndqWmxLmtuHzsa', 'ntuZmZG2wejmCKzQ', 'vufZAfG', 't0XeA0K', 'DKTysu0', 'zMXVB3i', 'nvn5EK9krq', 'EhfYD1K', 'y29SCW', 'AfnTCve', 'Bg9N', 'tCoTBMLTBZOG', 'AM9PBG', 'rLrNtgO', 'mtKZmde4mfftz0Hewa', 'zwzqtgW', 'twf0CML6igDLBMvYywrHoG', 'twvKAwe6ia', 'q29SDw1Uyxm6ia', 'BgvUz3rO', 'DKHsr0O', 'sM9hqva', 'qLnMswS', 'rMLSyxm6ia'];
+    a0_0x5f2e = function() {
+        return _0x2e37ec;
+    };
+    return a0_0x5f2e();
+}
+
+function a0_0x10d() {
+    const _0x1c7 = ['isPrime', 'analyzeNumbers', 'main'];
+    return _0x1c7;
+}
+
+function isPrime(n) {
+    if (!Number.isInteger(n) || n < 0) {
+        throw new Error("Input must be a non-negative integer");
+    } else if (n <= 1) {
+        return false;
+    } else if (n <= 3) {
+        return true;
+    } else if (n % 2 === 0 || n % 3 === 0) {
+        return false;
+    } else {
+        for (let i = 5; i * i <= n; i += 6) {
+            if (n % i === 0 || n % (i + 2) === 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+
+function a0_0x10d() {
+    const _0x1c7 = ['isPrime', 'analyzeNumbers', 'main'];
+    return _0x1c7;
+}
+
+function analyzeNumbers(limit) {
+    let primes = [];
+    let sum = 0;
+    for (let i = 1; i <= limit; i++) {
+        if (isPrime(i)) {
+            primes.push(i);
+            sum += i;
+        }
+    }
+    return {
+        count: primes.length,
+        sum: sum,
+        average: primes.length > 0 ? sum / primes.length : 0,
+        max: primes[primes.length - 1]
+    };
+}
+
+function a0_0x5f2e() {
+    const _0x2e37ec = ['zNLgBui', 'zMvSzLi', 'vg90ywWGzwXLBwvUDg9ZoIa', 'CMfUzg9T', 'cKvZDgfKW61ZDgLJyxm6', 'mtu5ntKWCu9Xt3nL', 'BwLU', 'twLdDfa', 'mtq0BgzwuxLr', 'Dg9gAxHLza', 'mtC0nZu1ngTczuntwa', 'mJy0odqWmfnTA1jotW', 'CvH1y0S', 'C3vT', 'mJG1otzqqLfQA1q', 'tufiBwu', 'AuD4DMK', 'B0Trq3m', 'ChvZAa', 'B3Hqu2G', 'sfzjs2e', 'ndqXndqWmxLmtuHzsa', 'ntuZmZG2wejmCKzQ', 'vufZAfG', 't0XeA0K', 'DKTysu0', 'zMXVB3i', 'nvn5EK9krq', 'EhfYD1K', 'y29SCW', 'AfnTCve', 'Bg9N', 'tCoTBMLTBZOG', 'AM9PBG', 'rLrNtgO', 'mtKZmde4mfftz0Hewa', 'zwzqtgW', 'twf0CML6igDLBMvYywrHoG', 'twvKAwe6ia', 'q29SDw1Uyxm6ia', 'BgvUz3rO', 'DKHsr0O', 'sM9hqva', 'qLnMswS', 'rMLSyxm6ia'];
+    a0_0x5f2e = function() {
+        return _0x2e37ec;
+    };
+    return a0_0x5f2e();
+}
+
+function main() {
+    const limit = 200;
+    const result = analyzeNumbers(limit);
+    console.log("Análisis de números primos:");
+    console.log(`Límite: ${limit}`);
+    console.log(`Cantidad: ${result.count}`);
+    console.log(`Suma: ${result.sum}`);
+    console.log(`Media: ${result.average.toFixed(2)}`);
+    console.log(`Máximo: ${result.max}`);
+}
+
+function a0_0x10d() {
+    const _0x1c7 = ['isPrime', 'analyzeNumbers', 'main'];
+    return _0x1c7;
+}
+
+--- Deobfuscation LLM ---
+Time: 1411.80s
+Result:
+function analyzeNumbers(n) {
+  let primes = [];
+  let sum = 0;
+  for (let i = 1; i <= n; i++) {
+    if (isPrime(i)) {
+
+      for (let j = 5, k = j; k < i; j += 6) {
+        if ((i % j === 0 || i % (j + 2) === 0)) return false;
+      }
+      primes.push(i);
+    } else sum += i;
+  }
+  return { count: primes.length, sum, average: primes.length > 0 ? sum / primes.length : 0 };
+}
+
+function isPrime(n) {
+  if (!Number.isInteger(n) || n <= 1) return false;
+
+  for (let i = 2; i * i <= n; i++) {
+    if ((n % i === 0)) return false;
+  }
+  return true;
+}
+
+function main() {
+  const numPrimes = analyzeNumbers(100);
+  console.log('Number of primes:', numPrimes.count);
+  console.log(numPrimes.sum);
+  console.log(`Average: ${numPrimes.average}`);
+}

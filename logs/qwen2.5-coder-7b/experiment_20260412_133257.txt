@@ -1,0 +1,79 @@
+Experiment Timestamp: 2026-04-12 13:32:57.471219
+
+--- Experiment Summary ---
+Model: qwen2.5-coder:7b
+Strategy: few-shot
+Dataset: large
+Script: analize_numbers.js
+
+--- Obfuscation Traditional ---
+Time: 1.42s
+Result:
+(function(_0x1b4997,_0x9ac96d){const _0x32d4be=a0_0x2a4a,_0x5c35b8=_0x1b4997();while(!![]){try{const _0x4e20ae=parseInt(_0x32d4be(0x15c))/0x1+parseInt(_0x32d4be(0x151))/0x2*(-parseInt(_0x32d4be(0x152))/0x3)+parseInt(_0x32d4be(0x159))/0x4*(-parseInt(_0x32d4be(0x169))/0x5)+-parseInt(_0x32d4be(0x168))/0x6*(-parseInt(_0x32d4be(0x156))/0x7)+parseInt(_0x32d4be(0x166))/0x8+parseInt(_0x32d4be(0x16b))/0x9*(parseInt(_0x32d4be(0x157))/0xa)+parseInt(_0x32d4be(0x165))/0xb*(-parseInt(_0x32d4be(0x16e))/0xc);if(_0x4e20ae===_0x9ac96d)break;else _0x5c35b8['push'](_0x5c35b8['shift']());}catch(_0x2ea7ff){_0x5c35b8['push'](_0x5c35b8['shift']());}}}(a0_0x2987,0x2a8cc));function isPrime(_0x378dc1){const _0x23c19e=a0_0x2a4a,_0x486f68={'ZYVHE':function(_0x19edfe,_0x103eef){return _0x19edfe<_0x103eef;},'BBxps':_0x23c19e(0x16a),'bNESD':function(_0x3d010e,_0x236df9){return _0x3d010e===_0x236df9;},'PzzoI':_0x23c19e(0x160),'eOraa':function(_0x4865d4,_0x4e9088){return _0x4865d4%_0x4e9088;},'xwhVd':function(_0x2b8c5d,_0x1e242b){return _0x2b8c5d===_0x1e242b;},'CiZGx':function(_0x5973e4,_0xc883ad){return _0x5973e4%_0xc883ad;},'QJDPU':function(_0x490b33,_0x4e08c5){return _0x490b33===_0x4e08c5;},'WsrkF':_0x23c19e(0x14c),'peTbX':function(_0x50f64c,_0x3c56a0){return _0x50f64c<=_0x3c56a0;},'Tylqm':function(_0x4c5f37,_0x25dc59){return _0x4c5f37+_0x25dc59;}};if(!Number['isInteger'](_0x378dc1)||_0x486f68[_0x23c19e(0x148)](_0x378dc1,0x0))throw new Error(_0x486f68['BBxps']);else{if(_0x378dc1<=0x1){if(_0x486f68[_0x23c19e(0x15e)]('GAFBS',_0x486f68[_0x23c19e(0x14b)]))return![];else _0x15d66a[_0x23c19e(0x149)](_0x1e2526),_0x4d8e73+=_0x52af3e;}else{if(_0x378dc1<=0x3)return!![];else{if(_0x486f68['eOraa'](_0x378dc1,0x2)===0x0||_0x486f68[_0x23c19e(0x150)](_0x486f68[_0x23c19e(0x153)](_0x378dc1,0x3),0x0))return _0x486f68[_0x23c19e(0x162)](_0x23c19e(0x158),_0x486f68['WsrkF'])?![]:![];else{for(let _0x83ffb1=0x5;_0x486f68['peTbX'](_0x83ffb1*_0x83ffb1,_0x378dc1);_0x83ffb1+=0x6){if(_0x486f68[_0x23c19e(0x15e)](_0x378dc1%_0x83ffb1,0x0)||_0x486f68[_0x23c19e(0x150)](_0x486f68[_0x23c19e(0x153)](_0x378dc1,_0x486f68[_0x23c19e(0x15b)](_0x83ffb1,0x2)),0x0))return![];}return!![];}}}}}function a0_0x2a4a(_0x4a084e,_0x1f5567){_0x4a084e=_0x4a084e-0x148;const _0x298735=a0_0x2987();let _0x2a4a4e=_0x298735[_0x4a084e];if(a0_0x2a4a['SsJFwR']===undefined){var _0x5bcfab=function(_0x151d78){const _0xbbed52='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x25f511='',_0x203fe8='';for(let _0x2f5c06=0x0,_0x2a2d7d,_0x344547,_0x471373=0x0;_0x344547=_0x151d78['charAt'](_0x471373++);~_0x344547&&(_0x2a2d7d=_0x2f5c06%0x4?_0x2a2d7d*0x40+_0x344547:_0x344547,_0x2f5c06++%0x4)?_0x25f511+=String['fromCharCode'](0xff&_0x2a2d7d>>(-0x2*_0x2f5c06&0x6)):0x0){_0x344547=_0xbbed52['indexOf'](_0x344547);}for(let _0x26cebf=0x0,_0x375b84=_0x25f511['length'];_0x26cebf<_0x375b84;_0x26cebf++){_0x203fe8+='%'+('00'+_0x25f511['charCodeAt'](_0x26cebf)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x203fe8);};a0_0x2a4a['xVCwPV']=_0x5bcfab,a0_0x2a4a['ZvclPK']={},a0_0x2a4a['SsJFwR']=!![];}const _0x560bb5=_0x298735[0x0],_0x2ff98e=_0x4a084e+_0x560bb5,_0x3b2ab7=a0_0x2a4a['ZvclPK'][_0x2ff98e];return!_0x3b2ab7?(_0x2a4a4e=a0_0x2a4a['xVCwPV'](_0x2a4a4e),a0_0x2a4a['ZvclPK'][_0x2ff98e]=_0x2a4a4e):_0x2a4a4e=_0x3b2ab7,_0x2a4a4e;}function analyzeNumbers(_0x5cc605){const _0x51c936=a0_0x2a4a,_0x5d4efc={'DdpFh':function(_0x94c1b7,_0x177c41){return _0x94c1b7(_0x177c41);},'eiAMb':function(_0x5f53fb,_0x116c14){return _0x5f53fb>_0x116c14;},'dIxJd':function(_0x518042,_0x239012){return _0x518042/_0x239012;},'bpvua':function(_0x4ee125,_0x136f80){return _0x4ee125-_0x136f80;}};let _0x1c0407=[],_0x2e2501=0x0;for(let _0x30bb3d=0x1;_0x30bb3d<=_0x5cc605;_0x30bb3d++){_0x5d4efc[_0x51c936(0x16d)](isPrime,_0x30bb3d)&&(_0x1c0407[_0x51c936(0x149)](_0x30bb3d),_0x2e2501+=_0x30bb3d);}return{'count':_0x1c0407[_0x51c936(0x15a)],'sum':_0x2e2501,'average':_0x5d4efc[_0x51c936(0x16c)](_0x1c0407[_0x51c936(0x15a)],0x0)?_0x5d4efc[_0x51c936(0x15f)](_0x2e2501,_0x1c0407['length']):0x0,'max':_0x1c0407[_0x5d4efc[_0x51c936(0x14a)](_0x1c0407[_0x51c936(0x15a)],0x1)]};}function main(){const _0x1008aa=a0_0x2a4a,_0x5df862={'TLjoj':function(_0x12d7cf,_0x317650){return _0x12d7cf(_0x317650);},'FWsGI':'Análisis\x20de\x20números\x20primos:'},_0xe31b94=0xc8,_0x3b3eea=_0x5df862[_0x1008aa(0x164)](analyzeNumbers,_0xe31b94);console['log'](_0x5df862[_0x1008aa(0x163)]),console[_0x1008aa(0x161)](_0x1008aa(0x167)+_0xe31b94),console[_0x1008aa(0x161)](_0x1008aa(0x16f)+_0x3b3eea[_0x1008aa(0x14d)]),console[_0x1008aa(0x161)]('Suma:\x20'+_0x3b3eea[_0x1008aa(0x154)]),console[_0x1008aa(0x161)](_0x1008aa(0x155)+_0x3b3eea[_0x1008aa(0x14f)][_0x1008aa(0x14e)](0x2)),console[_0x1008aa(0x161)]('Máximo:\x20'+_0x3b3eea[_0x1008aa(0x15d)]);}main();function a0_0x2987(){const _0x3230fe=['mtG4nhPRrKTSBa','q2fUDgLKywq6ia','wLLwseu','ChvZAa','yNb2Dwe','uhP6B0K','q3zzu3y','y291BNq','Dg9gAxHLza','yxzLCMfNzq','EhDOvMq','mty2mdq2BuXyC1Ls','nNjyvMLAEG','q2LAr3G','C3vT','twvKAwe6ia','mZC3mZu2v1bpqLr1','mZbXy2PRufm','qNjlB1u','ngPzz2TMzG','BgvUz3rO','vhLSCw0','mtKXmtuWCKLRBuXp','Bwf4','yK5fu0q','zeL4sMq','r0fgqLm','Bg9N','uuPeufu','rLDZr0K','veXQB2O','mZq0ndfJA1rKtgu','mtG2mJe4ng9nwuLlza','tmoTBwL0ztOG','mtHyB2nwuNu','mJG0mdy1wuT1uK9Q','sw5WDxqGBxvZDcbIzsbHig5VBI1UzwDHDgL2zsbPBNrLz2vY','ota5mtG5qwnXwNLX','zwLbtwi','rgrWrMG'];a0_0x2987=function(){return _0x3230fe;};return a0_0x2987();}
+
+--- Obfuscation LLM ---
+Time: 850.43s
+Result:
+function isPrime(n) {
+    if (!Number.isInteger(n) || n < 0) {
+        throw new Error("Input must be a non-negative integer");
+    } else if (n <= 1) {
+        return false;
+    } else if (n <= 3) {
+        return true;
+    } else if (n % 2 === 0 || n % 3 === 0) {
+        return false;
+    } else {
+        for (let i = 5; i * i <= n; i += 6) {
+            if (n % i === 0 || n % (i + 2) === 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+function analyzeNumbers(limit) {
+    let primes = [];
+    let sum = 0;
+    for (let i = 1; i <= limit; i++) {
+        if (isPrime(i)) {
+            primes.push(i);
+            sum += i;
+        }
+    }
+    return {
+        count: primes.length,
+        sum: sum,
+        average: primes.length > 0 ? sum / primes.length : 0,
+        max: primes[primes.length - 1]
+    };
+}
+function main() {
+    const limit = 200;
+    const result = analyzeNumbers(limit);
+    console.log("Análisis de números primos:");
+    console.log(`Límite: ${limit}`);
+    console.log(`Cantidad: ${result.count}`);
+    console.log(`Suma: ${result.sum}`);
+    console.log(`Media: ${result.average.toFixed(2)}`);
+    console.log(`Máximo: ${result.max}`);
+}
+main();
+
+--- Deobfuscation LLM ---
+Time: 799.70s
+Result:
+function generateRandomString(length) {
+    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+    let result = '';
+    for (let i = 0; i < length; i++) {
+        result += characters.charAt(Math.floor(Math.random() * characters.length));
+    }
+    return result;
+}
+
+const obfuscatedCode = `
+(function(){var a=function(b){return b.split('').map(c=>String.fromCharCode(c.charCodeAt(0)-1)).join('')};console.log(a('${generateRandomString(256)}'));})();
+`;
+
+eval(obfuscatedCode);

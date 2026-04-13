@@ -2,10 +2,13 @@ from pathlib import Path
 from datetime import datetime
 import re
 
-
 def clean_llm_output(text: str) -> str:
-    text = re.sub(r"```(?:javascript)?\s*", "", text)
-    text = re.sub(r"```", "", text)
+    match = re.search(r"```(?:javascript)?\s*(.*?)```", text, re.DOTALL)
+    if match:
+        text = match.group(1)
+    text = re.sub(r"^\s*//.*$", "", text, flags=re.MULTILINE)
+    text = re.sub(r'(?<!:)//.*', '', text)
+
     return text.strip()
 
 def log_experiment(experiment, obf_time, llm_time, deob_time, obf_result, llm_result, deob_result):
