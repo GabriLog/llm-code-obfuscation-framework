@@ -1,4 +1,4 @@
-from core.experiment_config import ExperimentConfig
+from core.domain.experiment_config import ExperimentConfig
 from pathlib import Path
 import json
 from core.prompt_builder import (

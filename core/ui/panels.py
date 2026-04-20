@@ -1,4 +1,4 @@
-from core.experiment_config import ExperimentConfig
+from core.domain.experiment_config import ExperimentConfig
 from rich.console import Console
 from rich.panel import Panel
 

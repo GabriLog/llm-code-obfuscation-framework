@@ -3,6 +3,7 @@
 - core: código que da funcionalidad a la aplicación
 - datasets: contiene los scripts con los que trabaja
 - logs: registro básico de las ejecuciones realizadas
+- outputs: resultados de evaluación, métricas y gráficas
 - prompts: contiene los prompts que se pueden utilizar
 - runs: ejecución y config experimentos, tradicional, llm
 - prompts_config.json: asiganciones de prompt a modelo
@@ -38,4 +39,5 @@ npm install
 
 ## Ejecución PowerShell
 
-py app.py  
+1) py app.py        =>  experimentar con los llms deseados
+2) py app.py -ev    =>  evaluación de los datos obtenidos

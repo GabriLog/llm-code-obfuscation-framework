@@ -2,14 +2,22 @@ from rich.console import Console
 from core.ui.live_timer import LiveTimer
 from core.ui.panels import show_banner, show_experiment_summary, show_result, show_time
 from core.util.logger import log_experiment, clean_llm_output
-from core import build_experiment, load_prompt
+from core import build_experiment, load_prompt, evaluate
 from runs import run_baseline, run_llm_obf, run_llm_deob
 import time
+import sys
 
 console = Console()
 
-
 def main():
+    args = sys.argv[1:]
+    if "-ev" in args:
+        evaluate()
+    else:
+        run_experiment()
+
+
+def run_experiment():
     # Bienvenida
     console.clear()
     show_banner()

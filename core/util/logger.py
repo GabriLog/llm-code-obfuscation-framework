@@ -11,6 +11,7 @@ def clean_llm_output(text: str) -> str:
 
     return text.strip()
 
+
 def log_experiment(experiment, obf_time, llm_time, deob_time, obf_result, llm_result, deob_result):
     log_dir = Path("logs")
     log_dir.mkdir(exist_ok=True)

@@ -1,4 +1,4 @@
-from core.experiment_config import ExperimentConfig
+from core.domain.experiment_config import ExperimentConfig
 from core.util.setup_helpers import (
     select_model,
     select_dataset,
