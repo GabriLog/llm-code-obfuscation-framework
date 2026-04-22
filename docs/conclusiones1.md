@@ -72,3 +72,20 @@ obf_llm: a veces funciona
 deob_llm: falla más frecuentemente incluso cuando AST es alto
 
 Conclusión: reconstruir semántica es más difícil que transformarla
+
+
+# 9. El escalado de parámetros mejora la estabilidad con rendimientos decrecientes
+
+Los modelos con mayor número de parámetros muestran una mejora clara en estabilidad y reducción de errores.
+Se observa una mejora al pasar de modelos pequeños (3B) a medianos (7B–8B)
+Las diferencias entre modelos de tamaño similar son marginales.
+
+Conclusión: el escalado de parámetros mejora la robustez.
+
+
+# 10. La especialización en código supera al escalado en parámetros
+
+Los modelos especializados en programación son más consistente que modelos generalistas.
+Menor tasa de errores estructurales y mayor estabilidad, especialmente en desofuscación.
+
+Conclusión: la especialización es un factor más determinante que el número de parámetros en el rendimiento.
