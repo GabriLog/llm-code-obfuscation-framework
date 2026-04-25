@@ -4,6 +4,13 @@ import numpy as np
 
 SUBDIR = "charts"
 
+def _label_bars(ax, bars, fmt="{:.1f}s", offset=0.5):
+    for bar in bars:
+        h = bar.get_height()
+        if h > 0:
+            ax.text(bar.get_x() + bar.get_width() / 2, h + offset,
+                    fmt.format(h), ha="center", va="bottom", fontsize=7)
+
 def plot_time(df, df_obf):
 
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
@@ -18,7 +25,8 @@ def plot_time(df, df_obf):
     for i, (lbl, color) in enumerate(zip(task_labels, colors)):
         subset = df[df["label"] == lbl]
         vals = subset.groupby("model")["time_seconds"].mean().reindex(models).fillna(0)
-        axes[0].bar(x + (i - 1) * width, vals, width, label=lbl, color=color, alpha=0.85)
+        bars = axes[0].bar(x + (i - 1) * width, vals, width, label=lbl, color=color, alpha=0.85)
+        _label_bars(axes[0], bars)
 
     axes[0].set_title("Tiempo Medio por Modelo y Tarea")
     axes[0].set_ylabel("Segundos")
