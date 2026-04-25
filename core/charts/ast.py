@@ -1,26 +1,35 @@
 from charts.save_fig import save_fig
 import matplotlib.pyplot as plt
+import numpy as np
 
-SUBDIR = "ast"
+SUBDIR = "charts"
 
 def plot_ast(df, df_obf, df_deob):
+    models = sorted(df["model"].dropna().unique())
+    x = np.arange(len(models))
+    width = 0.25
 
-    plt.figure()
-    df_obf.groupby("model")["ast_score"].mean().plot(kind="bar")
-    plt.title("ast_by_model_obf")
-    save_fig("by_model_obf.png", SUBDIR)
+    ast_obf    = df_obf.groupby("model")["ast_score"].mean().reindex(models)
+    ast_deob   = df_deob.groupby("model")["ast_score"].mean().reindex(models)
+    node_ratio = df_obf.groupby("model")["node_ratio"].mean().reindex(models)
 
-    plt.figure()
-    df_deob.groupby("model")["ast_score"].mean().plot(kind="bar")
-    plt.title("ast_by_model_deobf")
-    save_fig("by_model_deobf.png", SUBDIR)
+    fig, ax1 = plt.subplots(figsize=(12, 5))
+    fig.suptitle("AST Score (Obf / Deob) y Node Ratio por Modelo", fontsize=13)
 
-    plt.figure()
-    df_obf.groupby("strategy")["ast_score"].mean().plot(kind="bar")
-    plt.title("ast_by_strategy_obf")
-    save_fig("by_strategy_obf.png", SUBDIR)
+    ax2 = ax1.twinx()
+    ax2.bar(x - width, node_ratio, width, label="Node Ratio (Obf)", color="orange", alpha=0.75)
+    ax2.set_ylabel("Node Ratio")
 
-    plt.figure()
-    df_deob.groupby("strategy")["ast_score"].mean().plot(kind="bar")
-    plt.title("ast_by_strategy_deobf")
-    save_fig("by_strategy_deobf.png", SUBDIR)
+    ax1.bar(x,         ast_obf,  width, label="AST Score Obf",  color="steelblue")
+    ax1.bar(x + width, ast_deob, width, label="AST Score Deob", color="tomato")
+    ax1.set_ylabel("AST Score")
+    ax1.set_xticks(x)
+    ax1.set_xticklabels(models, rotation=25)
+    ax1.set_ylim(0, 1)
+
+    h1, l1 = ax1.get_legend_handles_labels()
+    h2, l2 = ax2.get_legend_handles_labels()
+    ax1.legend(h2 + h1, l2 + l1, loc="upper right")
+
+    plt.tight_layout()
+    save_fig("ast_overview_by_model.png", SUBDIR)

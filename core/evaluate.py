@@ -55,7 +55,7 @@ def evaluate_log(log_path: str) -> dict:
 def main():
     console.rule("[bold cyan]Evaluación de experimentos[/bold cyan]")
     logs_dir = Path("logs")
-    out_path = Path("outputs/resultados.json")
+    out_path = Path("outputs/results.json")
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
     log_files = sorted(logs_dir.rglob("*.txt"))

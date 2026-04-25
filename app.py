@@ -7,7 +7,7 @@ from runs import run_baseline, run_llm_obf, run_llm_deob
 import time
 import sys
 
-console = Console()
+console = Console(record=True)
 
 def main():
     args = sys.argv[1:]
@@ -24,7 +24,9 @@ def run_experiment():
 
     # Configuración experimento
     experiment = build_experiment()
+    console._record_buffer.clear()
     show_experiment_summary(experiment)
+    console.print(experiment.script)
     prompt = load_prompt(experiment)
 
     # Ofuscación tradicional
@@ -37,9 +39,9 @@ def run_experiment():
     show_result(obf_result)
 
     # Ofuscación LLM
-    print("\n==== PROMPT OFUSCACIÓN ====\n")
-    print(prompt.format(code=experiment.script))
-    print("\n===========================\n")
+    console.print("\n==== PROMPT OFUSCACIÓN ====\n")
+    console.print(prompt.format(code=experiment.script))
+    console.print("\n===========================\n")
 
     start = time.perf_counter()
     with LiveTimer(console):
@@ -58,9 +60,9 @@ def run_experiment():
     prompt = load_prompt(experiment)
 
     # Desofuscación LLM 
-    print("\n==== PROMPT DESOFUSCACIÓN ====\n")
-    print(prompt.format(code=experiment.script))
-    print("\n==============================\n")
+    console.print("\n==== PROMPT DESOFUSCACIÓN ====\n")
+    console.print(prompt.format(code=experiment.script))
+    console.print("\n==============================\n")
 
     start = time.perf_counter()
     with LiveTimer(console):
@@ -74,6 +76,7 @@ def run_experiment():
     show_result(deob_result)
 
     # Generación de logs
+    console_output = console.export_text()
     log_experiment(
         experiment,
         obfuscation_time,
@@ -82,6 +85,7 @@ def run_experiment():
         obf_result,
         llm_result,
         deob_result,
+        console_output,
     )
 
 

@@ -1,33 +1,27 @@
 from charts.save_fig import save_fig
 import matplotlib.pyplot as plt
 
-SUBDIR = "functional"
+SUBDIR = "charts"
 
 def plot_functional(df, df_obf, df_deob):
 
-    plt.figure()
-    df.groupby("model")["functional_match"].mean().plot(kind="bar")
-    plt.title("functional_by_model_all")
-    save_fig("by_model_all.png", SUBDIR, True)
+    fig, axes = plt.subplots(1, 2, figsize=(12, 5))
+    fig.suptitle("Impacto de la Estrategia (Zero-shot vs Few-shot)", fontsize=13)
 
-    plt.figure()
-    df_obf.groupby("model")["functional_match"].mean().plot(kind="bar")
-    plt.title("functional_by_model_obf")
-    save_fig("by_model_obf.png", SUBDIR, True)
+    for ax, metric, title, ylabel in [
+        (axes[0], "functional_match", "Éxito Funcional por Estrategia", "functional match"),
+        (axes[1], "is_error",         "Tasa de Error por Estrategia",   "tasa de error"),
+    ]:
+        pivot = df.pivot_table(
+            index="strategy", columns="label", values=metric, aggfunc="mean"
+        )
+        pivot.plot(kind="bar", ax=ax)
+        ax.set_title(title)
+        ax.set_ylabel(ylabel)
+        ax.set_xlabel("Estrategia")
+        ax.set_ylim(0, 1)
+        ax.tick_params(axis="x", rotation=15)
+        ax.legend(title="Label", fontsize=8)
 
-    plt.figure()
-    df_deob.groupby("model")["functional_match"].mean().plot(kind="bar")
-    plt.title("functional_by_model_deobf")
-    save_fig("by_model_deobf.png", SUBDIR, True)
-
-    plt.figure()
-    g = df.groupby("is_obfuscation")["functional_match"].mean()
-    g.index = ["Deobf", "Obf"]
-    g.plot(kind="bar")
-    plt.title("functional_general_task")
-    save_fig("general_task.png", SUBDIR, True)
-
-    plt.figure()
-    df.groupby("strategy")["functional_match"].mean().plot(kind="bar")
-    plt.title("functional_by_strategy")
-    save_fig("by_strategy.png", SUBDIR, True)
+    plt.tight_layout()
+    save_fig("strategy_functional_vs_error.png", SUBDIR)

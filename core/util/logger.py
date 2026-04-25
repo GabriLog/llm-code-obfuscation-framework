@@ -12,7 +12,7 @@ def clean_llm_output(text: str) -> str:
     return text.strip()
 
 
-def log_experiment(experiment, obf_time, llm_time, deob_time, obf_result, llm_result, deob_result):
+def log_experiment(experiment, obf_time, llm_time, deob_time, obf_result, llm_result, deob_result, console):
     log_dir = Path("logs")
     log_dir.mkdir(exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -37,4 +37,7 @@ def log_experiment(experiment, obf_time, llm_time, deob_time, obf_result, llm_re
         f.write("\n--- Deobfuscation LLM ---\n")
         f.write(f"Time: {deob_time:.2f}s\n")
         f.write(f"Result:\n{deob_result}\n")
+
+        f.write("\n--- Original script ---\n")
+        f.write(console)
 
