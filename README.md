@@ -39,5 +39,5 @@ npm install
 
 ## Ejecución PowerShell
 
-1) py app.py        =>  experimentar con los llms deseados
-2) py app.py -ev    =>  evaluación de los datos obtenidos
+1) py app.py        →  experimentar con los llms deseados
+2) py app.py -ev    →  evaluación de los datos obtenidos

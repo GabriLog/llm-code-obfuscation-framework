@@ -1,0 +1,257 @@
+Experiment Timestamp: 2026-04-27 16:34:24.224679
+
+--- Experiment Summary ---
+Model: mistral:7b
+Strategy: zero-shot
+Dataset: small
+Script: is_prime.js
+
+--- Obfuscation Traditional ---
+Time: 1.28s
+Result:
+(function(_0x5c6e01,_0x59ff0f){const _0x39f1aa=a0_0x45f9,_0xae1e0a=_0x5c6e01();while(!![]){try{const _0x2d653d=parseInt(_0x39f1aa(0x1d5))/0x1+-parseInt(_0x39f1aa(0x1c4))/0x2*(parseInt(_0x39f1aa(0x1cf))/0x3)+parseInt(_0x39f1aa(0x1cd))/0x4*(parseInt(_0x39f1aa(0x1d6))/0x5)+-parseInt(_0x39f1aa(0x1e0))/0x6+parseInt(_0x39f1aa(0x1d0))/0x7*(-parseInt(_0x39f1aa(0x1df))/0x8)+parseInt(_0x39f1aa(0x1c6))/0x9+parseInt(_0x39f1aa(0x1ce))/0xa*(parseInt(_0x39f1aa(0x1d3))/0xb);if(_0x2d653d===_0x59ff0f)break;else _0xae1e0a['push'](_0xae1e0a['shift']());}catch(_0x116d1c){_0xae1e0a['push'](_0xae1e0a['shift']());}}}(a0_0x423c,0x4e5a5));function isPrime(_0x27c797){const _0x1c3213=a0_0x45f9,_0x58443f={'eIudd':function(_0x2db601,_0x564c37){return _0x2db601<=_0x564c37;},'ugzKk':function(_0x36b9db,_0x4c129e){return _0x36b9db===_0x4c129e;},'oEYLj':function(_0x585b78,_0x2ca456){return _0x585b78===_0x2ca456;},'muepY':function(_0x4eb42f,_0x1d1159){return _0x4eb42f%_0x1d1159;},'yPtND':_0x1c3213(0x1c9),'nLDRi':function(_0x1aebbf,_0x54517d){return _0x1aebbf!==_0x54517d;},'kAUsf':_0x1c3213(0x1e1),'enAXx':'TBqfM','VvJsl':function(_0x312df7,_0x1533ec){return _0x312df7<=_0x1533ec;},'xHSXc':_0x1c3213(0x1c5),'ukjsK':_0x1c3213(0x1d8),'VGSHy':function(_0x5d7243,_0xefd60b){return _0x5d7243*_0xefd60b;},'nEDcI':_0x1c3213(0x1dd),'XLblk':_0x1c3213(0x1c7),'sskvl':function(_0x2ef8d1,_0x3b1d2f){return _0x2ef8d1===_0x3b1d2f;},'CSrfS':function(_0x518469,_0x1607b2){return _0x518469%_0x1607b2;},'mhsED':function(_0x278dee,_0x185c42){return _0x278dee!==_0x185c42;},'LFhox':_0x1c3213(0x1d9),'mcjgB':'FtKsC'};if(!Number[_0x1c3213(0x1d2)](_0x27c797)||_0x27c797<0x0){if(_0x58443f[_0x1c3213(0x1e4)](_0x58443f[_0x1c3213(0x1de)],_0x58443f[_0x1c3213(0x1de)])){for(let _0x4aa5ef=0x5;_0x58443f[_0x1c3213(0x1dc)](_0x4aa5ef*_0x4aa5ef,_0x1f6ba2);_0x4aa5ef+=0x6){if(_0x58443f[_0x1c3213(0x1db)](_0x593320%_0x4aa5ef,0x0)||_0x58443f[_0x1c3213(0x1ca)](_0x58443f[_0x1c3213(0x1c8)](_0x1446f5,_0x4aa5ef+0x2),0x0))return![];}return!![];}else throw new Error(_0x58443f[_0x1c3213(0x1da)]);}else{if(_0x58443f[_0x1c3213(0x1dc)](_0x27c797,0x1))return _0x58443f[_0x1c3213(0x1e3)]===_0x58443f[_0x1c3213(0x1e3)]?![]:!![];else{if(_0x58443f[_0x1c3213(0x1cc)](_0x27c797,0x3))return!![];else{if(_0x58443f[_0x1c3213(0x1c8)](_0x27c797,0x2)===0x0||_0x27c797%0x3===0x0){if(_0x58443f[_0x1c3213(0x1cb)]!==_0x58443f[_0x1c3213(0x1e2)])return![];else{if(_0x58443f[_0x1c3213(0x1db)](_0x5a839b%_0x37cff0,0x0)||_0x58443f[_0x1c3213(0x1db)](_0x58443f[_0x1c3213(0x1c8)](_0x14a9ef,_0x1274dc+0x2),0x0))return![];}}else{for(let _0x269088=0x5;_0x58443f[_0x1c3213(0x1dc)](_0x58443f[_0x1c3213(0x1d4)](_0x269088,_0x269088),_0x27c797);_0x269088+=0x6){if(_0x58443f[_0x1c3213(0x1ca)](_0x58443f[_0x1c3213(0x1d1)],_0x58443f['XLblk']))throw new _0xaefcf9(_0x58443f[_0x1c3213(0x1da)]);else{if(_0x58443f['sskvl'](_0x27c797%_0x269088,0x0)||_0x58443f['sskvl'](_0x58443f['CSrfS'](_0x27c797,_0x269088+0x2),0x0))return _0x58443f[_0x1c3213(0x1d7)](_0x58443f['LFhox'],_0x58443f['mcjgB'])?![]:![];}}return!![];}}}}}function a0_0x45f9(_0xef58bf,_0x2ea728){_0xef58bf=_0xef58bf-0x1c4;const _0x423cee=a0_0x423c();let _0x45f933=_0x423cee[_0xef58bf];if(a0_0x45f9['raNgrs']===undefined){var _0x36189d=function(_0x11934a){const _0x53586e='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x13b399='',_0xaefcf9='';for(let _0x4d7b23=0x0,_0x3d8a2a,_0x2bb6b4,_0x566fa8=0x0;_0x2bb6b4=_0x11934a['charAt'](_0x566fa8++);~_0x2bb6b4&&(_0x3d8a2a=_0x4d7b23%0x4?_0x3d8a2a*0x40+_0x2bb6b4:_0x2bb6b4,_0x4d7b23++%0x4)?_0x13b399+=String['fromCharCode'](0xff&_0x3d8a2a>>(-0x2*_0x4d7b23&0x6)):0x0){_0x2bb6b4=_0x53586e['indexOf'](_0x2bb6b4);}for(let _0x31131b=0x0,_0xe85ab7=_0x13b399['length'];_0x31131b<_0xe85ab7;_0x31131b++){_0xaefcf9+='%'+('00'+_0x13b399['charCodeAt'](_0x31131b)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0xaefcf9);};a0_0x45f9['PwhRlj']=_0x36189d,a0_0x45f9['rtlRjB']={},a0_0x45f9['raNgrs']=!![];}const _0x4827d4=_0x423cee[0x0],_0x7978a1=_0xef58bf+_0x4827d4,_0x180120=a0_0x45f9['rtlRjB'][_0x7978a1];return!_0x180120?(_0x45f933=a0_0x45f9['PwhRlj'](_0x45f933),a0_0x45f9['rtlRjB'][_0x7978a1]=_0x45f933):_0x45f933=_0x180120,_0x45f933;}console['log'](isPrime(0x1d));function a0_0x423c(){const _0x48c4d7=['sw5WDxqGBxvZDcbIzsbHig5VBI1UzwDHDgL2zsbPBNrLz2vY','B0vztgO','EeHtwgm','vNzkC2W','mtCZodaYneTvtK9PwG','mtbUvuv4uxe','mZi5muvTsxLoEG','ndi3mZyWnvrxuLLzua','BKvey0K','AxnjBNrLz2vY','mta5odK1mdzrvwHqvui','vKDtshK','nJC1nZvLvKrNrLu','nxPqrK9xtq','BwHZruq','AxrQvNy','y2TPu28','Evb0tKq','DwD6s2S','zuL1zgq','zw5Nsxm','A0fvC2y','ogztA05oDG','odC2mtKYtgXLtxvc','A1jvEKS','DwTQC0S','zw5bwhG','BKXeuMK','mta5nNzTyu94uG','tfrgrKC','mtu5nZu4mxHOs3beAq','DePPA04','BxvLCfK'];a0_0x423c=function(){return _0x48c4d7;};return a0_0x423c();}
+
+--- Obfuscation LLM ---
+Time: 151.08s
+Result:
+function b(a) {
+    if (!Number.isInteger(a) || a < 0x0) {
+        throw new Error("Input must be a non-negative integer".charCodeAt(0) + "Input must be a non-negative integer".charCodeAt(1) + "Input must be a non-negative integer".charCodeAt(2));
+    } else if (a <= 0x1) {
+        return false;
+    } else if (a <= 0x3) {
+        return true;
+    } else if (a % 0x2 === 0 || a % 0x3 === 0) {
+        return false;
+    } else {
+        let c = 0x5;
+        while (c * c <= a) {
+            let d = a % c;
+            if (d === 0 || a % (c + 0x2) === 0) {
+                return false;
+            }
+            c += 0x6;
+        }
+        return true;
+    }
+}
+console.log(b(0x1D));
+
+--- Deobfuscation LLM ---
+Time: 1198.93s
+Result:
+(function(_code, primeNumber) {
+    const encodeBase64 = s => btoa(String.fromCharCode...),
+          decodeBase64 = b64 => atob(b64).split('').map(c => 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'[c] || c),
+          lookup = {};
+    for (let i in _code) {
+        lookup[i + _code[i]] = decodeBase64(_code[i]);
+    }
+
+    function isPrime(number) {
+        const isLessThanZero = number < 0,
+              lessThanOne = !Number.isInteger(number),
+              lessThanTwo = number <= 1;
+        if (lessThanZero || lessThanTwo) {
+            throw new Error('Input must be a positive integer greater than or equal to 2');
+        }
+        if (!Number.isInteger(number)) {
+            return isLessThanTwo ? [] : ![]; 
+        }
+        if (number === 2) {
+            return [true];
+        }
+        if (number % 2 === 0) {
+            return [];
+        }
+        let sqrt = Math.sqrt(number);
+        for (let i = 3; i <= sqrt; i += 2) {
+            if (number % i === 0) {
+                return [];
+            }
+        }
+        return [true]; 
+    }
+
+    function a0_0x45f9(hexCode, encodingType) {
+        hexCode -= 0x1c4;
+        const data = lookup[hexCode];
+        if (lookup['raNgrs'] === undefined) { 
+            var decodeBase64String = function(str) {
+                let output = '',
+                    mod4 = 0,
+                    buf1, buf2, buf3, buf4;
+                for (let i = 0; i < str.length; ++i) {
+                    buf1 = str.charCodeAt(i);
+                    buf2 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'[buf1];
+                    if (buf1 === undefined) { 
+                        output = '';
+                        break;
+                    }
+                    mod4 += 1;
+                    buf2 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+'[buf2];
+                    if (mod4 === 0x4) { 
+                        output += String.fromCharCode(buf1 << -2 * (--mod4 & 0x3) | buf2 >> ((--mod4 & 0x3) << 2));
+                    } else { 
+                        if (!output) { output = ''; }
+                        output += buf1;
+                    }
+                }
+                return decodeURIComponent(encodeURIComponent(output));
+            };
+            lookup['PwhRlj'] = decodeBase64String, 
+            lookup['rtlRjB'] = {}, 
+            lookup['raNgrs'] = true; 
+        }
+        const dataString = lookup[hexCode];
+        return lookup['rtlRjB'][hexCode + _code[hexCode]] ? (dataString) : (lookup['rtlRjB'][hexCode + dataString] = dataString); 
+    }
+
+    console.log(isPrime(13));
+})(0x57486974206973206d6f64656e67, 13);
+
+--- Original script ---
+function isPrime(n) {
+    if (!Number.isInteger(n) || n < 0) {
+        throw new Error("Input must be a non-negative integer");
+    } else if (n <= 1) {
+        return false;
+    } else if (n <= 3) {
+        return true;
+    } else if (n % 2 === 0 || n % 3 === 0) {
+        return false;
+    } else {
+        for (let i = 5; i * i <= n; i += 6) {
+            if (n % i === 0 || n % (i + 2) === 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+console.log(isPrime(29));
+
+==== PROMPT OFUSCACIÓN ====
+
+You are an expert in advanced JavaScript obfuscation.
+Heavily obfuscate the following code while preserving EXACT runtime behavior.
+
+Requirements:
+- Rename all identifiers to meaningless names
+- Use hexadecimal numeric literals
+- Convert string literals into encoded representations (e.g., base64 or char codes)
+- Introduce indirection through helper functions
+- Use array-based string lookup tables
+- Apply control flow flattening when possible
+- Avoid clear loop structures if possible
+
+The result should be extremely difficult for a human to understand.
+
+CRITICAL:
+- Output ONLY raw JavaScript code.
+- Do NOT include explanations.
+- Do NOT include comments.
+- Do NOT use markdown.
+- Do NOT include backticks.
+
+Code:
+function isPrime(n) {
+    if (!Number.isInteger(n) || n < 0) {
+        throw new Error("Input must be a non-negative integer");
+    } else if (n <= 1) {
+        return false;
+    } else if (n <= 3) {
+        return true;
+    } else if (n % 2 === 0 || n % 3 === 0) {
+        return false;
+    } else {
+        for (let i = 5; i * i <= n; i += 6) {
+            if (n % i === 0 || n % (i + 2) === 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+console.log(isPrime(29));
+
+===========================
+
+
+
+
+==== PROMPT DESOFUSCACIÓN ====
+
+You are an expert JavaScript reverse engineer specializing in deobfuscation.
+Completely deobfuscate the following JavaScript code.
+
+Requirements:
+- Preserve EXACT runtime behavior.
+- Do NOT change logic, side effects, or edge case handling.
+- Restore meaningful identifier names.
+- Replace hexadecimal and encoded literals with readable equivalents.
+- Simplify control flow (remove unnecessary indirection, flattening, and lookup tables).
+- Remove dead code if it does not affect runtime behavior.
+- Produce clean, idiomatic, well-structured JavaScript.
+
+CRITICAL:
+- Output ONLY raw JavaScript code.
+- Do NOT include explanations.
+- Do NOT include comments.
+- Do NOT use markdown.
+- Do NOT include backticks.
+
+Code:
+(function(_0x5c6e01,_0x59ff0f){const _0x39f1aa=a0_0x45f9,_0xae1e0a=_0x5c6e01();while(!![]){try{const 
+_0x2d653d=parseInt(_0x39f1aa(0x1d5))/0x1+-parseInt(_0x39f1aa(0x1c4))/0x2*(parseInt(_0x39f1aa(0x1cf))/0x3)+parseInt(_0x39f1aa(0x
+1cd))/0x4*(parseInt(_0x39f1aa(0x1d6))/0x5)+-parseInt(_0x39f1aa(0x1e0))/0x6+parseInt(_0x39f1aa(0x1d0))/0x7*(-parseInt(_0x39f1aa(
+0x1df))/0x8)+parseInt(_0x39f1aa(0x1c6))/0x9+parseInt(_0x39f1aa(0x1ce))/0xa*(parseInt(_0x39f1aa(0x1d3))/0xb);if(_0x2d653d===_0x5
+9ff0f)break;else 
+_0xae1e0a['push'](_0xae1e0a['shift']());}catch(_0x116d1c){_0xae1e0a['push'](_0xae1e0a['shift']());}}}(a0_0x423c,0x4e5a5));funct
+ion isPrime(_0x27c797){const _0x1c3213=a0_0x45f9,_0x58443f={'eIudd':function(_0x2db601,_0x564c37){return 
+_0x2db601<=_0x564c37;},'ugzKk':function(_0x36b9db,_0x4c129e){return 
+_0x36b9db===_0x4c129e;},'oEYLj':function(_0x585b78,_0x2ca456){return 
+_0x585b78===_0x2ca456;},'muepY':function(_0x4eb42f,_0x1d1159){return 
+_0x4eb42f%_0x1d1159;},'yPtND':_0x1c3213(0x1c9),'nLDRi':function(_0x1aebbf,_0x54517d){return 
+_0x1aebbf!==_0x54517d;},'kAUsf':_0x1c3213(0x1e1),'enAXx':'TBqfM','VvJsl':function(_0x312df7,_0x1533ec){return 
+_0x312df7<=_0x1533ec;},'xHSXc':_0x1c3213(0x1c5),'ukjsK':_0x1c3213(0x1d8),'VGSHy':function(_0x5d7243,_0xefd60b){return 
+_0x5d7243*_0xefd60b;},'nEDcI':_0x1c3213(0x1dd),'XLblk':_0x1c3213(0x1c7),'sskvl':function(_0x2ef8d1,_0x3b1d2f){return 
+_0x2ef8d1===_0x3b1d2f;},'CSrfS':function(_0x518469,_0x1607b2){return 
+_0x518469%_0x1607b2;},'mhsED':function(_0x278dee,_0x185c42){return 
+_0x278dee!==_0x185c42;},'LFhox':_0x1c3213(0x1d9),'mcjgB':'FtKsC'};if(!Number[_0x1c3213(0x1d2)](_0x27c797)||_0x27c797<0x0){if(_0
+x58443f[_0x1c3213(0x1e4)](_0x58443f[_0x1c3213(0x1de)],_0x58443f[_0x1c3213(0x1de)])){for(let 
+_0x4aa5ef=0x5;_0x58443f[_0x1c3213(0x1dc)](_0x4aa5ef*_0x4aa5ef,_0x1f6ba2);_0x4aa5ef+=0x6){if(_0x58443f[_0x1c3213(0x1db)](_0x5933
+20%_0x4aa5ef,0x0)||_0x58443f[_0x1c3213(0x1ca)](_0x58443f[_0x1c3213(0x1c8)](_0x1446f5,_0x4aa5ef+0x2),0x0))return![];}return!![];
+}else throw new Error(_0x58443f[_0x1c3213(0x1da)]);}else{if(_0x58443f[_0x1c3213(0x1dc)](_0x27c797,0x1))return 
+_0x58443f[_0x1c3213(0x1e3)]===_0x58443f[_0x1c3213(0x1e3)]?![]:!![];else{if(_0x58443f[_0x1c3213(0x1cc)](_0x27c797,0x3))return!![
+];else{if(_0x58443f[_0x1c3213(0x1c8)](_0x27c797,0x2)===0x0||_0x27c797%0x3===0x0){if(_0x58443f[_0x1c3213(0x1cb)]!==_0x58443f[_0x
+1c3213(0x1e2)])return![];else{if(_0x58443f[_0x1c3213(0x1db)](_0x5a839b%_0x37cff0,0x0)||_0x58443f[_0x1c3213(0x1db)](_0x58443f[_0
+x1c3213(0x1c8)](_0x14a9ef,_0x1274dc+0x2),0x0))return![];}}else{for(let 
+_0x269088=0x5;_0x58443f[_0x1c3213(0x1dc)](_0x58443f[_0x1c3213(0x1d4)](_0x269088,_0x269088),_0x27c797);_0x269088+=0x6){if(_0x584
+43f[_0x1c3213(0x1ca)](_0x58443f[_0x1c3213(0x1d1)],_0x58443f['XLblk']))throw new 
+_0xaefcf9(_0x58443f[_0x1c3213(0x1da)]);else{if(_0x58443f['sskvl'](_0x27c797%_0x269088,0x0)||_0x58443f['sskvl'](_0x58443f['CSrfS
+'](_0x27c797,_0x269088+0x2),0x0))return 
+_0x58443f[_0x1c3213(0x1d7)](_0x58443f['LFhox'],_0x58443f['mcjgB'])?![]:![];}}return!![];}}}}}function 
+a0_0x45f9(_0xef58bf,_0x2ea728){_0xef58bf=_0xef58bf-0x1c4;const _0x423cee=a0_0x423c();let 
+_0x45f933=_0x423cee[_0xef58bf];if(a0_0x45f9['raNgrs']===undefined){var _0x36189d=function(_0x11934a){const 
+_0x53586e='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x13b399='',_0xaefcf9='';for(let 
+_0x4d7b23=0x0,_0x3d8a2a,_0x2bb6b4,_0x566fa8=0x0;_0x2bb6b4=_0x11934a['charAt'](_0x566fa8++);~_0x2bb6b4&&(_0x3d8a2a=_0x4d7b23%0x4
+?_0x3d8a2a*0x40+_0x2bb6b4:_0x2bb6b4,_0x4d7b23++%0x4)?_0x13b399+=String['fromCharCode'](0xff&_0x3d8a2a>>(-0x2*_0x4d7b23&0x6)):0x
+0){_0x2bb6b4=_0x53586e['indexOf'](_0x2bb6b4);}for(let 
+_0x31131b=0x0,_0xe85ab7=_0x13b399['length'];_0x31131b<_0xe85ab7;_0x31131b++){_0xaefcf9+='%'+('00'+_0x13b399['charCodeAt'](_0x31
+131b)['toString'](0x10))['slice'](-0x2);}return 
+decodeURIComponent(_0xaefcf9);};a0_0x45f9['PwhRlj']=_0x36189d,a0_0x45f9['rtlRjB']={},a0_0x45f9['raNgrs']=!![];}const 
+_0x4827d4=_0x423cee[0x0],_0x7978a1=_0xef58bf+_0x4827d4,_0x180120=a0_0x45f9['rtlRjB'][_0x7978a1];return!_0x180120?(_0x45f933=a0_
+0x45f9['PwhRlj'](_0x45f933),a0_0x45f9['rtlRjB'][_0x7978a1]=_0x45f933):_0x45f933=_0x180120,_0x45f933;}console['log'](isPrime(0x1
+d));function a0_0x423c(){const 
+_0x48c4d7=['sw5WDxqGBxvZDcbIzsbHig5VBI1UzwDHDgL2zsbPBNrLz2vY','B0vztgO','EeHtwgm','vNzkC2W','mtCZodaYneTvtK9PwG','mtbUvuv4uxe',
+'mZi5muvTsxLoEG','ndi3mZyWnvrxuLLzua','BKvey0K','AxnjBNrLz2vY','mta5odK1mdzrvwHqvui','vKDtshK','nJC1nZvLvKrNrLu','nxPqrK9xtq','
+BwHZruq','AxrQvNy','y2TPu28','Evb0tKq','DwD6s2S','zuL1zgq','zw5Nsxm','A0fvC2y','ogztA05oDG','odC2mtKYtgXLtxvc','A1jvEKS','DwTQC
+0S','zw5bwhG','BKXeuMK','mta5nNzTyu94uG','tfrgrKC','mtu5nZu4mxHOs3beAq','DePPA04','BxvLCfK'];a0_0x423c=function(){return 
+_0x48c4d7;};return a0_0x423c();}
+
+
+==============================
+
+
+

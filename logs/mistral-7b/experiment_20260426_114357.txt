@@ -1,0 +1,209 @@
+Experiment Timestamp: 2026-04-26 11:43:57.855247
+
+--- Experiment Summary ---
+Model: mistral:7b
+Strategy: zero-shot
+Dataset: small
+Script: fibonacci.js
+
+--- Obfuscation Traditional ---
+Time: 0.98s
+Result:
+function a0_0x2bb7(){const _0x9f72ef=['q1nuyxe','mJm4mtrKuvPyBMK','AxnjBNrLz2vY','mJK3nJeYBgrjr0Ho','mtbevw1SwNu','otCZndq4nfrOrejisW','mZzOCeLXEgG','nJaZoda5nwnxvwrZrW','Bg9N','DfrhDwq','otftDfDmu0u','D29VqxO','ndj1swj5D1K','mZmZmtC4ng5eBKjWtW','mtuWoteWnLfrDfHVuW','mtiYnteWm1jqr3berG','ne94rvvlEG','ww9xy0W','AeHRzhK'];a0_0x2bb7=function(){return _0x9f72ef;};return a0_0x2bb7();}const a0_0x1a8537=a0_0xb29c;(function(_0x151650,_0x37a652){const _0x4a8e4f=a0_0xb29c,_0x288df8=_0x151650();while(!![]){try{const _0x234c61=-parseInt(_0x4a8e4f(0x1fc))/0x1+-parseInt(_0x4a8e4f(0x1fa))/0x2*(parseInt(_0x4a8e4f(0x202))/0x3)+parseInt(_0x4a8e4f(0x1fe))/0x4*(parseInt(_0x4a8e4f(0x1f5))/0x5)+-parseInt(_0x4a8e4f(0x204))/0x6*(-parseInt(_0x4a8e4f(0x1f8))/0x7)+parseInt(_0x4a8e4f(0x1fb))/0x8*(parseInt(_0x4a8e4f(0x1f4))/0x9)+parseInt(_0x4a8e4f(0x1f2))/0xa*(-parseInt(_0x4a8e4f(0x1fd))/0xb)+-parseInt(_0x4a8e4f(0x1f3))/0xc;if(_0x234c61===_0x37a652)break;else _0x288df8['push'](_0x288df8['shift']());}catch(_0x2e7251){_0x288df8['push'](_0x288df8['shift']());}}}(a0_0x2bb7,0xe0991));function fibonacci(_0x434639){const _0x2e8730=a0_0xb29c,_0x18a905={'YoWcL':function(_0x1b6417,_0x340a60){return _0x1b6417<_0x340a60;},'hHkdy':'Input\x20must\x20be\x20a\x20non-negative\x20integer','CSTaq':function(_0xf1cf9d,_0x2c405b){return _0xf1cf9d===_0x2c405b;},'snrwK':_0x2e8730(0x1f9),'elwuH':function(_0xd8c657,_0x34f6ce){return _0xd8c657+_0x34f6ce;}};if(!Number[_0x2e8730(0x203)](_0x434639)||_0x18a905[_0x2e8730(0x1ff)](_0x434639,0x0))throw new Error(_0x18a905[_0x2e8730(0x200)]);else{if(_0x434639===0x0)return _0x18a905[_0x2e8730(0x201)](_0x2e8730(0x1f7),_0x18a905['snrwK'])?0x0:0x0;else{if(_0x18a905[_0x2e8730(0x201)](_0x434639,0x1))return 0x1;else{let _0x2a644c=0x0,_0x1bd15b=0x1;for(let _0x1645c0=0x2;_0x1645c0<=_0x434639;_0x1645c0++){let _0x3233d0=_0x18a905['elwuH'](_0x2a644c,_0x1bd15b);_0x2a644c=_0x1bd15b,_0x1bd15b=_0x3233d0;}return _0x1bd15b;}}}}function a0_0xb29c(_0x49f2b3,_0x2049a7){_0x49f2b3=_0x49f2b3-0x1f2;const _0x2bb7e5=a0_0x2bb7();let _0xb29cf8=_0x2bb7e5[_0x49f2b3];if(a0_0xb29c['yIoRKj']===undefined){var _0x19d24e=function(_0x405389){const _0x29abd8='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x542281='',_0x44f6f7='';for(let _0x2813d8=0x0,_0xb03b47,_0x36fa8b,_0x1d1d71=0x0;_0x36fa8b=_0x405389['charAt'](_0x1d1d71++);~_0x36fa8b&&(_0xb03b47=_0x2813d8%0x4?_0xb03b47*0x40+_0x36fa8b:_0x36fa8b,_0x2813d8++%0x4)?_0x542281+=String['fromCharCode'](0xff&_0xb03b47>>(-0x2*_0x2813d8&0x6)):0x0){_0x36fa8b=_0x29abd8['indexOf'](_0x36fa8b);}for(let _0x4a1652=0x0,_0x29709f=_0x542281['length'];_0x4a1652<_0x29709f;_0x4a1652++){_0x44f6f7+='%'+('00'+_0x542281['charCodeAt'](_0x4a1652)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x44f6f7);};a0_0xb29c['iGdMSx']=_0x19d24e,a0_0xb29c['HLxgng']={},a0_0xb29c['yIoRKj']=!![];}const _0xf78fd6=_0x2bb7e5[0x0],_0x57e61f=_0x49f2b3+_0xf78fd6,_0x3b9b54=a0_0xb29c['HLxgng'][_0x57e61f];return!_0x3b9b54?(_0xb29cf8=a0_0xb29c['iGdMSx'](_0xb29cf8),a0_0xb29c['HLxgng'][_0x57e61f]=_0xb29cf8):_0xb29cf8=_0x3b9b54,_0xb29cf8;}console[a0_0x1a8537(0x1f6)](fibonacci(0xa));
+
+--- Obfuscation LLM ---
+Time: 145.10s
+Result:
+const o = (n, p) => Number.isInteger(n) && n >= 0 ? p : new Error("Input must be a non-negative integer");
+const c = (a, b) => {
+    let t = a + b;
+    a = b;
+    b = t;
+    return b;
+};
+const d = n => n === 0 ? 0 : n === 1 ? 1 : c(d(n - 1), d(n - 2));
+const e = (n) => {
+    let f = 0,
+        g = 1,
+        h = 2;
+    for (; h <= n; h++) {
+        f = g;
+        g = c(f, g);
+    }
+    return g;
+};
+const f = 3.6789abcdef;
+console.log(e(f));
+
+--- Deobfuscation LLM ---
+Time: 851.53s
+Result:
+const fibonacci = (n) => {
+  if (!Number.isInteger(n) || n < 0) throw new Error("Input must be a non-negative integer");
+
+  let previous = 0, current = 1;
+
+  if (n === 0) return 0;
+  else if (n === 1) return 1;
+  else {
+    for(let i = 2; i <= n; i++) {
+      const temp = previous + current;
+      [previous, current] = [current, temp];
+    }
+    return current;
+  }
+}
+
+const hexToAsciiMap = {
+  '6133': 'a', '6233': 'b', '6333': 'c', '6433': 'd', '6533': 'e', '6633': 'f',
+  '6733': 'g', '6833': 'h', '6933': 'i', '6a33': 'j', '6b33': 'k', '6c33': 'l',
+  '6d33': 'm', '6e33': 'n', '6f33': 'o', '7033': 'p', '7133': 'q', '7233': 'r',
+  '7333': 's', '7433': 't', '7533': 'u', '7633': 'v', '7733': 'w', '7833': 'x',
+  '7933': 'y', '7a33': 'z', '412d33': 'A', '422d33': 'B', '432d33': 'C', '442d33': 'D',
+  '452d33': 'E', '462d33': 'F', '472d33': 'G', '482d33': 'H', '492d33': 'I', '4a2d33': 'J',
+  '4b2d33': 'K', '4c2d33': 'L', '4d2d33': 'M', '4e2d33': 'N', '4f2d33': 'O', '502d33': 'P',
+  '512d33': 'Q', '522d33': 'R', '532d33': 'S', '542d33': 'T', '552d33': 'U', '562d33': 'V',
+  '572d33': 'W', '582d33': 'X', '592d33': 'Y', '5a2d33': 'Z', '2b2033': '+', '2f2033': '/'
+};
+
+const hexToAscii = (hex) => {
+  let binary = '';
+  for(let i = 0; i < hex.length; i++) {
+    const charCode = parseInt(hex[i], 16);
+    binary += String.fromCharCode((charCode >>> 2 & 0x3F) | 0x40);
+    binary += String.fromCharCode((charCode << 4 & 0x3F) | 0x40);
+    binary += (charCode << 2 & 0x3F) | 0x40;
+    binary += (charCode >> 6 & 0x03) | 0x80;
+  }
+  return binary.slice(1, -1).replace(/=+$/, '');
+};
+
+console[Symbol.for('raw')]("fibonacci(5)");
+
+--- Original script ---
+function fibonacci(n) {
+    if (!Number.isInteger(n) || n < 0) {
+        throw new Error("Input must be a non-negative integer");
+    } else if (n === 0) {
+        return 0;
+    } else if (n === 1) {
+        return 1;
+    } else {
+        let a = 0;
+        let b = 1;
+        for (let i = 2; i <= n; i++) {
+            let temp = a + b;
+            a = b;
+            b = temp;
+        }
+        return b;
+    }
+}
+console.log(fibonacci(10));
+
+==== PROMPT OFUSCACIÓN ====
+
+You are an expert in advanced JavaScript obfuscation.
+Heavily obfuscate the following code while preserving EXACT runtime behavior.
+
+Requirements:
+- Rename all identifiers to meaningless names
+- Use hexadecimal numeric literals
+- Convert string literals into encoded representations (e.g., base64 or char codes)
+- Introduce indirection through helper functions
+- Use array-based string lookup tables
+- Apply control flow flattening when possible
+- Avoid clear loop structures if possible
+
+The result should be extremely difficult for a human to understand.
+
+CRITICAL:
+- Output ONLY raw JavaScript code.
+- Do NOT include explanations.
+- Do NOT include comments.
+- Do NOT use markdown.
+- Do NOT include backticks.
+
+Code:
+function fibonacci(n) {
+    if (!Number.isInteger(n) || n < 0) {
+        throw new Error("Input must be a non-negative integer");
+    } else if (n === 0) {
+        return 0;
+    } else if (n === 1) {
+        return 1;
+    } else {
+        let a = 0;
+        let b = 1;
+        for (let i = 2; i <= n; i++) {
+            let temp = a + b;
+            a = b;
+            b = temp;
+        }
+        return b;
+    }
+}
+console.log(fibonacci(10));
+
+===========================
+
+
+
+
+==== PROMPT DESOFUSCACIÓN ====
+
+You are an expert JavaScript reverse engineer specializing in deobfuscation.
+Completely deobfuscate the following JavaScript code.
+
+Requirements:
+- Preserve EXACT runtime behavior.
+- Do NOT change logic, side effects, or edge case handling.
+- Restore meaningful identifier names.
+- Replace hexadecimal and encoded literals with readable equivalents.
+- Simplify control flow (remove unnecessary indirection, flattening, and lookup tables).
+- Remove dead code if it does not affect runtime behavior.
+- Produce clean, idiomatic, well-structured JavaScript.
+
+CRITICAL:
+- Output ONLY raw JavaScript code.
+- Do NOT include explanations.
+- Do NOT include comments.
+- Do NOT use markdown.
+- Do NOT include backticks.
+
+Code:
+function a0_0x2bb7(){const 
+_0x9f72ef=['q1nuyxe','mJm4mtrKuvPyBMK','AxnjBNrLz2vY','mJK3nJeYBgrjr0Ho','mtbevw1SwNu','otCZndq4nfrOrejisW','mZzOCeLXEgG','nJaZ
+oda5nwnxvwrZrW','Bg9N','DfrhDwq','otftDfDmu0u','D29VqxO','ndj1swj5D1K','mZmZmtC4ng5eBKjWtW','mtuWoteWnLfrDfHVuW','mtiYnteWm1jqr
+3berG','ne94rvvlEG','ww9xy0W','AeHRzhK'];a0_0x2bb7=function(){return _0x9f72ef;};return a0_0x2bb7();}const 
+a0_0x1a8537=a0_0xb29c;(function(_0x151650,_0x37a652){const _0x4a8e4f=a0_0xb29c,_0x288df8=_0x151650();while(!![]){try{const 
+_0x234c61=-parseInt(_0x4a8e4f(0x1fc))/0x1+-parseInt(_0x4a8e4f(0x1fa))/0x2*(parseInt(_0x4a8e4f(0x202))/0x3)+parseInt(_0x4a8e4f(0
+x1fe))/0x4*(parseInt(_0x4a8e4f(0x1f5))/0x5)+-parseInt(_0x4a8e4f(0x204))/0x6*(-parseInt(_0x4a8e4f(0x1f8))/0x7)+parseInt(_0x4a8e4
+f(0x1fb))/0x8*(parseInt(_0x4a8e4f(0x1f4))/0x9)+parseInt(_0x4a8e4f(0x1f2))/0xa*(-parseInt(_0x4a8e4f(0x1fd))/0xb)+-parseInt(_0x4a
+8e4f(0x1f3))/0xc;if(_0x234c61===_0x37a652)break;else 
+_0x288df8['push'](_0x288df8['shift']());}catch(_0x2e7251){_0x288df8['push'](_0x288df8['shift']());}}}(a0_0x2bb7,0xe0991));funct
+ion fibonacci(_0x434639){const _0x2e8730=a0_0xb29c,_0x18a905={'YoWcL':function(_0x1b6417,_0x340a60){return 
+_0x1b6417<_0x340a60;},'hHkdy':'Input\x20must\x20be\x20a\x20non-negative\x20integer','CSTaq':function(_0xf1cf9d,_0x2c405b){retur
+n _0xf1cf9d===_0x2c405b;},'snrwK':_0x2e8730(0x1f9),'elwuH':function(_0xd8c657,_0x34f6ce){return 
+_0xd8c657+_0x34f6ce;}};if(!Number[_0x2e8730(0x203)](_0x434639)||_0x18a905[_0x2e8730(0x1ff)](_0x434639,0x0))throw new 
+Error(_0x18a905[_0x2e8730(0x200)]);else{if(_0x434639===0x0)return 
+_0x18a905[_0x2e8730(0x201)](_0x2e8730(0x1f7),_0x18a905['snrwK'])?0x0:0x0;else{if(_0x18a905[_0x2e8730(0x201)](_0x434639,0x1))ret
+urn 0x1;else{let _0x2a644c=0x0,_0x1bd15b=0x1;for(let _0x1645c0=0x2;_0x1645c0<=_0x434639;_0x1645c0++){let 
+_0x3233d0=_0x18a905['elwuH'](_0x2a644c,_0x1bd15b);_0x2a644c=_0x1bd15b,_0x1bd15b=_0x3233d0;}return _0x1bd15b;}}}}function 
+a0_0xb29c(_0x49f2b3,_0x2049a7){_0x49f2b3=_0x49f2b3-0x1f2;const _0x2bb7e5=a0_0x2bb7();let 
+_0xb29cf8=_0x2bb7e5[_0x49f2b3];if(a0_0xb29c['yIoRKj']===undefined){var _0x19d24e=function(_0x405389){const 
+_0x29abd8='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x542281='',_0x44f6f7='';for(let 
+_0x2813d8=0x0,_0xb03b47,_0x36fa8b,_0x1d1d71=0x0;_0x36fa8b=_0x405389['charAt'](_0x1d1d71++);~_0x36fa8b&&(_0xb03b47=_0x2813d8%0x4
+?_0xb03b47*0x40+_0x36fa8b:_0x36fa8b,_0x2813d8++%0x4)?_0x542281+=String['fromCharCode'](0xff&_0xb03b47>>(-0x2*_0x2813d8&0x6)):0x
+0){_0x36fa8b=_0x29abd8['indexOf'](_0x36fa8b);}for(let 
+_0x4a1652=0x0,_0x29709f=_0x542281['length'];_0x4a1652<_0x29709f;_0x4a1652++){_0x44f6f7+='%'+('00'+_0x542281['charCodeAt'](_0x4a
+1652)['toString'](0x10))['slice'](-0x2);}return 
+decodeURIComponent(_0x44f6f7);};a0_0xb29c['iGdMSx']=_0x19d24e,a0_0xb29c['HLxgng']={},a0_0xb29c['yIoRKj']=!![];}const 
+_0xf78fd6=_0x2bb7e5[0x0],_0x57e61f=_0x49f2b3+_0xf78fd6,_0x3b9b54=a0_0xb29c['HLxgng'][_0x57e61f];return!_0x3b9b54?(_0xb29cf8=a0_
+0xb29c['iGdMSx'](_0xb29cf8),a0_0xb29c['HLxgng'][_0x57e61f]=_0xb29cf8):_0xb29cf8=_0x3b9b54,_0xb29cf8;}console(fibonacci(0xa));
+
+
+==============================
+
+
+

@@ -50,6 +50,7 @@ def parse_log(log_path: str | Path) -> ParsedLog:
         "--- Obfuscation Traditional ---",
         "--- Obfuscation LLM ---",
         "--- Deobfuscation LLM ---",
+        "--- Original script ---",
     ]
     parsed.time_obf_traditional, parsed.obf_traditional = _extract_section(
         text, HEADERS[0], HEADERS[1:]
@@ -58,7 +59,7 @@ def parse_log(log_path: str | Path) -> ParsedLog:
         text, HEADERS[1], HEADERS[2:]
     )
     parsed.time_deob_llm, parsed.deob_llm = _extract_section(
-        text, HEADERS[2], []
+        text, HEADERS[2], HEADERS[3:]
     )
     return parsed
 

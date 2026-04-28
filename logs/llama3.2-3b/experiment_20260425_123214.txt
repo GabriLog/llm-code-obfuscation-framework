@@ -1,0 +1,377 @@
+Experiment Timestamp: 2026-04-25 12:32:14.357156
+
+--- Experiment Summary ---
+Model: llama3.2:3b
+Strategy: zero-shot
+Dataset: large
+Script: matrix_statistics.js
+
+--- Obfuscation Traditional ---
+Time: 1.31s
+Result:
+function a0_0xaab3(_0x18f2c3,_0x5dfbc8){_0x18f2c3=_0x18f2c3-0x15a;const _0x38b533=a0_0x38b5();let _0xaab3d2=_0x38b533[_0x18f2c3];if(a0_0xaab3['XWYjEe']===undefined){var _0x4ff1d6=function(_0x3f2fc8){const _0x514d3e='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x4f61d1='',_0x5884ad='';for(let _0x365f52=0x0,_0x5e3e80,_0x25e532,_0x343ba6=0x0;_0x25e532=_0x3f2fc8['charAt'](_0x343ba6++);~_0x25e532&&(_0x5e3e80=_0x365f52%0x4?_0x5e3e80*0x40+_0x25e532:_0x25e532,_0x365f52++%0x4)?_0x4f61d1+=String['fromCharCode'](0xff&_0x5e3e80>>(-0x2*_0x365f52&0x6)):0x0){_0x25e532=_0x514d3e['indexOf'](_0x25e532);}for(let _0x19187b=0x0,_0x5826e5=_0x4f61d1['length'];_0x19187b<_0x5826e5;_0x19187b++){_0x5884ad+='%'+('00'+_0x4f61d1['charCodeAt'](_0x19187b)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x5884ad);};a0_0xaab3['ARuCRq']=_0x4ff1d6,a0_0xaab3['zSxuHX']={},a0_0xaab3['XWYjEe']=!![];}const _0x215d37=_0x38b533[0x0],_0x55e1be=_0x18f2c3+_0x215d37,_0x77a945=a0_0xaab3['zSxuHX'][_0x55e1be];return!_0x77a945?(_0xaab3d2=a0_0xaab3['ARuCRq'](_0xaab3d2),a0_0xaab3['zSxuHX'][_0x55e1be]=_0xaab3d2):_0xaab3d2=_0x77a945,_0xaab3d2;}function a0_0x38b5(){const _0x1e0e52=['swTNqxG','vKHhr1G','tCoTBMLTBZOG','qxbqswi','yxzLCMfNzq','EhbMq0G','zKrVBuS','C3vT','u3vTytOG','mJu1mtG0mMD4D1D6tq','y29SCW','AM9PBG','vu5MzMG','Bw1nAgu','zMXVB3i','BNbTzxu','twvKAwe6ia','mZG4nduXtMf0q3DP','CMfUzg9T','DuH0rNC','wLrKzha','D2jqyLy','rMLSyxm6ia','CvPtwNm','mtiZndCWnhv0EKfnsG','mZblqxjVthq','ChvZAa','mtu0nJu5nwvnA1Psvq','qMfqy00','BwLU','Dg9gAxHLza','sMDMB3q','mZnnu2ndsMm','mtuYotKXEgX1A3Hs','s1Lfqu8','BgvUz3rO','s2jUqxq','D3DeuMC','ELbtzMS','CK9mqvO','Dg90ywXfBgvTzw50CW','mti4mZC2y01VEwL5','CM93CW','zxDiy3a','Bg9N','cKvZDgfKW61ZDgLJyxm6','twf0CML6igDLBMvYywrHoG','mZe2nZaWu01MquPZ'];a0_0x38b5=function(){return _0x1e0e52;};return a0_0x38b5();}(function(_0x53c01d,_0xabe662){const _0x40dd63=a0_0xaab3,_0x5bae86=_0x53c01d();while(!![]){try{const _0x416b74=parseInt(_0x40dd63(0x16c))/0x1+parseInt(_0x40dd63(0x17a))/0x2+-parseInt(_0x40dd63(0x16b))/0x3*(-parseInt(_0x40dd63(0x174))/0x4)+-parseInt(_0x40dd63(0x166))/0x5+parseInt(_0x40dd63(0x164))/0x6*(parseInt(_0x40dd63(0x15c))/0x7)+-parseInt(_0x40dd63(0x163))/0x8+-parseInt(_0x40dd63(0x184))/0x9;if(_0x416b74===_0xabe662)break;else _0x5bae86['push'](_0x5bae86['shift']());}catch(_0x576afe){_0x5bae86['push'](_0x5bae86['shift']());}}}(a0_0x38b5,0x2f855));function generateMatrix(_0x52da99,_0x53fc7c,_0x478b78=0x0,_0x30b5a4=0x64){const _0x44eb13=a0_0xaab3,_0x52316a={'UNffh':function(_0x599338,_0x25be9d){return _0x599338<_0x25be9d;},'IkgAx':function(_0xd62883,_0x4553cc){return _0xd62883<_0x4553cc;},'BaPcM':function(_0x3000e3,_0x3ee6f0){return _0x3000e3!==_0x3ee6f0;},'wwDRg':_0x44eb13(0x160),'EqhVR':_0x44eb13(0x17c),'xpfCH':function(_0x128ade,_0x1c76aa){return _0x128ade+_0x1c76aa;},'KYEAO':function(_0x44a106,_0x2c2d06){return _0x44a106*_0x2c2d06;},'KbnAt':function(_0x236c6c,_0x2227a5){return _0x236c6c+_0x2227a5;},'vVBIB':function(_0x5276ef,_0x259a86){return _0x5276ef-_0x259a86;}},_0x62abd4=[];for(let _0x38bf56=0x0;_0x52316a[_0x44eb13(0x187)](_0x38bf56,_0x52da99);_0x38bf56++){const _0x57ff83=[];for(let _0x303f9c=0x0;_0x52316a[_0x44eb13(0x17b)](_0x303f9c,_0x53fc7c);_0x303f9c++){if(_0x52316a[_0x44eb13(0x167)](_0x52316a[_0x44eb13(0x170)],_0x52316a['EqhVR']))_0x57ff83[_0x44eb13(0x165)](_0x52316a[_0x44eb13(0x180)](Math[_0x44eb13(0x189)](_0x52316a[_0x44eb13(0x16d)](Math['random'](),_0x52316a[_0x44eb13(0x16f)](_0x52316a['vVBIB'](_0x30b5a4,_0x478b78),0x1))),_0x478b78));else for(const _0x4453ed of _0xe5bdde){_0x3dba75[_0x44eb13(0x177)](_0x4453ed[_0x44eb13(0x186)]('\x09'));}}_0x62abd4[_0x44eb13(0x165)](_0x57ff83);}return _0x62abd4;}function analyzeMatrix(_0x33d753){const _0x18cfcd=a0_0xaab3,_0x41b0a4={'npmeu':function(_0x1d070c,_0x8aff08){return _0x1d070c+_0x8aff08;},'qZSZs':function(_0x170d3f,_0x316197){return _0x170d3f*_0x316197;},'Jgfot':function(_0x42570b,_0x2c27f5){return _0x42570b-_0x2c27f5;},'rOLAZ':function(_0x316a39,_0x273ad7){return _0x316a39!==_0x273ad7;},'fDomK':_0x18cfcd(0x15e),'ZTddp':function(_0xed639c,_0x24d2f6){return _0xed639c>_0x24d2f6;},'zPSfk':function(_0x1a1bff,_0x485daa){return _0x1a1bff<_0x485daa;},'ApPIb':function(_0x401bce,_0x28b60e){return _0x401bce/_0x28b60e;}};let _0x20361f=0x0,_0x5454e0=0x0,_0x4bfb12=-Infinity,_0xa84924=Infinity;for(const _0xdf526a of _0x33d753){for(const _0x263b00 of _0xdf526a){if(_0x41b0a4[_0x18cfcd(0x172)](_0x41b0a4[_0x18cfcd(0x181)],_0x41b0a4[_0x18cfcd(0x181)]))_0x1de2f2['push'](_0x41b0a4[_0x18cfcd(0x15a)](_0x4f935e[_0x18cfcd(0x189)](_0x41b0a4[_0x18cfcd(0x162)](_0x1ecdd6[_0x18cfcd(0x15d)](),_0x41b0a4[_0x18cfcd(0x15a)](_0x41b0a4[_0x18cfcd(0x16a)](_0x377b16,_0x5d48d1),0x1))),_0xa2f801));else{_0x20361f+=_0x263b00,_0x5454e0++;if(_0x41b0a4[_0x18cfcd(0x15f)](_0x263b00,_0x4bfb12))_0x4bfb12=_0x263b00;if(_0x41b0a4[_0x18cfcd(0x171)](_0x263b00,_0xa84924))_0xa84924=_0x263b00;}}}return{'rows':_0x33d753['length'],'cols':_0x33d753[0x0][_0x18cfcd(0x16e)],'totalElements':_0x5454e0,'sum':_0x20361f,'average':_0x41b0a4[_0x18cfcd(0x15f)](_0x5454e0,0x0)?_0x41b0a4[_0x18cfcd(0x17e)](_0x20361f,_0x5454e0):0x0,'max':_0x4bfb12,'min':_0xa84924};}function printMatrix(_0x28a9e6){const _0x187e15=a0_0xaab3;for(const _0x4da94f of _0x28a9e6){console[_0x187e15(0x177)](_0x4da94f[_0x187e15(0x186)]('\x09'));}}function main(){const _0x3e51fd=a0_0xaab3,_0x4ae49d={'mmMhe':function(_0x52cb4e,_0x13a81a){return _0x52cb4e(_0x13a81a);},'ewHcp':_0x3e51fd(0x179),'rmYCE':_0x3e51fd(0x178)},_0x58f107=0xa,_0x579d40=0xa,_0x2528f8=generateMatrix(_0x58f107,_0x579d40),_0xf5c037=_0x4ae49d[_0x3e51fd(0x188)](analyzeMatrix,_0x2528f8);console[_0x3e51fd(0x177)](_0x4ae49d[_0x3e51fd(0x176)]),printMatrix(_0x2528f8),console[_0x3e51fd(0x177)](_0x4ae49d['rmYCE']),console[_0x3e51fd(0x177)](_0x3e51fd(0x161)+_0xf5c037[_0x3e51fd(0x175)]),console[_0x3e51fd(0x177)]('Columnas:\x20'+_0xf5c037[_0x3e51fd(0x185)]),console[_0x3e51fd(0x177)]('Total\x20elementos:\x20'+_0xf5c037[_0x3e51fd(0x173)]),console[_0x3e51fd(0x177)](_0x3e51fd(0x183)+_0xf5c037[_0x3e51fd(0x182)]),console[_0x3e51fd(0x177)](_0x3e51fd(0x15b)+_0xf5c037[_0x3e51fd(0x17f)][_0x3e51fd(0x169)](0x2)),console['log']('Máximo:\x20'+_0xf5c037['max']),console[_0x3e51fd(0x177)](_0x3e51fd(0x17d)+_0xf5c037[_0x3e51fd(0x168)]);}main();
+
+--- Obfuscation LLM ---
+Time: 121.09s
+Result:
+function b7d9f8a8_6c5b4e5d_5a4f_4e4d_4c4f(a, b, c = 0, d = 100) {
+    var e = [];
+    for (var f = 0; f < a; f++) {
+        var g = [];
+        for (var h = 0; h < b; h++) {
+            g.push((Math.floor(Math.random() * (d - c + 1)) + c));
+        }
+        e.push(g);
+    }
+    return e;
+}
+function d3c8f2d_5a4f_4e4d_4c4f(a) {
+    var b = 0;
+    var c = 0;
+    var d = -Infinity;
+    var e = Infinity;
+    for (var f of a) {
+        for (var g of f) {
+            b += g;
+            c++;
+            if (g > d) d = g;
+            if (g < e) e = g;
+        }
+    }
+    return {
+        rows: a.length,
+        cols: a[0].length,
+        totalElements: c,
+        sum: b,
+        average: c > 0 ? b / c : 0,
+        max: d,
+        min: e
+    };
+}
+function 4e4d_4c4f_5a4f_4e4d(a) {
+    for (var f of a) {
+        console.log(f.join("\t"));
+    }
+}
+function 6b63f2d_5a4f_4e4d_4c4f() {
+    var a = 10;
+    var b = 10;
+    var c = b7d9f8a8_6c5b4e5d_5a4f_4e4d_4c4f(a, b);
+    var d = d3c8f2d_5a4f_4e4d_4c4f(c);
+    console.log("Matriz generada:");
+    4e4d_4c4f_5a4f_4e4d(c);
+    console.log("\nEstadísticas:");
+    console.log(`Filas: ${d.rows}`);
+    console.log(`Columnas: ${d.cols}`);
+    console.log(`Total elementos: ${d.totalElements}`);
+    console.log(`Suma: ${d.sum}`);
+    console.log(`Media: ${d.average.toFixed(2)}`);
+    console.log(`Máximo: ${d.max}`);
+    console.log(`Mínimo: ${d.min}`);
+}
+6b63f2d_5a4f_4e4d_4c4f();
+
+--- Deobfuscation LLM ---
+Time: 370.26s
+Result:
+function generateMatrix(rows, cols, seed = 0) {
+    const matrix = [];
+    for (let i = 0; i < rows; i++) {
+        let row = [];
+        for (let j = 0; j < cols; j++) {
+            if (i === Math.floor(Math.random() * rows)) {
+                row.push(i);
+            } else {
+                row.push(j + seed);
+            }
+        }
+        matrix[i] = row;
+    }
+
+    return matrix;
+}
+
+function analyzeMatrix(matrix) {
+    const sum = 0;
+
+    for (let i = 0; i < matrix.length; i++) {
+        let max = -Infinity, min = Infinity;
+        for (const val of matrix[i]) {
+            if (val > max) {
+                max = val;
+            }
+            if (val < min) {
+                min = val;
+            }
+        }
+
+        sum += Math.max(max + 1, min);
+    }
+
+    return { rows: matrix.length, cols: matrix[0].length, totalElements: matrix.reduce((acc, row) => acc + row.length, 0), average:
+        i > -1 ? sum / (matrix.length * matrix[0].length) : 0,
+        max: Math.max(...matrix.flat()),
+        min: Math.min(...matrix.flat()) };
+}
+
+function printMatrix(matrix) {
+    for (const row of matrix) {
+        console.log(row.join(' '));
+    }
+}
+
+let seed = 1;
+for (let i = 0; i < 10000; i++) {
+    const matrix = generateMatrix(10, 5);
+    analyzeMatrix(matrix).then(result => {
+        printMatrix(matrix);
+
+        let sum = result.sum;
+
+        console.log('Sum: ' + sum);
+
+        if (sum > seed) {
+
+            process.exit();
+        }
+
+        seed += Math.random() * 100;
+    });
+}
+
+--- Original script ---
+function generateMatrix(rows, cols, min = 0, max = 100) {
+    const matrix = [];
+    for (let i = 0; i < rows; i++) {
+        const row = [];
+        for (let j = 0; j < cols; j++) {
+            row.push(Math.floor(Math.random() * (max - min + 1)) + min);
+        }
+        matrix.push(row);
+    }
+    return matrix;
+}
+function analyzeMatrix(matrix) {
+    let total = 0;
+    let count = 0;
+    let max = -Infinity;
+    let min = Infinity;
+    for (const row of matrix) {
+        for (const value of row) {
+            total += value;
+            count++;
+            if (value > max) max = value;
+            if (value < min) min = value;
+        }
+    }
+    return {
+        rows: matrix.length,
+        cols: matrix[0].length,
+        totalElements: count,
+        sum: total,
+        average: count > 0 ? total / count : 0,
+        max: max,
+        min: min
+    };
+}
+function printMatrix(matrix) {
+    for (const row of matrix) {
+        console.log(row.join("\t"));
+    }
+}
+function main() {
+    const rows = 10;
+    const cols = 10;
+    const matrix = generateMatrix(rows, cols);
+    const stats = analyzeMatrix(matrix);
+    console.log("Matriz generada:");
+    printMatrix(matrix);
+    console.log("\nEstadísticas:");
+    console.log(`Filas: ${stats.rows}`);
+    console.log(`Columnas: ${stats.cols}`);
+    console.log(`Total elementos: ${stats.totalElements}`);
+    console.log(`Suma: ${stats.sum}`);
+    console.log(`Media: ${stats.average.toFixed(2)}`);
+    console.log(`Máximo: ${stats.max}`);
+    console.log(`Mínimo: ${stats.min}`);
+}
+main();
+
+==== PROMPT OFUSCACIÓN ====
+
+You are an expert in advanced JavaScript obfuscation.
+Heavily obfuscate the following code while preserving EXACT runtime behavior.
+
+Requirements:
+- Rename all identifiers to meaningless names
+- Use hexadecimal numeric literals
+- Convert string literals into encoded representations (e.g., base64 or char codes)
+- Introduce indirection through helper functions
+- Use array-based string lookup tables
+- Apply control flow flattening when possible
+- Avoid clear loop structures if possible
+
+The result should be extremely difficult for a human to understand.
+
+CRITICAL:
+- Output ONLY raw JavaScript code.
+- Do NOT include explanations.
+- Do NOT include comments.
+- Do NOT use markdown.
+- Do NOT include backticks.
+
+Code:
+function generateMatrix(rows, cols, min = 0, max = 100) {
+    const matrix = [];
+    for (let i = 0; i < rows; i++) {
+        const row = [];
+        for (let j = 0; j < cols; j++) {
+            row.push(Math.floor(Math.random() * (max - min + 1)) + min);
+        }
+        matrix.push(row);
+    }
+    return matrix;
+}
+function analyzeMatrix(matrix) {
+    let total = 0;
+    let count = 0;
+    let max = -Infinity;
+    let min = Infinity;
+    for (const row of matrix) {
+        for (const value of row) {
+            total += value;
+            count++;
+            if (value > max) max = value;
+            if (value < min) min = value;
+        }
+    }
+    return {
+        rows: matrix.length,
+        cols: matrix[0].length,
+        totalElements: count,
+        sum: total,
+        average: count > 0 ? total / count : 0,
+        max: max,
+        min: min
+    };
+}
+function printMatrix(matrix) {
+    for (const row of matrix) {
+        console.log(row.join("\t"));
+    }
+}
+function main() {
+    const rows = 10;
+    const cols = 10;
+    const matrix = generateMatrix(rows, cols);
+    const stats = analyzeMatrix(matrix);
+    console.log("Matriz generada:");
+    printMatrix(matrix);
+    console.log("\nEstadísticas:");
+    console.log(`Filas: ${stats.rows}`);
+    console.log(`Columnas: ${stats.cols}`);
+    console.log(`Total elementos: ${stats.totalElements}`);
+    console.log(`Suma: ${stats.sum}`);
+    console.log(`Media: ${stats.average.toFixed(2)}`);
+    console.log(`Máximo: ${stats.max}`);
+    console.log(`Mínimo: ${stats.min}`);
+}
+main();
+
+===========================
+
+
+
+
+==== PROMPT DESOFUSCACIÓN ====
+
+You are an expert JavaScript reverse engineer specializing in deobfuscation.
+Completely deobfuscate the following JavaScript code.
+
+Requirements:
+- Preserve EXACT runtime behavior.
+- Do NOT change logic, side effects, or edge case handling.
+- Restore meaningful identifier names.
+- Replace hexadecimal and encoded literals with readable equivalents.
+- Simplify control flow (remove unnecessary indirection, flattening, and lookup tables).
+- Remove dead code if it does not affect runtime behavior.
+- Produce clean, idiomatic, well-structured JavaScript.
+
+CRITICAL:
+- Output ONLY raw JavaScript code.
+- Do NOT include explanations.
+- Do NOT include comments.
+- Do NOT use markdown.
+- Do NOT include backticks.
+
+Code:
+function a0_0xaab3(_0x18f2c3,_0x5dfbc8){_0x18f2c3=_0x18f2c3-0x15a;const _0x38b533=a0_0x38b5();let 
+_0xaab3d2=_0x38b533[_0x18f2c3];if(a0_0xaab3['XWYjEe']===undefined){var _0x4ff1d6=function(_0x3f2fc8){const 
+_0x514d3e='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x4f61d1='',_0x5884ad='';for(let 
+_0x365f52=0x0,_0x5e3e80,_0x25e532,_0x343ba6=0x0;_0x25e532=_0x3f2fc8['charAt'](_0x343ba6++);~_0x25e532&&(_0x5e3e80=_0x365
+f52%0x4?_0x5e3e80*0x40+_0x25e532:_0x25e532,_0x365f52++%0x4)?_0x4f61d1+=String['fromCharCode'](0xff&_0x5e3e80>>(-0x2*_0x3
+65f52&0x6)):0x0){_0x25e532=_0x514d3e['indexOf'](_0x25e532);}for(let 
+_0x19187b=0x0,_0x5826e5=_0x4f61d1['length'];_0x19187b<_0x5826e5;_0x19187b++){_0x5884ad+='%'+('00'+_0x4f61d1['charCodeAt'
+](_0x19187b)['toString'](0x10))['slice'](-0x2);}return 
+decodeURIComponent(_0x5884ad);};a0_0xaab3['ARuCRq']=_0x4ff1d6,a0_0xaab3['zSxuHX']={},a0_0xaab3['XWYjEe']=!![];}const 
+_0x215d37=_0x38b533[0x0],_0x55e1be=_0x18f2c3+_0x215d37,_0x77a945=a0_0xaab3['zSxuHX'][_0x55e1be];return!_0x77a945?(_0xaab
+3d2=a0_0xaab3['ARuCRq'](_0xaab3d2),a0_0xaab3['zSxuHX'][_0x55e1be]=_0xaab3d2):_0xaab3d2=_0x77a945,_0xaab3d2;}function 
+a0_0x38b5(){const 
+_0x1e0e52=['swTNqxG','vKHhr1G','tCoTBMLTBZOG','qxbqswi','yxzLCMfNzq','EhbMq0G','zKrVBuS','C3vT','u3vTytOG','mJu1mtG0mMD4
+D1D6tq','y29SCW','AM9PBG','vu5MzMG','Bw1nAgu','zMXVB3i','BNbTzxu','twvKAwe6ia','mZG4nduXtMf0q3DP','CMfUzg9T','DuH0rNC','
+wLrKzha','D2jqyLy','rMLSyxm6ia','CvPtwNm','mtiZndCWnhv0EKfnsG','mZblqxjVthq','ChvZAa','mtu0nJu5nwvnA1Psvq','qMfqy00','Bw
+LU','Dg9gAxHLza','sMDMB3q','mZnnu2ndsMm','mtuYotKXEgX1A3Hs','s1Lfqu8','BgvUz3rO','s2jUqxq','D3DeuMC','ELbtzMS','CK9mqvO'
+,'Dg90ywXfBgvTzw50CW','mti4mZC2y01VEwL5','CM93CW','zxDiy3a','Bg9N','cKvZDgfKW61ZDgLJyxm6','twf0CML6igDLBMvYywrHoG','mZe2
+nZaWu01MquPZ'];a0_0x38b5=function(){return _0x1e0e52;};return a0_0x38b5();}(function(_0x53c01d,_0xabe662){const 
+_0x40dd63=a0_0xaab3,_0x5bae86=_0x53c01d();while(!![]){try{const 
+_0x416b74=parseInt(_0x40dd63(0x16c))/0x1+parseInt(_0x40dd63(0x17a))/0x2+-parseInt(_0x40dd63(0x16b))/0x3*(-parseInt(_0x40
+dd63(0x174))/0x4)+-parseInt(_0x40dd63(0x166))/0x5+parseInt(_0x40dd63(0x164))/0x6*(parseInt(_0x40dd63(0x15c))/0x7)+-parse
+Int(_0x40dd63(0x163))/0x8+-parseInt(_0x40dd63(0x184))/0x9;if(_0x416b74===_0xabe662)break;else 
+_0x5bae86['push'](_0x5bae86['shift']());}catch(_0x576afe){_0x5bae86['push'](_0x5bae86['shift']());}}}(a0_0x38b5,0x2f855)
+);function generateMatrix(_0x52da99,_0x53fc7c,_0x478b78=0x0,_0x30b5a4=0x64){const 
+_0x44eb13=a0_0xaab3,_0x52316a={'UNffh':function(_0x599338,_0x25be9d){return 
+_0x599338<_0x25be9d;},'IkgAx':function(_0xd62883,_0x4553cc){return 
+_0xd62883<_0x4553cc;},'BaPcM':function(_0x3000e3,_0x3ee6f0){return 
+_0x3000e3!==_0x3ee6f0;},'wwDRg':_0x44eb13(0x160),'EqhVR':_0x44eb13(0x17c),'xpfCH':function(_0x128ade,_0x1c76aa){return 
+_0x128ade+_0x1c76aa;},'KYEAO':function(_0x44a106,_0x2c2d06){return 
+_0x44a106*_0x2c2d06;},'KbnAt':function(_0x236c6c,_0x2227a5){return 
+_0x236c6c+_0x2227a5;},'vVBIB':function(_0x5276ef,_0x259a86){return _0x5276ef-_0x259a86;}},_0x62abd4=[];for(let 
+_0x38bf56=0x0;_0x52316a[_0x44eb13(0x187)](_0x38bf56,_0x52da99);_0x38bf56++){const _0x57ff83=[];for(let 
+_0x303f9c=0x0;_0x52316a[_0x44eb13(0x17b)](_0x303f9c,_0x53fc7c);_0x303f9c++){if(_0x52316a[_0x44eb13(0x167)](_0x52316a[_0x
+44eb13(0x170)],_0x52316a['EqhVR']))_0x57ff83[_0x44eb13(0x165)](_0x52316a[_0x44eb13(0x180)](Math[_0x44eb13(0x189)](_0x523
+16a[_0x44eb13(0x16d)](Math['random'](),_0x52316a[_0x44eb13(0x16f)](_0x52316a['vVBIB'](_0x30b5a4,_0x478b78),0x1))),_0x478
+b78));else for(const _0x4453ed of 
+_0xe5bdde){_0x3dba75[_0x44eb13(0x177)](_0x4453ed[_0x44eb13(0x186)]('\x09'));}}_0x62abd4[_0x44eb13(0x165)](_0x57ff83);}re
+turn _0x62abd4;}function analyzeMatrix(_0x33d753){const 
+_0x18cfcd=a0_0xaab3,_0x41b0a4={'npmeu':function(_0x1d070c,_0x8aff08){return 
+_0x1d070c+_0x8aff08;},'qZSZs':function(_0x170d3f,_0x316197){return 
+_0x170d3f*_0x316197;},'Jgfot':function(_0x42570b,_0x2c27f5){return 
+_0x42570b-_0x2c27f5;},'rOLAZ':function(_0x316a39,_0x273ad7){return 
+_0x316a39!==_0x273ad7;},'fDomK':_0x18cfcd(0x15e),'ZTddp':function(_0xed639c,_0x24d2f6){return 
+_0xed639c>_0x24d2f6;},'zPSfk':function(_0x1a1bff,_0x485daa){return 
+_0x1a1bff<_0x485daa;},'ApPIb':function(_0x401bce,_0x28b60e){return _0x401bce/_0x28b60e;}};let 
+_0x20361f=0x0,_0x5454e0=0x0,_0x4bfb12=-Infinity,_0xa84924=Infinity;for(const _0xdf526a of _0x33d753){for(const _0x263b00
+of 
+_0xdf526a){if(_0x41b0a4[_0x18cfcd(0x172)](_0x41b0a4[_0x18cfcd(0x181)],_0x41b0a4[_0x18cfcd(0x181)]))_0x1de2f2['push'](_0x
+41b0a4[_0x18cfcd(0x15a)](_0x4f935e[_0x18cfcd(0x189)](_0x41b0a4[_0x18cfcd(0x162)](_0x1ecdd6[_0x18cfcd(0x15d)](),_0x41b0a4
+[_0x18cfcd(0x15a)](_0x41b0a4[_0x18cfcd(0x16a)](_0x377b16,_0x5d48d1),0x1))),_0xa2f801));else{_0x20361f+=_0x263b00,_0x5454
+e0++;if(_0x41b0a4[_0x18cfcd(0x15f)](_0x263b00,_0x4bfb12))_0x4bfb12=_0x263b00;if(_0x41b0a4[_0x18cfcd(0x171)](_0x263b00,_0
+xa84924))_0xa84924=_0x263b00;}}}return{'rows':_0x33d753['length'],'cols':_0x33d753[0x0][_0x18cfcd(0x16e)],'totalElements
+':_0x5454e0,'sum':_0x20361f,'average':_0x41b0a4[_0x18cfcd(0x15f)](_0x5454e0,0x0)?_0x41b0a4[_0x18cfcd(0x17e)](_0x20361f,_
+0x5454e0):0x0,'max':_0x4bfb12,'min':_0xa84924};}function printMatrix(_0x28a9e6){const _0x187e15=a0_0xaab3;for(const 
+_0x4da94f of _0x28a9e6){console[_0x187e15(0x177)](_0x4da94f[_0x187e15(0x186)]('\x09'));}}function main(){const 
+_0x3e51fd=a0_0xaab3,_0x4ae49d={'mmMhe':function(_0x52cb4e,_0x13a81a){return 
+_0x52cb4e(_0x13a81a);},'ewHcp':_0x3e51fd(0x179),'rmYCE':_0x3e51fd(0x178)},_0x58f107=0xa,_0x579d40=0xa,_0x2528f8=generate
+Matrix(_0x58f107,_0x579d40),_0xf5c037=_0x4ae49d[_0x3e51fd(0x188)](analyzeMatrix,_0x2528f8);console[_0x3e51fd(0x177)](_0x
+4ae49d[_0x3e51fd(0x176)]),printMatrix(_0x2528f8),console[_0x3e51fd(0x177)](_0x4ae49d['rmYCE']),console[_0x3e51fd(0x177)]
+(_0x3e51fd(0x161)+_0xf5c037[_0x3e51fd(0x175)]),console[_0x3e51fd(0x177)]('Columnas:\x20'+_0xf5c037[_0x3e51fd(0x185)]),co
+nsole[_0x3e51fd(0x177)]('Total\x20elementos:\x20'+_0xf5c037[_0x3e51fd(0x173)]),console[_0x3e51fd(0x177)](_0x3e51fd(0x183
+)+_0xf5c037[_0x3e51fd(0x182)]),console[_0x3e51fd(0x177)](_0x3e51fd(0x15b)+_0xf5c037[_0x3e51fd(0x17f)][_0x3e51fd(0x169)](
+0x2)),console['log']('Máximo:\x20'+_0xf5c037['max']),console[_0x3e51fd(0x177)](_0x3e51fd(0x17d)+_0xf5c037[_0x3e51fd(0x16
+8)]);}main();
+
+
+==============================
+
+
+

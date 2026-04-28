@@ -1,0 +1,2162 @@
+[
+  {
+    "timestamp": "2026-04-12 17:36:19.283338",
+    "model": "llama3.1:8b",
+    "strategy": "zero-shot",
+    "dataset": "small",
+    "script": "factorial.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9566,
+        "ast_nodes_original": 58,
+        "ast_nodes_result": 485,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "120",
+        "output_result": "120",
+        "execution_error": null,
+        "time_seconds": 0.99
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0.9849,
+        "ast_nodes_original": 58,
+        "ast_nodes_result": 78,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "120",
+        "output_result": "120",
+        "execution_error": null,
+        "time_seconds": 109.14
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.9533,
+        "ast_nodes_original": 58,
+        "ast_nodes_result": 447,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "120",
+        "output_result": "",
+        "execution_error": "TypeError: Cannot read properties of undefined (reading 'push')",
+        "time_seconds": 572.56
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-12 18:07:52.820468",
+    "model": "llama3.1:8b",
+    "strategy": "few-shot",
+    "dataset": "small",
+    "script": "factorial.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.956,
+        "ast_nodes_original": 58,
+        "ast_nodes_result": 476,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "120",
+        "output_result": "120",
+        "execution_error": null,
+        "time_seconds": 1.36
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "120",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected token '}'",
+        "time_seconds": 1079.08
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.996,
+        "ast_nodes_original": 58,
+        "ast_nodes_result": 56,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "120",
+        "output_result": "120",
+        "execution_error": null,
+        "time_seconds": 798.86
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-12 18:42:34.566347",
+    "model": "llama3.1:8b",
+    "strategy": "zero-shot",
+    "dataset": "large",
+    "script": "analize_numbers.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9419,
+        "ast_nodes_original": 234,
+        "ast_nodes_result": 1396,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "execution_error": null,
+        "time_seconds": 1.03
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected token '('",
+        "time_seconds": 1028.03
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.9775,
+        "ast_nodes_original": 234,
+        "ast_nodes_result": 149,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "",
+        "execution_error": null,
+        "time_seconds": 1008.99
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-12 19:46:19.041866",
+    "model": "llama3.1:8b",
+    "strategy": "few-shot",
+    "dataset": "large",
+    "script": "analize_numbers.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9467,
+        "ast_nodes_original": 234,
+        "ast_nodes_result": 1083,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "execution_error": null,
+        "time_seconds": 1.71
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0.8353,
+        "ast_nodes_original": 234,
+        "ast_nodes_result": 403,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "",
+        "execution_error": null,
+        "time_seconds": 1166.71
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.9905,
+        "ast_nodes_original": 234,
+        "ast_nodes_result": 171,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "",
+        "execution_error": null,
+        "time_seconds": 1411.8
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-26 14:16:54.405815",
+    "model": "llama3.1:8b",
+    "strategy": "zero-shot",
+    "dataset": "small",
+    "script": "fibonacci.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9557,
+        "ast_nodes_original": 79,
+        "ast_nodes_result": 725,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "55",
+        "output_result": "55",
+        "execution_error": null,
+        "time_seconds": 0.97
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0.9776,
+        "ast_nodes_original": 79,
+        "ast_nodes_result": 151,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "55",
+        "output_result": "NaN",
+        "execution_error": null,
+        "time_seconds": 220.14
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.9741,
+        "ast_nodes_original": 79,
+        "ast_nodes_result": 538,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "55",
+        "output_result": "",
+        "execution_error": "ReferenceError: i is not defined",
+        "time_seconds": 904.51
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-26 16:00:31.652552",
+    "model": "llama3.1:8b",
+    "strategy": "few-shot",
+    "dataset": "small",
+    "script": "fibonacci.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9588,
+        "ast_nodes_original": 79,
+        "ast_nodes_result": 694,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "55",
+        "output_result": "55",
+        "execution_error": null,
+        "time_seconds": 1.48
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "55",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected end of input",
+        "time_seconds": 883.57
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.9684,
+        "ast_nodes_original": 79,
+        "ast_nodes_result": 69,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "55",
+        "output_result": "55",
+        "execution_error": null,
+        "time_seconds": 876.67
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-26 16:39:41.700657",
+    "model": "llama3.1:8b",
+    "strategy": "zero-shot",
+    "dataset": "large",
+    "script": "matrix_statistics.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9164,
+        "ast_nodes_original": 307,
+        "ast_nodes_result": 967,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Matriz generada:\n98\t93\t19\t45\t71\t58\t92\t40\t67\t28\n48\t27\t25\t20\t70\t27\t100\t26\t94\t49\n51\t81\t59\t10\t57\t30\t66\t3\t79\t42\n48\t50\t52\t61\t98\t62\t59\t29\t36\t30\n49\t57\t49\t27\t63\t63\t8\t17\t39\t63\n44\t27\t5\t35\t59\t45\t90\t51\t51\t41\n98\t87\t10\t86\t83\t72\t85\t30\t95\t10\n43\t83\t15\t34\t99\t80\t33\t92\t97\t96\n98\t55\t71\t42\t31\t7\t28\t93\t10\t29\n55\t42\t11\t13\t42\t25\t61\t32\t78\t11\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 5145\nMedia: 51.45\nMÃ¡ximo: 100\nMÃ­nimo: 3",
+        "output_result": "Matriz generada:\n39\t19\t20\t21\t61\t80\t42\t17\t22\t5\n39\t13\t7\t90\t46\t31\t31\t43\t25\t66\n78\t33\t30\t64\t73\t88\t21\t71\t72\t97\n96\t8\t53\t44\t12\t62\t68\t86\t72\t49\n52\t61\t10\t75\t15\t99\t99\t66\t96\t95\n71\t82\t87\t17\t29\t85\t40\t97\t45\t89\n58\t37\t82\t16\t56\t75\t77\t66\t98\t89\n71\t87\t28\t99\t63\t20\t66\t100\t50\t40\n41\t9\t12\t22\t84\t84\t51\t7\t53\t12\n13\t94\t38\t69\t96\t43\t69\t34\t16\t74\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 5403\nMedia: 54.03\nMÃ¡ximo: 100\nMÃ­nimo: 5",
+        "execution_error": null,
+        "time_seconds": 1.38
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "Matriz generada:\n97\t12\t88\t79\t71\t49\t10\t83\t61\t43\n21\t100\t9\t8\t61\t3\t40\t34\t70\t33\n84\t66\t31\t55\t89\t52\t92\t45\t81\t28\n38\t76\t59\t39\t10\t74\t87\t54\t85\t67\n76\t25\t30\t10\t60\t86\t30\t62\t18\t99\n33\t60\t88\t56\t62\t14\t6\t5\t49\t39\n16\t14\t41\t73\t16\t0\t44\t2\t58\t30\n37\t84\t64\t11\t3\t12\t46\t26\t39\t51\n93\t12\t33\t48\t32\t2\t33\t36\t100\t2\n0\t32\t87\t72\t14\t10\t36\t99\t59\t65\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 4624\nMedia: 46.24\nMÃ¡ximo: 100\nMÃ­nimo: 0",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected end of input",
+        "time_seconds": 1183.1
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "Matriz generada:\n6\t73\t28\t27\t31\t14\t5\t7\t80\t76\n77\t28\t82\t30\t75\t37\t66\t53\t11\t62\n29\t93\t80\t62\t55\t21\t57\t13\t22\t47\n96\t76\t7\t23\t79\t74\t68\t94\t88\t35\n29\t82\t27\t18\t40\t48\t94\t27\t3\t91\n85\t54\t24\t94\t53\t25\t75\t78\t39\t65\n47\t18\t64\t48\t55\t64\t72\t21\t72\t81\n44\t6\t10\t22\t23\t51\t11\t73\t22\t44\n40\t34\t65\t72\t50\t99\t40\t29\t2\t15\n78\t33\t82\t12\t90\t35\t42\t93\t81\t70\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 4948\nMedia: 49.48\nMÃ¡ximo: 99\nMÃ­nimo: 2",
+        "output_result": "",
+        "execution_error": "SyntaxError: Invalid or unexpected token",
+        "time_seconds": 1115.97
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-26 17:21:34.813272",
+    "model": "llama3.1:8b",
+    "strategy": "few-shot",
+    "dataset": "large",
+    "script": "matrix_statistics.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9086,
+        "ast_nodes_original": 307,
+        "ast_nodes_result": 1000,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Matriz generada:\n100\t72\t25\t80\t6\t85\t64\t87\t57\t15\n18\t0\t27\t58\t48\t10\t31\t7\t24\t80\n48\t76\t93\t2\t85\t0\t53\t57\t9\t50\n48\t2\t31\t11\t23\t40\t82\t35\t7\t9\n97\t5\t33\t33\t56\t9\t70\t6\t88\t93\n33\t36\t88\t86\t20\t35\t48\t13\t95\t66\n81\t33\t48\t11\t12\t94\t10\t33\t73\t87\n31\t82\t52\t49\t59\t93\t88\t5\t16\t53\n94\t4\t36\t92\t56\t78\t13\t90\t62\t61\n71\t1\t13\t4\t97\t85\t38\t79\t83\t51\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 4783\nMedia: 47.83\nMÃ¡ximo: 100\nMÃ­nimo: 0",
+        "output_result": "Matriz generada:\n64\t69\t18\t24\t20\t40\t61\t3\t14\t0\n13\t17\t87\t87\t87\t31\t75\t56\t98\t24\n20\t22\t79\t37\t32\t51\t87\t78\t41\t54\n33\t91\t63\t12\t97\t67\t99\t18\t44\t5\n15\t59\t42\t39\t63\t5\t59\t26\t83\t31\n83\t77\t0\t70\t79\t34\t45\t80\t3\t42\n38\t9\t53\t72\t64\t88\t65\t54\t24\t98\n24\t19\t64\t42\t84\t35\t2\t2\t26\t73\n74\t10\t70\t70\t54\t68\t3\t17\t74\t90\n65\t58\t45\t100\t92\t42\t65\t55\t66\t16\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 4923\nMedia: 49.23\nMÃ¡ximo: 100\nMÃ­nimo: 0",
+        "execution_error": null,
+        "time_seconds": 1.77
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 1,
+        "ast_nodes_original": 307,
+        "ast_nodes_result": 307,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Matriz generada:\n13\t23\t77\t6\t20\t40\t54\t75\t87\t15\n3\t34\t58\t49\t55\t10\t19\t33\t24\t93\n30\t64\t4\t95\t16\t18\t41\t73\t87\t3\n62\t74\t71\t88\t77\t66\t0\t55\t32\t73\n12\t94\t87\t11\t87\t14\t33\t24\t68\t24\n7\t74\t65\t99\t57\t31\t62\t100\t43\t37\n92\t77\t100\t27\t78\t75\t25\t60\t52\t65\n23\t57\t74\t25\t99\t80\t66\t74\t92\t88\n56\t96\t64\t12\t68\t76\t22\t53\t21\t9\n12\t86\t99\t11\t95\t56\t65\t4\t77\t86\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 5243\nMedia: 52.43\nMÃ¡ximo: 100\nMÃ­nimo: 0",
+        "output_result": "Matriz generada:\n27\t27\t46\t94\t50\t19\t49\t35\t47\t73\n42\t10\t87\t26\t8\t53\t87\t43\t63\t42\n38\t19\t31\t27\t94\t59\t1\t60\t24\t87\n76\t14\t14\t3\t2\t18\t87\t78\t75\t24\n86\t57\t85\t26\t71\t51\t72\t14\t97\t29\n81\t17\t55\t49\t95\t9\t69\t32\t78\t6\n43\t50\t25\t25\t7\t97\t90\t53\t18\t41\n32\t90\t70\t25\t35\t46\t53\t8\t95\t14\n81\t55\t72\t34\t61\t84\t57\t34\t75\t29\n47\t1\t96\t12\t23\t97\t32\t92\t95\t85\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 4917\nMedia: 49.17\nMÃ¡ximo: 97\nMÃ­nimo: 1",
+        "execution_error": null,
+        "time_seconds": 1022.61
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.9972,
+        "ast_nodes_original": 307,
+        "ast_nodes_result": 250,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Matriz generada:\n12\t57\t15\t19\t39\t34\t61\t92\t68\t84\n66\t69\t52\t2\t70\t49\t33\t55\t53\t55\n95\t74\t38\t91\t33\t20\t74\t34\t85\t95\n76\t17\t17\t97\t17\t44\t7\t12\t26\t35\n98\t76\t65\t85\t7\t57\t69\t86\t77\t87\n46\t59\t76\t64\t9\t26\t40\t44\t40\t47\n10\t24\t77\t7\t46\t69\t17\t30\t39\t88\n98\t74\t55\t30\t41\t46\t20\t74\t23\t62\n82\t91\t95\t10\t41\t14\t81\t33\t97\t39\n89\t79\t43\t28\t89\t11\t84\t48\t28\t75\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 5217\nMedia: 52.17\nMÃ¡ximo: 98\nMÃ­nimo: 2",
+        "output_result": "Matriz generada:\n82\t35\t13\t1\t86\n59\t73\t96\t49\t71\n93\t48\t55\t65\t85\n15\t58\t42\t36\t38\n45\t21\t40\t15\t51\n16\t28\t36\t55\t68\n31\t21\t41\t85\t68\n29\t51\t45\t99\t19\n87\t46\t10\t48\t42\n0\t97\t49\t76\t62\n\nTotal de elementos: 2481\nNÃºmero mÃ¡ximo: 99\nNÃºmero mÃ­nimo: 0",
+        "execution_error": null,
+        "time_seconds": 1140.73
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-27 19:14:35.109276",
+    "model": "llama3.1:8b",
+    "strategy": "zero-shot",
+    "dataset": "small",
+    "script": "is_prime.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9243,
+        "ast_nodes_original": 92,
+        "ast_nodes_result": 708,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "true",
+        "output_result": "true",
+        "execution_error": null,
+        "time_seconds": 0.95
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "true",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected end of input",
+        "time_seconds": 1147.39
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.9247,
+        "ast_nodes_original": 92,
+        "ast_nodes_result": 217,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "true",
+        "output_result": "true",
+        "execution_error": null,
+        "time_seconds": 698.71
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-27 19:50:42.590569",
+    "model": "llama3.1:8b",
+    "strategy": "few-shot",
+    "dataset": "small",
+    "script": "is_prime.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9219,
+        "ast_nodes_original": 92,
+        "ast_nodes_result": 703,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "true",
+        "output_result": "true",
+        "execution_error": null,
+        "time_seconds": 1.3
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0.9274,
+        "ast_nodes_original": 92,
+        "ast_nodes_result": 516,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "true",
+        "output_result": "0",
+        "execution_error": null,
+        "time_seconds": 1068.96
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.9798,
+        "ast_nodes_original": 92,
+        "ast_nodes_result": 76,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "true",
+        "output_result": "true",
+        "execution_error": null,
+        "time_seconds": 958.01
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-28 14:22:39.051932",
+    "model": "llama3.1:8b",
+    "strategy": "zero-shot",
+    "dataset": "large",
+    "script": "simple_calculator.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9143,
+        "ast_nodes_original": 269,
+        "ast_nodes_result": 946,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "execution_error": null,
+        "time_seconds": 1.07
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0.9668,
+        "ast_nodes_original": 269,
+        "ast_nodes_result": 256,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "Calculadora simple\n%c[12 + 5] = %c[12] + [%c[5]]\n%c[12 - 5] = %c[12] - [%c[5]]\n%c[12 * 5] = %c[12] * [%c[5]]\n%c[12 / 5] = %c[12] / [%c[5]]\n%c[12 ^ 5] = %c[12] ^ [%c[5]]\n%c[âˆš12] = %c[12]\n%c[12!] = %c[12]\n%c[12] es primo? %c[12]",
+        "execution_error": null,
+        "time_seconds": 410.36
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "",
+        "execution_error": "SyntaxError: Invalid or unexpected token",
+        "time_seconds": 1260.89
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-28 15:57:40.204812",
+    "model": "llama3.1:8b",
+    "strategy": "few-shot",
+    "dataset": "large",
+    "script": "simple_calculator.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9097,
+        "ast_nodes_original": 269,
+        "ast_nodes_result": 930,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "execution_error": null,
+        "time_seconds": 0.97
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 1,
+        "ast_nodes_original": 269,
+        "ast_nodes_result": 269,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "execution_error": null,
+        "time_seconds": 1309.99
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.9423,
+        "ast_nodes_original": 269,
+        "ast_nodes_result": 247,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "5 + 3 = 8\n5 - 3 = 2\n5 * 3 = 15\n5 / 3 = 1\n2 ^ 4 = 16\n4 = 4\n720 = 720\ntrue = true",
+        "execution_error": null,
+        "time_seconds": 1147.77
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-11 16:46:46.854231",
+    "model": "llama3.2:3b",
+    "strategy": "few-shot",
+    "dataset": "small",
+    "script": "factorial.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9562,
+        "ast_nodes_original": 58,
+        "ast_nodes_result": 474,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "120",
+        "output_result": "120",
+        "execution_error": null,
+        "time_seconds": 1.27
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "120",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected token '}'",
+        "time_seconds": 338.18
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 1,
+        "ast_nodes_original": 58,
+        "ast_nodes_result": 58,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "120",
+        "output_result": "3628800",
+        "execution_error": null,
+        "time_seconds": 294.15
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-12 08:44:41.497638",
+    "model": "llama3.2:3b",
+    "strategy": "zero-shot",
+    "dataset": "large",
+    "script": "analize_numbers.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9428,
+        "ast_nodes_original": 234,
+        "ast_nodes_result": 1058,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "execution_error": null,
+        "time_seconds": 1.44
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0.9996,
+        "ast_nodes_original": 234,
+        "ast_nodes_result": 231,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "execution_error": null,
+        "time_seconds": 79.05
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected token ')'",
+        "time_seconds": 469.24
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-12 09:50:47.947410",
+    "model": "llama3.2:3b",
+    "strategy": "zero-shot",
+    "dataset": "small",
+    "script": "factorial.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9595,
+        "ast_nodes_original": 58,
+        "ast_nodes_result": 483,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "120",
+        "output_result": "120",
+        "execution_error": null,
+        "time_seconds": 1.1
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0.9767,
+        "ast_nodes_original": 58,
+        "ast_nodes_result": 82,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "120",
+        "output_result": "120",
+        "execution_error": null,
+        "time_seconds": 32.02
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "120",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected token '}'",
+        "time_seconds": 434.31
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-12 11:47:48.361872",
+    "model": "llama3.2:3b",
+    "strategy": "few-shot",
+    "dataset": "large",
+    "script": "analize_numbers.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9464,
+        "ast_nodes_original": 234,
+        "ast_nodes_result": 1050,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "execution_error": null,
+        "time_seconds": 1.09
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected token ')'",
+        "time_seconds": 429.43
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.9767,
+        "ast_nodes_original": 234,
+        "ast_nodes_result": 183,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "Count of prime numbers: 25\nSum of prime numbers: 1060\nAverage of prime numbers (formatted): 42.40",
+        "execution_error": null,
+        "time_seconds": 496.4
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-25 12:07:50.551970",
+    "model": "llama3.2:3b",
+    "strategy": "zero-shot",
+    "dataset": "small",
+    "script": "fibonacci.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9571,
+        "ast_nodes_original": 79,
+        "ast_nodes_result": 580,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "55",
+        "output_result": "55",
+        "execution_error": null,
+        "time_seconds": 0.95
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "55",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected end of input",
+        "time_seconds": 460.57
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "55",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected token ')'",
+        "time_seconds": 561.48
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-25 12:23:43.450781",
+    "model": "llama3.2:3b",
+    "strategy": "few-shot",
+    "dataset": "small",
+    "script": "fibonacci.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9583,
+        "ast_nodes_original": 79,
+        "ast_nodes_result": 737,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "55",
+        "output_result": "55",
+        "execution_error": null,
+        "time_seconds": 0.96
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0.9629,
+        "ast_nodes_original": 79,
+        "ast_nodes_result": 480,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "55",
+        "output_result": "0",
+        "execution_error": null,
+        "time_seconds": 395.27
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "55",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected string",
+        "time_seconds": 526.36
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-25 12:32:14.357156",
+    "model": "llama3.2:3b",
+    "strategy": "zero-shot",
+    "dataset": "large",
+    "script": "matrix_statistics.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9042,
+        "ast_nodes_original": 307,
+        "ast_nodes_result": 1099,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Matriz generada:\n9\t89\t11\t97\t91\t93\t65\t92\t98\t53\n65\t26\t79\t100\t1\t94\t28\t91\t32\t1\n86\t54\t72\t69\t94\t82\t37\t30\t1\t11\n95\t14\t9\t83\t9\t10\t97\t60\t77\t14\n98\t54\t36\t31\t46\t95\t17\t0\t75\t80\n49\t41\t41\t68\t14\t26\t91\t42\t7\t64\n63\t21\t93\t13\t8\t20\t9\t0\t58\t59\n31\t31\t11\t23\t35\t86\t85\t42\t95\t97\n33\t36\t18\t42\t100\t96\t85\t52\t29\t57\n59\t7\t84\t61\t22\t15\t39\t54\t2\t80\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 5045\nMedia: 50.45\nMÃ¡ximo: 100\nMÃ­nimo: 0",
+        "output_result": "Matriz generada:\n43\t35\t27\t91\t15\t92\t95\t76\t36\t93\n76\t18\t13\t66\t46\t98\t31\t14\t11\t48\n8\t81\t62\t54\t75\t86\t31\t36\t86\t30\n37\t12\t70\t12\t68\t42\t84\t65\t26\t55\n32\t68\t88\t31\t84\t9\t66\t6\t6\t24\n76\t53\t23\t84\t68\t14\t53\t8\t75\t13\n3\t97\t0\t17\t8\t93\t11\t34\t50\t76\n66\t53\t33\t93\t76\t13\t73\t4\t64\t93\n95\t71\t91\t63\t6\t97\t4\t14\t43\t87\n25\t43\t15\t76\t62\t86\t43\t46\t21\t99\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 4969\nMedia: 49.69\nMÃ¡ximo: 99\nMÃ­nimo: 0",
+        "execution_error": null,
+        "time_seconds": 1.31
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "Matriz generada:\n52\t11\t54\t18\t85\t79\t76\t41\t45\t62\n71\t6\t73\t7\t74\t61\t1\t21\t32\t16\n51\t8\t41\t73\t68\t66\t77\t44\t81\t38\n24\t85\t36\t5\t71\t40\t18\t94\t65\t14\n17\t35\t50\t62\t55\t78\t96\t80\t55\t54\n93\t4\t78\t1\t21\t6\t17\t50\t63\t21\n71\t40\t85\t92\t2\t82\t15\t15\t79\t6\n35\t43\t79\t90\t76\t89\t47\t28\t52\t8\n83\t49\t60\t93\t98\t10\t67\t44\t14\t65\n98\t85\t3\t29\t14\t42\t91\t81\t87\t2\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 4969\nMedia: 49.69\nMÃ¡ximo: 98\nMÃ­nimo: 1",
+        "output_result": "",
+        "execution_error": "SyntaxError: Invalid or unexpected token",
+        "time_seconds": 121.09
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.9885,
+        "ast_nodes_original": 307,
+        "ast_nodes_result": 301,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Matriz generada:\n4\t51\t48\t23\t87\t40\t72\t13\t27\t5\n77\t27\t9\t12\t47\t44\t57\t21\t91\t52\n52\t75\t82\t73\t17\t12\t92\t75\t1\t30\n19\t18\t39\t45\t19\t57\t85\t91\t69\t85\n55\t28\t26\t94\t93\t95\t71\t41\t21\t30\n11\t78\t6\t10\t46\t86\t30\t65\t37\t83\n81\t53\t84\t71\t24\t68\t18\t7\t97\t67\n12\t25\t38\t67\t54\t20\t29\t89\t55\t57\n83\t81\t97\t42\t10\t5\t33\t29\t96\t90\n6\t95\t49\t81\t24\t72\t5\t22\t54\t56\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 4895\nMedia: 48.95\nMÃ¡ximo: 97\nMÃ­nimo: 1",
+        "output_result": "",
+        "execution_error": "TypeError: Assignment to constant variable.",
+        "time_seconds": 370.26
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-25 12:49:29.741929",
+    "model": "llama3.2:3b",
+    "strategy": "few-shot",
+    "dataset": "large",
+    "script": "matrix_statistics.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9097,
+        "ast_nodes_original": 307,
+        "ast_nodes_result": 1136,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Matriz generada:\n66\t44\t44\t26\t87\t98\t23\t95\t95\t44\n63\t12\t66\t76\t26\t74\t70\t19\t90\t40\n87\t98\t19\t8\t62\t44\t45\t46\t49\t76\n96\t25\t34\t24\t35\t94\t2\t18\t44\t8\n32\t59\t58\t94\t47\t84\t74\t29\t60\t44\n19\t85\t74\t35\t41\t85\t25\t56\t59\t64\n22\t50\t3\t68\t92\t23\t23\t25\t77\t91\n63\t7\t69\t99\t52\t93\t49\t15\t85\t89\n66\t22\t29\t64\t79\t46\t46\t59\t83\t19\n39\t2\t57\t62\t38\t92\t73\t11\t36\t28\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 5242\nMedia: 52.42\nMÃ¡ximo: 99\nMÃ­nimo: 2",
+        "output_result": "Matriz generada:\n22\t53\t83\t17\t45\t90\t52\t59\t30\t31\n18\t17\t38\t25\t47\t74\t84\t50\t0\t88\n79\t19\t86\t60\t80\t61\t30\t26\t45\t97\n12\t19\t85\t38\t58\t97\t67\t26\t94\t94\n18\t78\t77\t73\t30\t55\t99\t88\t76\t53\n70\t67\t78\t17\t54\t89\t86\t55\t85\t58\n52\t67\t41\t17\t50\t74\t78\t0\t64\t86\n73\t100\t45\t2\t89\t30\t73\t44\t43\t64\n24\t76\t5\t39\t97\t77\t28\t9\t94\t42\n67\t33\t100\t0\t27\t31\t12\t35\t15\t38\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 5343\nMedia: 53.43\nMÃ¡ximo: 100\nMÃ­nimo: 0",
+        "execution_error": null,
+        "time_seconds": 1.34
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0.978,
+        "ast_nodes_original": 307,
+        "ast_nodes_result": 303,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Matriz generada:\n69\t64\t52\t2\t66\t25\t62\t23\t48\t66\n69\t43\t24\t77\t36\t58\t86\t49\t64\t39\n15\t41\t8\t89\t65\t0\t7\t38\t89\t68\n28\t75\t6\t3\t68\t95\t79\t26\t42\t73\n78\t39\t59\t74\t32\t67\t12\t60\t7\t64\n76\t68\t54\t38\t73\t66\t23\t47\t24\t63\n56\t62\t93\t78\t61\t15\t61\t52\t93\t78\n58\t99\t34\t16\t69\t15\t53\t83\t30\t64\n60\t100\t42\t23\t60\t69\t53\t21\t11\t52\n88\t6\t11\t54\t28\t61\t20\t36\t46\t24\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 4996\nMedia: 49.96\nMÃ¡ximo: 100\nMÃ­nimo: 0",
+        "output_result": "",
+        "execution_error": "ReferenceError: _0x176fe2 is not defined",
+        "time_seconds": 434.23
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.9783,
+        "ast_nodes_original": 307,
+        "ast_nodes_result": 84,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Matriz generada:\n37\t12\t49\t23\t74\t0\t97\t7\t59\t69\n17\t89\t99\t28\t77\t48\t77\t71\t47\t33\n62\t57\t87\t10\t84\t3\t80\t22\t33\t18\n16\t46\t23\t45\t14\t8\t32\t33\t49\t41\n55\t80\t81\t58\t38\t62\t33\t31\t66\t90\n85\t73\t16\t37\t76\t40\t73\t69\t63\t5\n10\t57\t50\t100\t9\t60\t78\t67\t42\t56\n92\t50\t59\t85\t20\t17\t88\t79\t4\t38\n1\t50\t16\t89\t94\t50\t61\t31\t88\t6\n45\t55\t32\t20\t85\t39\t36\t10\t21\t34\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 4831\nMedia: 48.31\nMÃ¡ximo: 100\nMÃ­nimo: 0",
+        "output_result": "",
+        "execution_error": null,
+        "time_seconds": 427.21
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-26 17:47:46.668135",
+    "model": "llama3.2:3b",
+    "strategy": "zero-shot",
+    "dataset": "small",
+    "script": "is_prime.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.917,
+        "ast_nodes_original": 92,
+        "ast_nodes_result": 795,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "true",
+        "output_result": "true",
+        "execution_error": null,
+        "time_seconds": 0.98
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "true",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected token '{'",
+        "time_seconds": 508.33
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "true",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected end of input",
+        "time_seconds": 1004.63
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-26 18:51:03.574491",
+    "model": "llama3.2:3b",
+    "strategy": "few-shot",
+    "dataset": "small",
+    "script": "is_prime.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9203,
+        "ast_nodes_original": 92,
+        "ast_nodes_result": 750,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "true",
+        "output_result": "true",
+        "execution_error": null,
+        "time_seconds": 1.02
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "true",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected identifier '_0x5d4f3d'",
+        "time_seconds": 595.53
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.848,
+        "ast_nodes_original": 92,
+        "ast_nodes_result": 108,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "true",
+        "output_result": "[\n    0.4859324068014683,   0.6529114893666241,   0.6134693949991066,\n    0.9107677727032455,   0.3958556733317744,   0.8408769793990065,\n     0.426176175032666,    0.977017671000558,   0.5563731311886406,\n    0.6449992439833994,    0.412203343102977,  0.12423608607249159,\n    0.5486854287980374, 0.008280702702311737,  0.26015219695017655,\n   0.16838829760061613,   0.7749164923497094,   0.3516912122496081,\n    0.2653044310903969,  0.20206393783320475,   0.9641279608506803,\n    0.2458091953419208,  0.14408527914007996,   0.3353035821817636,\n    0.7394256351953339,   0.5996081167306038,  0.24649096801124015,\n      0.73250295123013,    0.493446705305584,  0.37566133122323064,\n  0.012141122196138276,   0.1853535530455903,   0.4944123416082833,\n    0.5310746236176802,   0.8534672423737095,   0.8261939948588974,\n   0.11790121711127965,   0.9760951047329451, 0.010415064821048592,\n   0.05675255777346355,  0.09136427720382301,  0.29898087188301403,\n    0.4728746576726708,   0.1008516756503639,    0.778663713269532,\n    0.8958418647860076,    0.978613119814495,   0.7691225834255393,\n   0.19900155652896312,   0.5387293696378657,  0.23239952344234127,\n  0.008138500389860637,   0.8505370471812275,   0.9008764313588047,\n    0.2315875312384612,   0.7679610370249934,    0.737858565154009,\n    0.6782762808123481,  0.40425949833714925,  0.10585735076004399,\n    0.7420866198911467,   0.4114007724888955,  0.25775987903042696,\n   0.15755796477730355,   0.3537873552700068,   0.4015413151418017,\n    0.6689524162116995,   0.6807728278442395,   0.8955035061678878,\n    0.3522242388351957,   0.6957442821166806,   0.7352215442808516,\n   0.06923831979415018,  0.18117374365068395,    0.689018435651418,\n    0.7512497149060489,   0.6533536722134992,   0.3714893125181131,\n    0.1396274398523496,   0.5775842589714717,   0.9004309581958752,\n   0.21548572296890267,  0.28138060570985424,   0.3448131267924628,\n   0.06088365607724766,   0.3403819803803827,   0.3138450425710628,\n    0.4534724296202579,  0.23740972230748247,   0.9896282802952061,\n    0.7167234974439598, 0.008757267203180819, 0.011219467781811598,\n    0.6302276410646412,   0.4400806218046709,   0.6402574116801167,\n    0.7548526611364601,   0.2712463325182868,   0.9244437706192523,\n    0.6234541192004182,\n  ... 4900 more items\n]",
+        "execution_error": null,
+        "time_seconds": 413.33
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-26 19:12:40.198197",
+    "model": "llama3.2:3b",
+    "strategy": "zero-shot",
+    "dataset": "large",
+    "script": "simple_calculator.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9096,
+        "ast_nodes_original": 269,
+        "ast_nodes_result": 1010,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "execution_error": null,
+        "time_seconds": 0.95
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "",
+        "execution_error": "SyntaxError: Invalid or unexpected token",
+        "time_seconds": 45.03
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected end of input",
+        "time_seconds": 1076.86
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-26 19:39:27.657000",
+    "model": "llama3.2:3b",
+    "strategy": "few-shot",
+    "dataset": "large",
+    "script": "simple_calculator.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9101,
+        "ast_nodes_original": 269,
+        "ast_nodes_result": 1002,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "execution_error": null,
+        "time_seconds": 1.31
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0.9958,
+        "ast_nodes_original": 269,
+        "ast_nodes_result": 393,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false\nCantidad: 6\nSuma: 51\nPromedio: 8.5\nMÃ¡ximo: 13",
+        "execution_error": null,
+        "time_seconds": 560.56
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "",
+        "execution_error": "SyntaxError: Invalid or unexpected token",
+        "time_seconds": 479.56
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-12 13:47:18.077752",
+    "model": "mistral:7b",
+    "strategy": "zero-shot",
+    "dataset": "small",
+    "script": "factorial.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9614,
+        "ast_nodes_original": 58,
+        "ast_nodes_result": 475,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "120",
+        "output_result": "120",
+        "execution_error": null,
+        "time_seconds": 0.98
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0.973,
+        "ast_nodes_original": 58,
+        "ast_nodes_result": 164,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "120",
+        "output_result": "",
+        "execution_error": "ReferenceError: String_fromCharCode is not defined",
+        "time_seconds": 157.1
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "120",
+        "output_result": "",
+        "execution_error": "SyntaxError: missing ) after argument list",
+        "time_seconds": 691.55
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-12 16:14:06.246927",
+    "model": "mistral:7b",
+    "strategy": "few-shot",
+    "dataset": "small",
+    "script": "factorial.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9573,
+        "ast_nodes_original": 58,
+        "ast_nodes_result": 490,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "120",
+        "output_result": "120",
+        "execution_error": null,
+        "time_seconds": 1.84
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "120",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected token '('",
+        "time_seconds": 1662.01
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "120",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected token ')'",
+        "time_seconds": 1316.85
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-12 16:46:48.818728",
+    "model": "mistral:7b",
+    "strategy": "zero-shot",
+    "dataset": "large",
+    "script": "analize_numbers.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9349,
+        "ast_nodes_original": 234,
+        "ast_nodes_result": 1248,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "execution_error": null,
+        "time_seconds": 1.37
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected identifier 'is'",
+        "time_seconds": 1036.65
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected identifier 'appears'",
+        "time_seconds": 908.49
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-12 17:21:45.292981",
+    "model": "mistral:7b",
+    "strategy": "few-shot",
+    "dataset": "large",
+    "script": "analize_numbers.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9488,
+        "ast_nodes_original": 234,
+        "ast_nodes_result": 1229,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "execution_error": null,
+        "time_seconds": 1.91
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0.9055,
+        "ast_nodes_original": 234,
+        "ast_nodes_result": 345,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "",
+        "execution_error": "TypeError: _0x149943 is not a function",
+        "time_seconds": 1203.71
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected token 'of'",
+        "time_seconds": 860.75
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-26 11:43:57.855247",
+    "model": "mistral:7b",
+    "strategy": "zero-shot",
+    "dataset": "small",
+    "script": "fibonacci.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9521,
+        "ast_nodes_original": 79,
+        "ast_nodes_result": 565,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "55",
+        "output_result": "55",
+        "execution_error": null,
+        "time_seconds": 0.98
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "55",
+        "output_result": "",
+        "execution_error": "SyntaxError: Invalid or unexpected token",
+        "time_seconds": 145.1
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.6338,
+        "ast_nodes_original": 79,
+        "ast_nodes_result": 338,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "55",
+        "output_result": "",
+        "execution_error": "TypeError: console[Symbol.for(...)] is not a function",
+        "time_seconds": 851.53
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-26 12:41:40.158636",
+    "model": "mistral:7b",
+    "strategy": "few-shot",
+    "dataset": "small",
+    "script": "fibonacci.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9612,
+        "ast_nodes_original": 79,
+        "ast_nodes_result": 593,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "55",
+        "output_result": "55",
+        "execution_error": null,
+        "time_seconds": 1.13
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "55",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected token ')'",
+        "time_seconds": 1505.05
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.9479,
+        "ast_nodes_original": 79,
+        "ast_nodes_result": 377,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "55",
+        "output_result": "",
+        "execution_error": "Error: Invalid character",
+        "time_seconds": 1546.17
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-26 13:03:24.159590",
+    "model": "mistral:7b",
+    "strategy": "zero-shot",
+    "dataset": "large",
+    "script": "matrix_statistics.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9076,
+        "ast_nodes_original": 307,
+        "ast_nodes_result": 1276,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Matriz generada:\n42\t61\t92\t35\t11\t38\t92\t92\t94\t47\n33\t83\t12\t20\t60\t88\t51\t13\t56\t67\n29\t34\t77\t1\t58\t24\t40\t33\t12\t6\n77\t57\t23\t15\t16\t42\t40\t27\t40\t86\n16\t85\t21\t99\t4\t61\t83\t27\t73\t98\n99\t79\t33\t36\t61\t78\t28\t9\t80\t22\n50\t50\t94\t80\t95\t95\t23\t59\t28\t0\n40\t53\t85\t99\t8\t28\t2\t89\t90\t84\n32\t70\t83\t41\t90\t24\t71\t63\t70\t78\n13\t29\t40\t11\t34\t58\t88\t94\t53\t42\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 5152\nMedia: 51.52\nMÃ¡ximo: 99\nMÃ­nimo: 0",
+        "output_result": "Matriz generada:\n70\t11\t66\t56\t20\t13\t2\t100\t35\t70\n13\t17\t25\t4\t95\t49\t93\t42\t45\t27\n63\t52\t92\t19\t87\t48\t77\t89\t1\t14\n0\t66\t28\t94\t11\t16\t15\t54\t12\t75\n53\t15\t43\t49\t2\t22\t82\t95\t78\t62\n20\t26\t86\t92\t69\t72\t14\t9\t48\t30\n32\t5\t15\t45\t99\t34\t2\t19\t12\t95\n16\t9\t38\t83\t85\t98\t54\t78\t58\t55\n18\t36\t59\t17\t20\t65\t7\t33\t56\t2\n8\t25\t38\t1\t47\t91\t32\t53\t0\t77\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 4350\nMedia: 43.50\nMÃ¡ximo: 100\nMÃ­nimo: 0",
+        "execution_error": null,
+        "time_seconds": 1.35
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0.9982,
+        "ast_nodes_original": 307,
+        "ast_nodes_result": 316,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Matriz generada:\n8\t3\t59\t40\t53\t10\t2\t39\t35\t92\n14\t66\t39\t88\t78\t3\t98\t26\t1\t85\n35\t34\t68\t10\t51\t20\t71\t55\t93\t67\n39\t22\t72\t80\t87\t61\t81\t80\t9\t9\n63\t19\t30\t77\t26\t29\t16\t21\t66\t85\n8\t12\t97\t32\t5\t5\t76\t91\t57\t79\n55\t64\t88\t61\t63\t69\t19\t6\t42\t72\n33\t62\t59\t9\t91\t94\t66\t36\t8\t40\n61\t7\t20\t49\t19\t86\t22\t73\t73\t12\n100\t28\t4\t65\t96\t39\t79\t60\t35\t70\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 4812\nMedia: 48.12\nMÃ¡ximo: 100\nMÃ­nimo: 1",
+        "output_result": "Matriz generada:\n52\t17\t46\t79\t53\t69\t19\t35\t82\t58\t82\t93\t58\t69\t67\t86\t23\t3\t15\t38\t26\t35\t46\t86\t78\t34\t100\t99\t40\t18\t87\t31\t69\t91\t4\t17\t62\t41\t13\t89\t49\t51\t89\t75\t68\t37\t12\t81\t4\t41\t28\t51\t90\t37\t89\t73\t64\t20\t34\t95\t6\t13\t1\t22\n20\t67\t23\t62\t67\t91\t72\t98\t96\t27\t13\t90\t34\t54\t86\t95\t53\t77\t33\t77\t72\t75\t66\t55\t39\t64\t46\t45\t81\t25\t73\t45\t54\t11\t45\t55\t46\t14\t40\t95\t80\t10\t20\t0\t83\t2\t82\t57\t36\t78\t0\t15\t12\t44\t23\t76\t8\t100\t11\t8\t71\t28\t3\t90\n58\t6\t72\t50\t86\t87\t72\t25\t89\t40\t20\t94\t12\t31\t13\t83\t70\t68\t65\t12\t68\t62\t64\t98\t30\t5\t9\t46\t73\t75\t19\t66\t95\t55\t43\t56\t56\t76\t86\t8\t71\t17\t69\t75\t21\t98\t55\t34\t47\t53\t42\t8\t19\t24\t92\t40\t60\t0\t29\t70\t10\t42\t65\t50\n88\t8\t17\t60\t61\t69\t94\t65\t91\t48\t50\t22\t7\t84\t71\t59\t95\t26\t84\t78\t93\t33\t40\t10\t43\t97\t16\t68\t94\t77\t40\t35\t38\t88\t25\t87\t2\t11\t97\t13\t51\t84\t82\t4\t96\t33\t68\t21\t12\t20\t81\t40\t16\t28\t31\t72\t15\t45\t43\t6\t98\t69\t56\t48\n49\t45\t46\t12\t9\t99\t42\t93\t69\t53\t24\t18\t61\t11\t29\t53\t15\t9\t89\t5\t95\t2\t31\t83\t7\t12\t60\t89\t79\t73\t56\t20\t54\t49\t97\t38\t37\t58\t43\t99\t74\t37\t65\t59\t80\t99\t73\t29\t34\t59\t32\t64\t82\t51\t53\t85\t46\t52\t38\t4\t24\t26\t48\t84\n45\t65\t92\t86\t72\t12\t21\t51\t29\t8\t52\t69\t44\t92\t27\t72\t32\t31\t84\t73\t79\t54\t91\t93\t96\t14\t35\t97\t74\t81\t40\t64\t2\t62\t50\t43\t98\t85\t89\t16\t56\t18\t66\t1\t23\t96\t34\t33\t12\t57\t79\t4\t16\t63\t23\t11\t66\t59\t66\t77\t3\t55\t38\t78\n29\t52\t27\t36\t36\t36\t81\t27\t4\t76\t75\t72\t7\t93\t55\t76\t12\t73\t20\t70\t97\t91\t17\t64\t92\t47\t97\t28\t71\t51\t21\t41\t55\t97\t58\t95\t55\t91\t4\t35\t71\t89\t79\t43\t90\t30\t72\t60\t39\t57\t18\t31\t18\t32\t95\t39\t51\t94\t85\t40\t9\t77\t78\t43\n38\t23\t80\t26\t56\t7\t41\t41\t43\t92\t90\t30\t41\t30\t12\t82\t38\t43\t67\t87\t34\t5\t93\t34\t81\t79\t29\t30\t53\t34\t71\t97\t89\t76\t66\t58\t31\t65\t9\t32\t68\t58\t65\t5\t91\t54\t16\t93\t94\t44\t12\t39\t57\t76\t23\t13\t25\t63\t62\t89\t59\t32\t73\t86\n12\t75\t74\t19\t11\t19\t33\t25\t79\t23\t93\t37\t20\t74\t10\t26\t52\t50\t83\t45\t6\t81\t13\t82\t18\t100\t61\t20\t1\t88\t95\t4\t11\t79\t22\t28\t74\t71\t38\t13\t7\t71\t7\t58\t33\t10\t53\t6\t58\t24\t13\t81\t71\t82\t21\t21\t1\t92\t57\t41\t1\t94\t40\t95\n50\t33\t39\t74\t8\t69\t15\t58\t39\t49\t61\t45\t6\t20\t7\t97\t24\t89\t47\t49\t55\t70\t42\t97\t100\t83\t60\t39\t57\t80\t11\t22\t57\t32\t10\t36\t66\t51\t60\t92\t33\t68\t67\t52\t35\t49\t98\t24\t48\t55\t79\t28\t26\t60\t95\t56\t89\t61\t39\t14\t9\t48\t37\t80\n48\t48\t39\t62\t41\t19\t52\t15\t16\t71\t31\t81\t57\t14\t73\t18\t42\t64\t60\t51\t81\t38\t42\t58\t1\t10\t70\t58\t95\t32\t12\t34\t16\t80\t95\t83\t72\t41\t47\t54\t84\t4\t78\t99\t82\t17\t10\t14\t74\t56\t1\t17\t90\t25\t85\t33\t68\t86\t37\t94\t99\t45\t92\t5\n45\t15\t15\t49\t8\t53\t41\t97\t40\t73\t87\t83\t88\t90\t22\t79\t61\t11\t92\t24\t17\t9\t42\t16\t53\t10\t94\t88\t13\t93\t71\t43\t14\t66\t56\t72\t47\t50\t81\t18\t39\t97\t32\t11\t32\t37\t34\t81\t9\t12\t59\t31\t34\t68\t78\t69\t34\t19\t58\t100\t25\t78\t6\t15\n66\t55\t49\t84\t48\t35\t66\t49\t31\t88\t67\t6\t11\t67\t74\t63\t83\t26\t20\t69\t79\t83\t60\t68\t66\t45\t56\t61\t72\t81\t3\t92\t46\t22\t82\t23\t81\t5\t27\t96\t16\t46\t77\t64\t41\t14\t51\t46\t87\t97\t90\t46\t74\t76\t12\t2\t28\t32\t79\t12\t96\t85\t40\t59\n20\t54\t94\t18\t5\t52\t3\t3\t46\t80\t13\t70\t25\t4\t78\t35\t63\t95\t37\t95\t1\t5\t45\t83\t19\t52\t22\t57\t96\t95\t32\t67\t13\t20\t37\t84\t54\t79\t32\t13\t29\t66\t97\t68\t24\t41\t96\t38\t85\t58\t47\t62\t60\t40\t56\t20\t83\t20\t21\t35\t95\t60\t57\t65\n48\t65\t84\t43\t85\t44\t92\t2\t98\t41\t36\t87\t18\t4\t13\t28\t97\t43\t22\t45\t93\t44\t22\t35\t23\t34\t78\t30\t46\t51\t66\t30\t23\t34\t40\t94\t14\t82\t8\t85\t96\t26\t32\t13\t23\t37\t46\t52\t43\t88\t83\t83\t23\t90\t86\t84\t81\t76\t42\t83\t29\t49\t28\t21\n98\t85\t58\t6\t26\t98\t93\t92\t26\t27\t93\t10\t13\t18\t57\t4\t73\t75\t14\t97\t84\t2\t85\t27\t87\t24\t19\t18\t47\t3\t23\t45\t61\t35\t57\t79\t92\t19\t50\t95\t77\t30\t41\t56\t24\t81\t7\t89\t75\t20\t99\t2\t0\t44\t33\t45\t77\t20\t92\t39\t5\t10\t88\t9\n3\t7\t14\t14\t9\t33\t71\t41\t100\t94\t90\t49\t32\t43\t32\t0\t90\t66\t62\t52\t7\t77\t24\t41\t60\t90\t96\t54\t100\t80\t83\t24\t65\t14\t6\t45\t72\t86\t54\t69\t99\t11\t63\t47\t98\t30\t68\t95\t83\t9\t18\t50\t64\t41\t7\t86\t63\t40\t60\t69\t15\t72\t4\t11\n63\t4\t71\t65\t80\t96\t60\t60\t73\t98\t22\t21\t53\t62\t2\t77\t41\t47\t13\t58\t4\t59\t57\t59\t58\t3\t55\t91\t98\t53\t12\t80\t26\t57\t38\t56\t83\t85\t38\t0\t81\t99\t18\t44\t37\t26\t83\t49\t94\t12\t2\t87\t49\t3\t50\t80\t96\t72\t8\t0\t85\t62\t42\t83\n45\t59\t39\t9\t69\t19\t72\t73\t11\t70\t85\t33\t53\t28\t44\t44\t84\t33\t24\t90\t58\t93\t42\t24\t62\t71\t11\t19\t70\t34\t3\t79\t49\t18\t72\t20\t49\t26\t93\t38\t49\t24\t27\t72\t98\t81\t82\t79\t10\t50\t80\t70\t30\t59\t32\t97\t33\t53\t49\t38\t12\t27\t92\t74\n43\t57\t6\t7\t88\t71\t7\t24\t99\t14\t59\t95\t12\t6\t91\t84\t52\t34\t40\t2\t71\t86\t92\t46\t66\t2\t38\t80\t40\t46\t92\t17\t90\t73\t72\t74\t94\t58\t6\t54\t79\t9\t87\t4\t85\t68\t3\t10\t93\t86\t66\t34\t33\t24\t78\t28\t67\t17\t60\t20\t0\t95\t79\t86\n16\t11\t87\t4\t7\t94\t32\t10\t49\t12\t52\t3\t3\t47\t51\t37\t51\t59\t66\t80\t14\t11\t43\t68\t75\t32\t16\t82\t25\t15\t82\t90\t25\t62\t38\t21\t56\t52\t72\t88\t57\t70\t90\t71\t36\t77\t82\t55\t76\t20\t51\t28\t54\t66\t61\t70\t77\t42\t72\t53\t69\t33\t24\t24\n54\t52\t64\t32\t68\t91\t30\t51\t58\t45\t83\t43\t83\t9\t13\t70\t28\t2\t48\t83\t69\t61\t65\t82\t78\t91\t36\t2\t66\t93\t66\t8\t12\t36\t13\t22\t15\t72\t17\t58\t86\t28\t82\t48\t39\t1\t31\t95\t60\t61\t2\t91\t95\t34\t65\t81\t66\t24\t69\t27\t28\t65\t54\t56\n63\t98\t63\t17\t97\t35\t88\t83\t5\t94\t33\t53\t82\t6\t96\t28\t72\t8\t42\t84\t47\t51\t24\t44\t52\t62\t55\t21\t79\t67\t62\t25\t48\t78\t82\t54\t90\t43\t31\t48\t67\t40\t26\t93\t3\t76\t59\t41\t31\t57\t8\t73\t75\t7\t26\t29\t23\t99\t27\t91\t32\t85\t99\t25\n6\t33\t20\t26\t31\t81\t32\t74\t86\t0\t46\t26\t88\t86\t72\t5\t76\t87\t79\t35\t47\t94\t29\t98\t69\t20\t94\t62\t22\t81\t65\t83\t87\t88\t24\t64\t12\t71\t42\t30\t72\t26\t32\t46\t58\t95\t1\t50\t71\t8\t48\t35\t88\t21\t45\t92\t51\t61\t93\t67\t35\t18\t20\t75\n41\t52\t48\t49\t63\t34\t54\t37\t6\t42\t97\t55\t18\t54\t17\t37\t56\t81\t71\t51\t90\t20\t16\t100\t82\t48\t15\t31\t77\t17\t17\t33\t98\t79\t14\t94\t71\t48\t79\t74\t92\t50\t13\t74\t85\t5\t18\t73\t89\t25\t24\t6\t33\t81\t45\t65\t3\t16\t88\t68\t64\t56\t24\t61\n29\t0\t56\t41\t69\t45\t10\t89\t4\t19\t3\t71\t17\t36\t56\t97\t66\t74\t11\t4\t2\t76\t49\t70\t28\t80\t69\t33\t43\t41\t9\t63\t40\t95\t79\t73\t33\t57\t67\t46\t88\t45\t57\t2\t20\t55\t74\t77\t28\t40\t56\t63\t60\t23\t4\t60\t41\t71\t69\t36\t64\t49\t93\t97\n14\t22\t99\t12\t100\t45\t10\t68\t29\t43\t45\t50\t86\t53\t23\t67\t32\t18\t53\t99\t17\t69\t93\t88\t36\t81\t86\t39\t1\t11\t61\t78\t56\t40\t23\t0\t39\t81\t36\t59\t54\t96\t36\t96\t7\t57\t49\t73\t6\t76\t65\t20\t58\t57\t72\t54\t73\t35\t99\t7\t58\t3\t13\t66\n10\t31\t62\t43\t12\t26\t49\t56\t71\t63\t6\t100\t67\t16\t47\t12\t19\t61\t18\t76\t47\t36\t76\t30\t24\t83\t15\t61\t27\t48\t34\t38\t28\t95\t12\t79\t20\t32\t40\t81\t19\t76\t31\t5\t72\t20\t85\t27\t37\t61\t79\t14\t42\t66\t71\t44\t95\t35\t60\t1\t56\t37\t96\t75\n23\t88\t39\t26\t87\t87\t46\t11\t32\t16\t84\t89\t28\t95\t65\t46\t19\t38\t38\t31\t72\t18\t71\t80\t21\t36\t17\t12\t9\t19\t77\t87\t58\t11\t25\t91\t4\t45\t12\t24\t81\t59\t36\t68\t99\t60\t69\t14\t21\t29\t84\t69\t58\t90\t74\t58\t52\t96\t22\t2\t2\t75\t74\t16\n64\t25\t53\t65\t87\t88\t51\t75\t11\t62\t1\t99\t88\t56\t39\t43\t91\t9\t74\t96\t96\t25\t69\t29\t33\t61\t37\t57\t47\t68\t48\t85\t74\t80\t14\t0\t85\t21\t34\t58\t95\t46\t69\t21\t72\t83\t75\t2\t71\t70\t61\t6\t67\t61\t56\t66\t60\t95\t64\t70\t13\t79\t96\t91\n53\t12\t85\t26\t13\t3\t76\t89\t74\t94\t86\t85\t81\t66\t65\t41\t62\t54\t58\t73\t74\t88\t49\t34\t11\t81\t86\t99\t88\t80\t74\t78\t1\t18\t64\t17\t24\t12\t100\t68\t20\t60\t83\t59\t7\t90\t67\t41\t80\t12\t42\t28\t65\t80\t50\t81\t78\t35\t25\t66\t13\t0\t59\t17\n92\t19\t56\t42\t78\t99\t96\t66\t39\t12\t62\t32\t0\t49\t23\t72\t37\t16\t81\t46\t44\t28\t12\t62\t51\t94\t64\t7\t33\t76\t4\t82\t79\t67\t70\t53\t72\t6\t0\t33\t77\t79\t37\t48\t94\t2\t84\t24\t67\t15\t34\t19\t55\t22\t88\t26\t65\t25\t58\t60\t77\t17\t71\t87\n11\t45\t89\t41\t6\t26\t71\t12\t73\t44\t62\t50\t79\t55\t56\t2\t83\t86\t79\t21\t85\t68\t81\t59\t16\t49\t71\t30\t21\t56\t75\t10\t28\t94\t16\t74\t86\t12\t34\t79\t52\t84\t28\t32\t23\t25\t20\t81\t82\t88\t12\t65\t89\t40\t68\t74\t63\t55\t32\t5\t14\t21\t33\t94\n28\t87\t9\t76\t73\t69\t37\t17\t23\t3\t17\t55\t22\t10\t31\t56\t13\t16\t91\t19\t57\t75\t34\t51\t42\t3\t97\t13\t34\t11\t100\t64\t61\t27\t16\t32\t71\t100\t84\t58\t59\t34\t34\t54\t26\t56\t95\t78\t94\t58\t26\t5\t75\t19\t33\t60\t80\t73\t99\t33\t23\t71\t72\t37\n77\t93\t83\t9\t46\t86\t0\t31\t74\t22\t0\t39\t29\t58\t8\t75\t77\t17\t38\t50\t99\t32\t42\t61\t49\t92\t63\t78\t21\t97\t4\t28\t88\t30\t43\t92\t12\t39\t70\t77\t40\t38\t14\t19\t91\t49\t54\t73\t45\t74\t29\t72\t11\t16\t40\t15\t86\t50\t0\t91\t12\t15\t69\t8\n39\t23\t0\t22\t30\t28\t5\t3\t77\t17\t50\t57\t15\t21\t33\t3\t7\t56\t74\t71\t19\t17\t27\t39\t69\t74\t99\t18\t97\t84\t40\t19\t24\t34\t45\t91\t39\t8\t43\t47\t26\t87\t78\t71\t94\t81\t41\t91\t36\t47\t68\t53\t10\t10\t41\t60\t44\t98\t32\t34\t46\t21\t69\t63\n39\t86\t99\t17\t16\t71\t92\t4\t49\t22\t99\t28\t84\t34\t28\t28\t57\t30\t57\t22\t97\t51\t65\t5\t1\t85\t70\t4\t91\t13\t44\t55\t83\t77\t74\t44\t38\t14\t58\t8\t16\t81\t52\t98\t98\t17\t57\t94\t51\t54\t95\t43\t10\t89\t57\t92\t84\t25\t29\t63\t39\t4\t16\t0\n89\t43\t37\t41\t4\t77\t79\t81\t87\t24\t100\t34\t83\t82\t100\t48\t56\t43\t20\t68\t83\t55\t37\t4\t56\t42\t86\t87\t76\t71\t83\t28\t25\t11\t12\t54\t69\t4\t33\t46\t9\t55\t7\t62\t15\t16\t70\t68\t97\t78\t85\t66\t10\t43\t49\t15\t30\t27\t66\t70\t2\t20\t12\t59\n12\t23\t6\t25\t89\t9\t90\t37\t94\t53\t91\t77\t50\t98\t96\t77\t63\t70\t7\t72\t18\t38\t82\t45\t40\t44\t92\t18\t64\t11\t48\t24\t12\t32\t26\t63\t6\t35\t53\t92\t39\t39\t37\t85\t46\t85\t5\t93\t33\t63\t20\t83\t72\t12\t48\t97\t88\t65\t46\t31\t52\t78\t85\t49\n52\t84\t79\t31\t32\t73\t61\t96\t44\t88\t44\t95\t75\t88\t62\t27\t33\t46\t35\t38\t93\t77\t1\t20\t14\t32\t32\t83\t29\t35\t94\t55\t76\t50\t8\t60\t90\t30\t26\t15\t1\t66\t77\t93\t41\t90\t40\t30\t21\t36\t23\t19\t87\t28\t84\t81\t67\t1\t28\t6\t0\t7\t94\t80\n76\t20\t5\t59\t63\t75\t59\t57\t26\t81\t49\t77\t38\t69\t65\t40\t63\t94\t34\t63\t11\t0\t5\t62\t45\t66\t88\t68\t50\t75\t23\t76\t99\t20\t45\t83\t81\t97\t37\t68\t62\t34\t73\t76\t82\t10\t58\t98\t93\t46\t24\t48\t81\t97\t38\t87\t70\t45\t29\t89\t73\t30\t70\t78\n13\t83\t92\t1\t35\t27\t7\t93\t5\t72\t57\t14\t59\t1\t75\t44\t17\t50\t40\t30\t36\t44\t31\t28\t24\t76\t92\t29\t68\t10\t44\t45\t1\t72\t54\t14\t90\t50\t29\t58\t99\t84\t25\t6\t6\t53\t55\t45\t11\t59\t73\t43\t6\t62\t53\t22\t25\t39\t1\t24\t99\t94\t61\t56\n41\t88\t63\t31\t100\t0\t97\t79\t99\t70\t29\t17\t27\t47\t17\t76\t82\t75\t64\t33\t77\t37\t75\t51\t39\t49\t48\t48\t13\t32\t41\t0\t95\t22\t14\t19\t24\t39\t13\t74\t88\t16\t92\t20\t10\t36\t67\t11\t42\t72\t34\t27\t5\t70\t6\t56\t82\t44\t87\t88\t83\t67\t31\t1\n9\t34\t68\t20\t65\t70\t10\t63\t14\t33\t56\t67\t28\t61\t74\t83\t51\t88\t68\t51\t32\t38\t88\t85\t34\t37\t81\t98\t21\t83\t90\t31\t93\t7\t12\t62\t65\t90\t20\t39\t69\t58\t70\t30\t4\t39\t6\t49\t92\t27\t3\t43\t55\t59\t73\t82\t58\t22\t94\t36\t80\t82\t17\t24\n69\t79\t81\t76\t31\t25\t85\t20\t5\t97\t49\t33\t83\t94\t59\t58\t18\t93\t64\t38\t43\t84\t17\t17\t18\t95\t3\t64\t68\t33\t83\t69\t3\t67\t30\t32\t65\t93\t14\t66\t38\t91\t74\t57\t88\t27\t33\t20\t99\t93\t12\t53\t3\t4\t61\t9\t59\t2\t37\t73\t40\t64\t98\t96\n4\t82\t54\t93\t75\t15\t11\t69\t36\t93\t73\t4\t65\t96\t48\t70\t0\t54\t22\t1\t4\t88\t57\t25\t63\t53\t61\t20\t40\t59\t67\t25\t39\t41\t83\t28\t35\t97\t100\t70\t66\t43\t58\t3\t19\t49\t42\t56\t13\t64\t20\t50\t51\t27\t95\t58\t60\t19\t43\t42\t63\t79\t58\t13\n94\t70\t10\t48\t80\t8\t56\t49\t19\t85\t58\t52\t33\t1\t86\t95\t67\t61\t32\t96\t0\t97\t88\t67\t22\t97\t55\t35\t14\t89\t29\t46\t93\t21\t36\t70\t84\t85\t3\t90\t8\t34\t75\t57\t62\t27\t36\t94\t53\t96\t30\t11\t17\t2\t84\t78\t92\t19\t73\t11\t69\t79\t16\t7\n14\t73\t26\t53\t7\t35\t73\t4\t56\t60\t3\t91\t49\t0\t80\t40\t45\t77\t35\t62\t27\t33\t80\t25\t10\t60\t88\t60\t68\t0\t34\t17\t6\t45\t95\t20\t15\t13\t49\t57\t15\t31\t70\t7\t91\t59\t77\t46\t61\t5\t99\t69\t94\t9\t60\t87\t12\t43\t36\t37\t45\t79\t87\t92\n24\t74\t65\t83\t76\t76\t67\t26\t77\t77\t53\t68\t100\t56\t54\t11\t32\t50\t80\t86\t90\t55\t66\t97\t86\t69\t60\t46\t83\t72\t81\t28\t65\t48\t53\t78\t54\t49\t84\t21\t48\t17\t72\t55\t25\t44\t53\t100\t83\t61\t38\t94\t26\t66\t72\t36\t12\t57\t44\t76\t88\t43\t86\t40\n80\t19\t28\t50\t63\t65\t45\t83\t13\t55\t27\t43\t57\t99\t20\t64\t29\t70\t46\t81\t93\t16\t63\t28\t54\t47\t92\t20\t60\t69\t71\t74\t22\t44\t79\t10\t40\t93\t69\t93\t35\t40\t72\t84\t99\t14\t32\t23\t26\t72\t59\t9\t100\t24\t82\t43\t48\t100\t40\t28\t2\t97\t79\t79\n25\t2\t71\t26\t52\t78\t63\t32\t40\t58\t56\t86\t23\t10\t2\t28\t18\t8\t5\t33\t33\t68\t58\t71\t7\t34\t49\t96\t21\t98\t46\t9\t2\t64\t68\t92\t80\t95\t56\t71\t40\t16\t81\t62\t85\t1\t100\t91\t75\t77\t100\t82\t86\t70\t44\t35\t37\t3\t45\t21\t68\t15\t25\t67\n43\t12\t27\t83\t18\t21\t86\t86\t95\t13\t78\t35\t7\t22\t77\t41\t82\t26\t82\t22\t97\t46\t38\t57\t9\t53\t22\t32\t10\t1\t42\t68\t14\t14\t37\t33\t12\t49\t99\t99\t29\t63\t62\t40\t46\t27\t39\t56\t30\t27\t9\t6\t27\t14\t100\t68\t44\t54\t20\t20\t50\t60\t80\t28\n27\t18\t54\t11\t64\t50\t81\t46\t40\t39\t21\t51\t14\t88\t26\t23\t71\t82\t52\t36\t83\t32\t83\t21\t32\t9\t94\t61\t51\t65\t10\t58\t33\t91\t2\t34\t42\t74\t19\t5\t36\t17\t46\t97\t16\t48\t53\t81\t84\t60\t13\t99\t52\t63\t82\t43\t75\t80\t57\t87\t59\t34\t44\t51\n90\t56\t15\t72\t23\t5\t90\t95\t60\t67\t71\t61\t28\t41\t92\t57\t40\t49\t69\t84\t60\t78\t16\t88\t26\t49\t98\t3\t24\t5\t7\t64\t23\t56\t33\t43\t10\t0\t51\t27\t9\t84\t95\t43\t45\t4\t27\t49\t25\t11\t56\t34\t34\t46\t7\t24\t32\t76\t70\t33\t64\t32\t44\t38\n30\t9\t15\t56\t97\t46\t27\t8\t45\t89\t59\t49\t71\t8\t50\t45\t82\t70\t67\t100\t22\t39\t39\t69\t8\t61\t30\t11\t4\t34\t29\t63\t91\t8\t28\t8\t46\t61\t28\t74\t99\t4\t16\t24\t19\t66\t93\t18\t62\t98\t69\t59\t28\t22\t29\t21\t71\t93\t44\t8\t46\t6\t40\t27\n93\t15\t67\t90\t93\t72\t3\t75\t100\t53\t3\t33\t39\t22\t32\t35\t5\t28\t26\t13\t43\t80\t63\t63\t1\t69\t7\t3\t69\t11\t75\t80\t5\t27\t9\t73\t21\t50\t31\t80\t67\t80\t3\t12\t41\t79\t61\t96\t70\t73\t63\t82\t46\t41\t6\t30\t0\t85\t5\t46\t17\t14\t100\t42\n95\t71\t82\t77\t66\t3\t5\t41\t56\t86\t14\t2\t86\t75\t41\t50\t6\t78\t24\t56\t73\t38\t33\t17\t64\t17\t79\t81\t56\t6\t93\t76\t89\t26\t5\t82\t41\t2\t98\t44\t63\t94\t47\t46\t90\t8\t2\t51\t38\t99\t69\t68\t39\t4\t66\t32\t14\t37\t92\t10\t18\t45\t43\t4\n37\t38\t5\t20\t46\t13\t79\t75\t23\t85\t56\t70\t66\t64\t61\t94\t88\t75\t30\t53\t13\t6\t72\t48\t25\t57\t51\t3\t19\t18\t6\t97\t19\t85\t13\t15\t71\t6\t17\t39\t82\t66\t11\t30\t50\t89\t46\t37\t12\t47\t83\t63\t92\t90\t89\t47\t14\t90\t31\t76\t54\t66\t42\t50\n79\t28\t72\t16\t11\t55\t74\t12\t53\t53\t17\t43\t46\t54\t33\t72\t60\t28\t68\t30\t42\t76\t81\t14\t49\t1\t46\t61\t17\t35\t5\t84\t63\t88\t82\t16\t85\t57\t97\t72\t94\t70\t24\t31\t89\t29\t66\t74\t88\t99\t68\t12\t59\t2\t0\t23\t36\t61\t96\t28\t16\t61\t58\t64\n5\t28\t0\t84\t51\t78\t74\t93\t65\t64\t32\t15\t4\t11\t96\t86\t20\t62\t74\t65\t70\t69\t50\t75\t71\t71\t39\t69\t59\t76\t81\t49\t5\t82\t55\t91\t39\t94\t77\t7\t47\t96\t99\t8\t53\t43\t91\t77\t4\t19\t96\t40\t80\t78\t77\t35\t88\t61\t34\t10\t28\t49\t97\t82\n53\t2\t40\t51\t19\t39\t42\t17\t98\t43\t80\t96\t67\t89\t45\t27\t25\t10\t13\t91\t82\t63\t22\t78\t43\t64\t79\t24\t54\t12\t94\t61\t49\t37\t28\t4\t12\t71\t69\t15\t4\t48\t40\t58\t5\t46\t14\t75\t63\t8\t15\t49\t12\t92\t89\t58\t89\t99\t65\t84\t90\t18\t75\t23\n73\t9\t21\t68\t37\t73\t4\t78\t97\t61\t26\t52\t82\t100\t11\t64\t61\t9\t76\t4\t96\t57\t14\t46\t63\t23\t98\t29\t57\t15\t35\t79\t41\t89\t23\t89\t32\t32\t81\t65\t25\t66\t48\t14\t27\t23\t24\t62\t10\t50\t58\t29\t84\t90\t38\t18\t91\t84\t2\t54\t57\t99\t86\t78\n26\t30\t86\t1\t67\t83\t4\t12\t67\t48\t74\t100\t82\t15\t90\t50\t69\t13\t10\t45\t67\t89\t28\t22\t0\t58\t5\t27\t26\t0\t88\t68\t67\t7\t23\t23\t4\t22\t32\t23\t36\t81\t30\t5\t44\t13\t50\t72\t75\t79\t11\t56\t36\t33\t38\t25\t89\t57\t84\t10\t7\t65\t42\t90\n14\t15\t19\t68\t53\t54\t6\t96\t6\t15\t95\t35\t24\t25\t73\t14\t63\t22\t54\t95\t73\t45\t46\t0\t95\t38\t21\t49\t96\t5\t13\t13\t52\t44\t45\t44\t84\t27\t71\t36\t3\t13\t15\t69\t48\t16\t30\t9\t71\t39\t27\t76\t23\t75\t52\t94\t9\t55\t54\t54\t2\t9\t77\t31\n\nEstadÃ­sticas:\nFilas: 64\nColumnas: 64\nTotal elementos: 4096\nSuma: 204747\nMedia: 49.99\nMÃ¡ximo: 100\nMÃ­nimo: 0",
+        "execution_error": null,
+        "time_seconds": 326.25
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "Matriz generada:\n64\t30\t97\t79\t83\t36\t64\t60\t64\t49\n27\t46\t37\t57\t78\t8\t59\t80\t45\t9\n31\t7\t68\t32\t3\t28\t61\t35\t1\t70\n31\t29\t65\t96\t74\t45\t87\t9\t18\t83\n48\t76\t39\t43\t98\t100\t10\t10\t21\t69\n71\t79\t87\t85\t64\t30\t37\t93\t11\t76\n54\t35\t33\t87\t35\t33\t64\t26\t89\t58\n7\t4\t45\t60\t94\t3\t62\t21\t29\t11\n51\t0\t50\t80\t88\t81\t30\t85\t54\t47\n64\t95\t61\t57\t14\t31\t8\t49\t32\t83\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 5002\nMedia: 50.02\nMÃ¡ximo: 100\nMÃ­nimo: 0",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected identifier 'appears'",
+        "time_seconds": 963.05
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-26 13:55:09.324959",
+    "model": "mistral:7b",
+    "strategy": "few-shot",
+    "dataset": "large",
+    "script": "matrix_statistics.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.8958,
+        "ast_nodes_original": 307,
+        "ast_nodes_result": 1160,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Matriz generada:\n74\t16\t57\t34\t43\t100\t84\t2\t95\t51\n24\t22\t7\t80\t86\t54\t37\t38\t98\t64\n34\t14\t85\t30\t80\t72\t64\t37\t38\t1\n35\t37\t22\t23\t66\t16\t47\t93\t40\t75\n30\t63\t45\t41\t32\t60\t30\t97\t72\t44\n62\t53\t58\t44\t41\t56\t66\t28\t41\t97\n59\t2\t98\t74\t8\t69\t52\t13\t56\t9\n44\t37\t22\t52\t70\t91\t60\t16\t64\t37\n44\t81\t6\t44\t54\t64\t31\t56\t46\t65\n26\t8\t99\t46\t8\t65\t42\t53\t75\t58\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 4939\nMedia: 49.39\nMÃ¡ximo: 100\nMÃ­nimo: 1",
+        "output_result": "Matriz generada:\n75\t18\t35\t19\t86\t34\t16\t30\t80\t24\n68\t44\t81\t84\t31\t34\t17\t73\t45\t86\n80\t45\t37\t45\t11\t22\t27\t51\t90\t48\n80\t53\t57\t12\t79\t0\t1\t86\t83\t60\n70\t2\t43\t58\t86\t93\t64\t25\t72\t92\n72\t31\t60\t19\t94\t93\t31\t70\t96\t2\n68\t9\t71\t4\t100\t50\t22\t73\t53\t89\n35\t45\t51\t67\t35\t33\t26\t90\t4\t48\n46\t75\t46\t25\t50\t0\t40\t41\t52\t75\n76\t99\t15\t68\t15\t44\t41\t16\t15\t84\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 5016\nMedia: 50.16\nMÃ¡ximo: 100\nMÃ­nimo: 0",
+        "execution_error": null,
+        "time_seconds": 1.31
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "Matriz generada:\n62\t52\t60\t82\t42\t69\t15\t48\t73\t31\n17\t67\t27\t87\t38\t89\t19\t27\t38\t35\n43\t28\t68\t85\t19\t79\t85\t89\t68\t41\n22\t43\t78\t69\t22\t52\t27\t34\t29\t21\n45\t19\t25\t99\t49\t61\t57\t68\t70\t48\n8\t78\t87\t71\t49\t0\t34\t87\t29\t77\n56\t56\t55\t64\t20\t36\t61\t21\t45\t51\n13\t96\t4\t44\t82\t75\t52\t53\t81\t4\n13\t87\t58\t69\t59\t24\t41\t19\t87\t65\n63\t84\t22\t13\t74\t49\t37\t3\t31\t12\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 4920\nMedia: 49.20\nMÃ¡ximo: 99\nMÃ­nimo: 0",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected identifier 'generateMatrix'",
+        "time_seconds": 2088.45
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "Matriz generada:\n72\t4\t76\t43\t5\t56\t58\t98\t99\t43\n23\t84\t30\t16\t21\t4\t68\t61\t52\t75\n51\t64\t3\t11\t100\t82\t96\t32\t38\t93\n27\t51\t21\t43\t51\t34\t14\t30\t91\t92\n65\t50\t41\t13\t27\t64\t2\t45\t19\t13\n89\t3\t58\t20\t87\t75\t11\t34\t68\t46\n67\t20\t85\t4\t5\t74\t64\t26\t49\t93\n6\t19\t73\t6\t14\t44\t48\t25\t54\t66\n73\t14\t87\t90\t32\t47\t70\t84\t63\t98\n7\t67\t23\t27\t5\t37\t80\t69\t1\t85\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 4743\nMedia: 47.43\nMÃ¡ximo: 100\nMÃ­nimo: 1",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected identifier 'uJuNO'",
+        "time_seconds": 975.64
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-27 16:34:24.224679",
+    "model": "mistral:7b",
+    "strategy": "zero-shot",
+    "dataset": "small",
+    "script": "is_prime.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9215,
+        "ast_nodes_original": 92,
+        "ast_nodes_result": 866,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "true",
+        "output_result": "true",
+        "execution_error": null,
+        "time_seconds": 1.28
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0.9933,
+        "ast_nodes_original": 92,
+        "ast_nodes_result": 113,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "true",
+        "output_result": "true",
+        "execution_error": null,
+        "time_seconds": 151.08
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "true",
+        "output_result": "",
+        "execution_error": "SyntaxError: missing ) after argument list",
+        "time_seconds": 1198.93
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-27 17:52:07.683256",
+    "model": "mistral:7b",
+    "strategy": "zero-shot",
+    "dataset": "large",
+    "script": "simple_calculator.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9048,
+        "ast_nodes_original": 269,
+        "ast_nodes_result": 951,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "execution_error": null,
+        "time_seconds": 1.04
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected identifier 'is'",
+        "time_seconds": 1053.77
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.8741,
+        "ast_nodes_original": 269,
+        "ast_nodes_result": 498,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "",
+        "execution_error": "TypeError: operations[0] is not a function",
+        "time_seconds": 1207.3
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-28 09:12:29.390546",
+    "model": "mistral:7b",
+    "strategy": "few-shot",
+    "dataset": "small",
+    "script": "is_prime.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9194,
+        "ast_nodes_original": 92,
+        "ast_nodes_result": 703,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "true",
+        "output_result": "true",
+        "execution_error": null,
+        "time_seconds": 1.99
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "true",
+        "output_result": "",
+        "execution_error": "SyntaxError: Unexpected token ')'",
+        "time_seconds": 1148.93
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.8187,
+        "ast_nodes_original": 92,
+        "ast_nodes_result": 257,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "true",
+        "output_result": "true",
+        "execution_error": null,
+        "time_seconds": 1093.74
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-28 10:15:11.324431",
+    "model": "mistral:7b",
+    "strategy": "few-shot",
+    "dataset": "large",
+    "script": "simple_calculator.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.912,
+        "ast_nodes_original": 269,
+        "ast_nodes_result": 963,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "execution_error": null,
+        "time_seconds": 1.35
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0,
+        "ast_nodes_original": 0,
+        "ast_nodes_result": 0,
+        "ast_parse_error": "fileB",
+        "functional_match": false,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "",
+        "execution_error": "SyntaxError: Invalid or unexpected token",
+        "time_seconds": 1874.85
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.9509,
+        "ast_nodes_original": 269,
+        "ast_nodes_result": 342,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "Calculadora simple\n5 + 3: 8\n5 - 3: 2\n5 * 3: 15\n5 / 3: 1.6666666666666667\n5^3: 125\nâˆš5: 2.23606797749979\n5!: 120\nPrimo 5: true",
+        "execution_error": null,
+        "time_seconds": 1738.64
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-12 12:03:29.843593",
+    "model": "qwen2.5-coder:7b",
+    "strategy": "zero-shot",
+    "dataset": "small",
+    "script": "factorial.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9572,
+        "ast_nodes_original": 58,
+        "ast_nodes_result": 482,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "120",
+        "output_result": "120",
+        "execution_error": null,
+        "time_seconds": 1.0
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 1,
+        "ast_nodes_original": 58,
+        "ast_nodes_result": 58,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "120",
+        "output_result": "120",
+        "execution_error": null,
+        "time_seconds": 71.07
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.9668,
+        "ast_nodes_original": 58,
+        "ast_nodes_result": 460,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "120",
+        "output_result": "",
+        "execution_error": "timeout",
+        "time_seconds": 708.45
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-12 12:38:47.204677",
+    "model": "qwen2.5-coder:7b",
+    "strategy": "few-shot",
+    "dataset": "small",
+    "script": "factorial.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9575,
+        "ast_nodes_original": 58,
+        "ast_nodes_result": 462,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "120",
+        "output_result": "120",
+        "execution_error": null,
+        "time_seconds": 1.76
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0.9477,
+        "ast_nodes_original": 58,
+        "ast_nodes_result": 351,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "120",
+        "output_result": "",
+        "execution_error": "ReferenceError: a0_0x68e4 is not defined",
+        "time_seconds": 1311.79
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 1,
+        "ast_nodes_original": 58,
+        "ast_nodes_result": 58,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "120",
+        "output_result": "120",
+        "execution_error": null,
+        "time_seconds": 739.41
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-12 13:05:05.754888",
+    "model": "qwen2.5-coder:7b",
+    "strategy": "zero-shot",
+    "dataset": "large",
+    "script": "analize_numbers.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9449,
+        "ast_nodes_original": 234,
+        "ast_nodes_result": 1278,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "execution_error": null,
+        "time_seconds": 3.6
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 1,
+        "ast_nodes_original": 234,
+        "ast_nodes_result": 234,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "execution_error": null,
+        "time_seconds": 556.38
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.9004,
+        "ast_nodes_original": 234,
+        "ast_nodes_result": 34,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "",
+        "execution_error": null,
+        "time_seconds": 943.45
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-12 13:32:57.471219",
+    "model": "qwen2.5-coder:7b",
+    "strategy": "few-shot",
+    "dataset": "large",
+    "script": "analize_numbers.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9454,
+        "ast_nodes_original": 234,
+        "ast_nodes_result": 966,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "execution_error": null,
+        "time_seconds": 1.42
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 1,
+        "ast_nodes_original": 234,
+        "ast_nodes_result": 234,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "execution_error": null,
+        "time_seconds": 850.43
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.9642,
+        "ast_nodes_original": 234,
+        "ast_nodes_result": 58,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "AnÃ¡lisis de nÃºmeros primos:\nLÃ­mite: 200\nCantidad: 46\nSuma: 4227\nMedia: 91.89\nMÃ¡ximo: 199",
+        "output_result": "eeRWUAT`C@OkGwViwsROuwfdyBOGLIGrKkCaXfVtBEaEJjLPDEbddtyuHxkEtkOxIEeqyfpMwKRqoF`fuBqMxdD`WmiFDKvtEahgCCfIqPMPQyDm`IOyMoYGQA@XTlGuJltBdi@OoIAweYnDGicuxhIsDumYtYGheMldUhdOqqSMGAyQI@HruvTmspUSbVFIhAAXoTdTbDnXvQWXdEWjVXtFj@LXpnxDcEmW@Ca@rBRnYaCakxYtyVCnrBspiNhp",
+        "execution_error": null,
+        "time_seconds": 799.7
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-25 13:08:12.290053",
+    "model": "qwen2.5-coder:7b",
+    "strategy": "zero-shot",
+    "dataset": "small",
+    "script": "fibonacci.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9614,
+        "ast_nodes_original": 79,
+        "ast_nodes_result": 734,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "55",
+        "output_result": "55",
+        "execution_error": null,
+        "time_seconds": 1.31
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0.9984,
+        "ast_nodes_original": 79,
+        "ast_nodes_result": 85,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "55",
+        "output_result": "55",
+        "execution_error": null,
+        "time_seconds": 156.11
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.9268,
+        "ast_nodes_original": 79,
+        "ast_nodes_result": 197,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "55",
+        "output_result": "34",
+        "execution_error": null,
+        "time_seconds": 841.06
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-25 13:43:00.050636",
+    "model": "qwen2.5-coder:7b",
+    "strategy": "few-shot",
+    "dataset": "large",
+    "script": "matrix_statistics.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9079,
+        "ast_nodes_original": 307,
+        "ast_nodes_result": 1238,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Matriz generada:\n100\t63\t16\t79\t60\t11\t40\t30\t35\t19\n90\t41\t0\t95\t15\t63\t9\t35\t97\t83\n84\t59\t79\t67\t23\t51\t53\t89\t90\t95\n37\t45\t98\t85\t91\t65\t1\t31\t26\t72\n94\t57\t94\t89\t16\t61\t22\t47\t34\t9\n3\t65\t68\t33\t96\t80\t95\t4\t16\t92\n19\t26\t26\t95\t59\t86\t75\t96\t9\t3\n6\t34\t99\t85\t48\t71\t64\t10\t54\t18\n15\t53\t2\t95\t55\t25\t88\t33\t59\t0\n16\t2\t89\t44\t52\t98\t68\t54\t30\t32\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 5190\nMedia: 51.90\nMÃ¡ximo: 100\nMÃ­nimo: 0",
+        "output_result": "Matriz generada:\n25\t81\t87\t35\t33\t50\t17\t27\t35\t18\n83\t68\t74\t10\t57\t25\t39\t67\t56\t74\n34\t50\t21\t45\t69\t55\t70\t30\t29\t89\n47\t34\t6\t20\t10\t92\t84\t36\t15\t19\n68\t86\t1\t35\t40\t76\t77\t39\t31\t15\n76\t5\t52\t75\t2\t21\t12\t48\t59\t21\n84\t98\t49\t74\t4\t37\t31\t36\t71\t64\n7\t89\t53\t65\t1\t7\t69\t90\t34\t19\n56\t56\t22\t75\t33\t25\t24\t58\t6\t52\n63\t53\t43\t72\t27\t19\t17\t60\t62\t88\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 4548\nMedia: 45.48\nMÃ¡ximo: 98\nMÃ­nimo: 1",
+        "execution_error": null,
+        "time_seconds": 1.33
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 1,
+        "ast_nodes_original": 307,
+        "ast_nodes_result": 307,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Matriz generada:\n87\t7\t40\t31\t61\t71\t45\t18\t82\t21\n44\t30\t64\t25\t34\t45\t29\t3\t13\t91\n92\t76\t29\t38\t40\t63\t6\t64\t14\t68\n93\t69\t39\t6\t19\t79\t89\t10\t6\t12\n97\t19\t72\t75\t14\t68\t70\t58\t42\t8\n49\t0\t17\t94\t42\t8\t20\t71\t14\t68\n18\t73\t64\t4\t68\t55\t81\t93\t94\t63\n77\t84\t6\t10\t20\t23\t7\t85\t22\t62\n95\t26\t37\t78\t92\t56\t99\t0\t97\t75\n98\t32\t1\t11\t4\t94\t1\t53\t84\t40\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 4741\nMedia: 47.41\nMÃ¡ximo: 99\nMÃ­nimo: 0",
+        "output_result": "Matriz generada:\n32\t46\t54\t17\t40\t54\t75\t92\t57\t26\n81\t87\t23\t10\t20\t94\t33\t44\t73\t48\n11\t56\t58\t26\t73\t2\t55\t5\t70\t19\n23\t7\t13\t87\t41\t55\t56\t84\t6\t100\n81\t52\t70\t54\t60\t24\t38\t46\t47\t65\n59\t93\t25\t40\t3\t46\t43\t14\t85\t42\n90\t87\t82\t56\t27\t55\t43\t46\t13\t24\n11\t42\t64\t84\t45\t46\t34\t63\t97\t60\n81\t35\t55\t90\t94\t63\t48\t45\t88\t94\n82\t45\t78\t11\t40\t70\t15\t19\t76\t57\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 5095\nMedia: 50.95\nMÃ¡ximo: 100\nMÃ­nimo: 2",
+        "execution_error": null,
+        "time_seconds": 869.83
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.9959,
+        "ast_nodes_original": 307,
+        "ast_nodes_result": 327,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Matriz generada:\n80\t22\t78\t44\t85\t81\t45\t70\t78\t25\n25\t79\t85\t84\t39\t3\t89\t54\t14\t32\n96\t67\t83\t51\t19\t65\t93\t69\t54\t98\n21\t80\t61\t20\t54\t62\t31\t71\t23\t61\n72\t53\t54\t46\t38\t49\t29\t98\t27\t4\n87\t50\t74\t68\t2\t78\t90\t67\t0\t80\n45\t13\t74\t29\t55\t8\t91\t23\t37\t31\n74\t17\t17\t4\t26\t68\t63\t55\t3\t19\n64\t50\t78\t70\t69\t26\t64\t88\t39\t22\n38\t57\t72\t28\t17\t64\t76\t41\t89\t13\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 5174\nMedia: 51.74\nMÃ¡ximo: 98\nMÃ­nimo: 0",
+        "output_result": "Original Matrix:\n2\t2\t8\t9\t0\t0\t7\t5\t9\t3\n3\t5\t8\t0\t3\t7\t7\t0\t8\t5\n3\t2\t5\t9\t9\t0\t2\t8\t9\t1\n4\t6\t5\t0\t7\t3\t0\t3\t6\t2\n9\t7\t1\t1\t7\t4\t8\t7\t7\t2\n8\t8\t2\t7\t7\t2\t9\t4\t5\t4\n6\t5\t0\t5\t3\t9\t3\t9\t3\t4\n9\t1\t7\t5\t0\t1\t4\t9\t2\t4\n6\t4\t8\t3\t0\t9\t9\t9\t3\t0\n0\t5\t0\t8\t7\t8\t2\t2\t7\t2\nEstadÃ­sticas:\nRows: 10\nCols: 10\nTotal Elements: 100\nSuma: 465\nAverage: 4.65\nMax: 9\nMin: 0",
+        "execution_error": null,
+        "time_seconds": 1187.72
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-26 10:58:49.467417",
+    "model": "qwen2.5-coder:7b",
+    "strategy": "few-shot",
+    "dataset": "small",
+    "script": "fibonacci.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9576,
+        "ast_nodes_original": 79,
+        "ast_nodes_result": 685,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "55",
+        "output_result": "55",
+        "execution_error": null,
+        "time_seconds": 1.31
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0.9572,
+        "ast_nodes_original": 79,
+        "ast_nodes_result": 544,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "55",
+        "output_result": "1",
+        "execution_error": null,
+        "time_seconds": 1539.4
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.9413,
+        "ast_nodes_original": 79,
+        "ast_nodes_result": 141,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "55",
+        "output_result": "55",
+        "execution_error": null,
+        "time_seconds": 1168.63
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-26 11:26:00.808812",
+    "model": "qwen2.5-coder:7b",
+    "strategy": "zero-shot",
+    "dataset": "large",
+    "script": "matrix_statistics.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9064,
+        "ast_nodes_original": 307,
+        "ast_nodes_result": 934,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Matriz generada:\n10\t0\t49\t93\t61\t29\t52\t4\t49\t57\n75\t47\t38\t61\t44\t68\t93\t19\t45\t27\n70\t13\t37\t44\t73\t14\t91\t85\t13\t99\n85\t22\t42\t36\t74\t10\t14\t67\t29\t90\n44\t85\t93\t56\t57\t57\t76\t85\t15\t30\n83\t95\t83\t100\t2\t74\t13\t58\t85\t63\n85\t76\t47\t57\t93\t77\t49\t17\t17\t12\n76\t32\t39\t86\t71\t10\t55\t5\t88\t66\n60\t98\t52\t4\t12\t13\t20\t54\t40\t92\n68\t23\t37\t3\t89\t40\t53\t63\t79\t99\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 5240\nMedia: 52.40\nMÃ¡ximo: 100\nMÃ­nimo: 0",
+        "output_result": "Matriz generada:\n26\t17\t19\t76\t40\t52\t64\t88\t75\t11\n18\t93\t26\t37\t57\t42\t90\t17\t40\t42\n47\t95\t43\t95\t29\t24\t73\t38\t83\t99\n33\t67\t22\t78\t4\t19\t41\t51\t6\t65\n46\t100\t92\t21\t2\t37\t63\t16\t25\t0\n64\t26\t54\t85\t41\t42\t14\t72\t87\t62\n76\t46\t46\t78\t100\t17\t73\t70\t48\t35\n22\t20\t1\t96\t55\t0\t15\t66\t13\t86\n2\t18\t42\t84\t68\t68\t74\t96\t26\t62\n68\t11\t23\t61\t20\t91\t10\t81\t42\t56\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 4857\nMedia: 48.57\nMÃ¡ximo: 100\nMÃ­nimo: 0",
+        "execution_error": null,
+        "time_seconds": 1.28
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 1,
+        "ast_nodes_original": 307,
+        "ast_nodes_result": 307,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Matriz generada:\n64\t40\t46\t38\t69\t100\t17\t82\t97\t42\n51\t54\t85\t7\t11\t82\t82\t9\t74\t100\n98\t19\t73\t14\t56\t73\t44\t20\t62\t21\n0\t31\t56\t67\t53\t90\t11\t29\t29\t83\n71\t4\t91\t31\t76\t66\t34\t41\t94\t36\n91\t84\t15\t52\t29\t60\t47\t96\t46\t94\n49\t51\t61\t37\t78\t94\t11\t61\t25\t56\n71\t54\t4\t78\t46\t86\t100\t43\t56\t33\n31\t88\t59\t2\t31\t51\t30\t12\t73\t1\n57\t42\t69\t4\t62\t53\t92\t30\t1\t48\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 5167\nMedia: 51.67\nMÃ¡ximo: 100\nMÃ­nimo: 0",
+        "output_result": "Matriz generada:\n22\t73\t10\t6\t31\t54\t82\t83\t8\t42\n1\t86\t99\t53\t96\t37\t11\t64\t9\t97\n52\t50\t97\t74\t81\t66\t63\t87\t28\t9\n22\t38\t70\t22\t88\t83\t34\t50\t42\t78\n66\t75\t25\t28\t69\t30\t4\t74\t91\t1\n63\t10\t98\t51\t40\t72\t16\t30\t46\t3\n58\t54\t24\t61\t82\t83\t57\t72\t7\t79\n44\t88\t92\t43\t74\t36\t45\t13\t60\t2\n68\t12\t83\t70\t55\t1\t65\t28\t41\t14\n10\t89\t88\t29\t24\t46\t22\t46\t42\t99\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 4996\nMedia: 49.96\nMÃ¡ximo: 99\nMÃ­nimo: 1",
+        "execution_error": null,
+        "time_seconds": 325.2
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.9861,
+        "ast_nodes_original": 307,
+        "ast_nodes_result": 377,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Matriz generada:\n98\t67\t12\t74\t100\t37\t32\t9\t66\t15\n79\t36\t13\t17\t71\t3\t87\t47\t36\t54\n74\t87\t23\t61\t73\t42\t87\t88\t53\t31\n51\t2\t94\t6\t89\t60\t4\t52\t80\t75\n68\t97\t12\t39\t75\t29\t80\t52\t2\t34\n7\t79\t84\t58\t34\t28\t24\t27\t59\t98\n38\t85\t29\t44\t0\t51\t15\t28\t53\t14\n7\t45\t10\t97\t74\t89\t30\t93\t58\t36\n96\t58\t98\t12\t60\t81\t91\t85\t43\t32\n7\t85\t52\t81\t56\t21\t71\t18\t71\t88\n\nEstadÃ­sticas:\nFilas: 10\nColumnas: 10\nTotal elementos: 100\nSuma: 5173\nMedia: 51.73\nMÃ¡ximo: 100\nMÃ­nimo: 0",
+        "output_result": "10\t4\t8\t3\t3\t4\t4\t9\t4\t10\n6\t6\t1\t0\t10\t8\t1\t2\t1\t8\n8\t8\t10\t10\t10\t9\t10\t9\t7\t8\n4\t0\t3\t0\t5\t0\t9\t3\t5\t1\n6\t3\t6\t1\t6\t0\t6\t9\t1\t9\n10\t4\t4\t9\t4\t10\t0\t6\t6\t9\n2\t2\t3\t9\t4\t6\t10\t0\t4\t0\n3\t10\t9\t2\t3\t3\t1\t8\t1\t0\n5\t2\t3\t7\t3\t7\t1\t8\t6\t7\n7\t3\t6\t7\t6\t5\t6\t8\t9\t1\n\nEstadÃ­sticas:\nFilas:\t10\nColumnas:\t10\nSuma:\t517\nPromedio:\t5.17\nMÃ¡ximo:\t10\nMÃ­nimo:\t0",
+        "execution_error": null,
+        "time_seconds": 1070.68
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-26 20:04:06.688450",
+    "model": "qwen2.5-coder:7b",
+    "strategy": "zero-shot",
+    "dataset": "small",
+    "script": "is_prime.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9249,
+        "ast_nodes_original": 92,
+        "ast_nodes_result": 757,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "true",
+        "output_result": "true",
+        "execution_error": null,
+        "time_seconds": 1.55
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 1,
+        "ast_nodes_original": 92,
+        "ast_nodes_result": 92,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "true",
+        "output_result": "true",
+        "execution_error": null,
+        "time_seconds": 113.07
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.8816,
+        "ast_nodes_original": 92,
+        "ast_nodes_result": 643,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "true",
+        "output_result": "",
+        "execution_error": "timeout",
+        "time_seconds": 1039.0
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-26 22:24:17.181558",
+    "model": "qwen2.5-coder:7b",
+    "strategy": "few-shot",
+    "dataset": "small",
+    "script": "is_prime.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9205,
+        "ast_nodes_original": 92,
+        "ast_nodes_result": 762,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "true",
+        "output_result": "true",
+        "execution_error": null,
+        "time_seconds": 1.29
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0.9357,
+        "ast_nodes_original": 92,
+        "ast_nodes_result": 530,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "true",
+        "output_result": "true",
+        "execution_error": null,
+        "time_seconds": 1038.86
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.8944,
+        "ast_nodes_original": 92,
+        "ast_nodes_result": 338,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "true",
+        "output_result": "",
+        "execution_error": "ReferenceError: a0_0x2c3a0f is not defined",
+        "time_seconds": 1508.59
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-26 22:56:54.597269",
+    "model": "qwen2.5-coder:7b",
+    "strategy": "zero-shot",
+    "dataset": "large",
+    "script": "simple_calculator.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9004,
+        "ast_nodes_original": 269,
+        "ast_nodes_result": 1019,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "execution_error": null,
+        "time_seconds": 1.37
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 0.9262,
+        "ast_nodes_original": 269,
+        "ast_nodes_result": 313,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n es primo?12 = false",
+        "execution_error": null,
+        "time_seconds": 175.1
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.5388,
+        "ast_nodes_original": 269,
+        "ast_nodes_result": 101,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "",
+        "execution_error": "timeout",
+        "time_seconds": 1019.71
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-04-26 23:29:15.215506",
+    "model": "qwen2.5-coder:7b",
+    "strategy": "few-shot",
+    "dataset": "large",
+    "script": "simple_calculator.js",
+    "results": [
+      {
+        "label": "obf_tradicional",
+        "ast_score": 0.9096,
+        "ast_nodes_original": 269,
+        "ast_nodes_result": 934,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "execution_error": null,
+        "time_seconds": 1.67
+      },
+      {
+        "label": "obf_llm",
+        "ast_score": 1,
+        "ast_nodes_original": 269,
+        "ast_nodes_result": 269,
+        "ast_parse_error": null,
+        "functional_match": true,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "execution_error": null,
+        "time_seconds": 873.61
+      },
+      {
+        "label": "deob_llm",
+        "ast_score": 0.8962,
+        "ast_nodes_original": 269,
+        "ast_nodes_result": 208,
+        "ast_parse_error": null,
+        "functional_match": false,
+        "output_original": "Calculadora simple\n\n12 + 5 = 17\n12 - 5 = 7\n12 * 5 = 60\n12 / 5 = 2.4\n12 ^ 5 = 248832\nâˆš12 = 3.4641016151377544\n12! = 479001600\n12 es primo? false",
+        "output_result": "2 + 3 = 5\n2 - 3 = -1\n2 * 3 = 6\n2 / 3 = 0.6666666666666666\n2 ^ 3 = 8\nâˆš2 = 1.4142135623730951\n2! = 2\n2 is prime: true",
+        "execution_error": null,
+        "time_seconds": 812.68
+      }
+    ]
+  }
+]

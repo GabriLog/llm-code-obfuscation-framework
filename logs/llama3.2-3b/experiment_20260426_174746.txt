@@ -1,0 +1,731 @@
+Experiment Timestamp: 2026-04-26 17:47:46.668135
+
+--- Experiment Summary ---
+Model: llama3.2:3b
+Strategy: zero-shot
+Dataset: small
+Script: is_prime.js
+
+--- Obfuscation Traditional ---
+Time: 0.98s
+Result:
+const a0_0x1bc8d1=a0_0x4267;(function(_0x5d0536,_0x5c4d89){const _0x1dd8ce=a0_0x4267,_0x5bef97=_0x5d0536();while(!![]){try{const _0x59f4e7=parseInt(_0x1dd8ce(0x178))/0x1*(-parseInt(_0x1dd8ce(0x18e))/0x2)+-parseInt(_0x1dd8ce(0x186))/0x3*(-parseInt(_0x1dd8ce(0x18b))/0x4)+parseInt(_0x1dd8ce(0x18c))/0x5*(parseInt(_0x1dd8ce(0x17c))/0x6)+-parseInt(_0x1dd8ce(0x181))/0x7*(parseInt(_0x1dd8ce(0x18d))/0x8)+-parseInt(_0x1dd8ce(0x17f))/0x9+parseInt(_0x1dd8ce(0x172))/0xa+parseInt(_0x1dd8ce(0x189))/0xb;if(_0x59f4e7===_0x5c4d89)break;else _0x5bef97['push'](_0x5bef97['shift']());}catch(_0x3030f9){_0x5bef97['push'](_0x5bef97['shift']());}}}(a0_0xd3f8,0x3411b));function a0_0x4267(_0xf71d85,_0x28d000){_0xf71d85=_0xf71d85-0x16d;const _0xd3f886=a0_0xd3f8();let _0x4267c2=_0xd3f886[_0xf71d85];if(a0_0x4267['AFykIe']===undefined){var _0xbf2963=function(_0x5bb5f3){const _0x3ed89e='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x3d887b='',_0x57bc6c='';for(let _0x23e97d=0x0,_0x4ec1ea,_0x210550,_0x306c8a=0x0;_0x210550=_0x5bb5f3['charAt'](_0x306c8a++);~_0x210550&&(_0x4ec1ea=_0x23e97d%0x4?_0x4ec1ea*0x40+_0x210550:_0x210550,_0x23e97d++%0x4)?_0x3d887b+=String['fromCharCode'](0xff&_0x4ec1ea>>(-0x2*_0x23e97d&0x6)):0x0){_0x210550=_0x3ed89e['indexOf'](_0x210550);}for(let _0x4f2510=0x0,_0x2fe689=_0x3d887b['length'];_0x4f2510<_0x2fe689;_0x4f2510++){_0x57bc6c+='%'+('00'+_0x3d887b['charCodeAt'](_0x4f2510)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x57bc6c);};a0_0x4267['XmTJgZ']=_0xbf2963,a0_0x4267['aGsZpQ']={},a0_0x4267['AFykIe']=!![];}const _0x4a21e9=_0xd3f886[0x0],_0x5df11f=_0xf71d85+_0x4a21e9,_0x1e326f=a0_0x4267['aGsZpQ'][_0x5df11f];return!_0x1e326f?(_0x4267c2=a0_0x4267['XmTJgZ'](_0x4267c2),a0_0x4267['aGsZpQ'][_0x5df11f]=_0x4267c2):_0x4267c2=_0x1e326f,_0x4267c2;}function a0_0xd3f8(){const _0x2de834=['mZuZnZa4m0f0uLH4ta','A0zkDNq','nhjewu9dvq','ndy4nxPttgnZzW','mJCYv0nIz3vv','nZK0oejvtwnQyW','AxnjBNrLz2vY','uuzrALm','qMPkueK','r0DStNO','rNjfB2C','q25MDe8','u0r0uwi','nJm0mtmWtxz6De1s','zhn4q3q','swDXuKm','r2HHtfi','sxfRugG','vM5zCuq','odf1re1nEKe','v0DACMO','whzxyMy','CvnRAwS','mtaYrwnpvujj','quvhAwC','rvrVD3m','mtm2ndiXmvPnCgD5Eq','sw5WDxqGBxvZDcbIzsbHig5VBI1UzwDHDgL2zsbPBNrLz2vY','mJi3ntDIy0LItMS','Bg9N','t0XmDKu','wxDdquS','B2jACxi','mte4ote2mu1IEwHwva','uxnfwuu','uLj2Bvq'];a0_0xd3f8=function(){return _0x2de834;};return a0_0xd3f8();}function isPrime(_0x5c1b75){const _0x9c56f1=a0_0x4267,_0x2acd66={'fblIt':function(_0xe3d058,_0xc17234){return _0xe3d058<_0xc17234;},'qSkik':_0x9c56f1(0x180),'YwCAK':function(_0x3a7c3f,_0x5cba28){return _0x3a7c3f!==_0x5cba28;},'GGlNz':'JHYOO','JVmgM':_0x9c56f1(0x173),'GhaLR':function(_0x2e77d5,_0x4202f4){return _0x2e77d5<=_0x4202f4;},'XvWbf':function(_0x179e9a,_0x1b7e04){return _0x179e9a!==_0x1b7e04;},'SDtQb':_0x9c56f1(0x177),'FrEog':_0x9c56f1(0x18a),'RRvmT':function(_0x4da9ce,_0x492a3d){return _0x4da9ce===_0x492a3d;},'CnftO':function(_0x12d1b6,_0x59a3fe){return _0x12d1b6%_0x59a3fe;},'AEGig':function(_0x3e5dc6,_0x53a8f9){return _0x3e5dc6===_0x53a8f9;},'QsEYE':function(_0x36871f,_0x53d803){return _0x36871f===_0x53d803;},'IqkPh':_0x9c56f1(0x190),'IgqRC':function(_0x34f561,_0x4227f3){return _0x34f561===_0x4227f3;},'OLLvE':_0x9c56f1(0x179),'ETows':function(_0x237291,_0x1945fe){return _0x237291%_0x1945fe;},'obZqr':function(_0x3c3531,_0x5d2638){return _0x3c3531+_0x5d2638;}};if(!Number[_0x9c56f1(0x18f)](_0x5c1b75)||_0x2acd66['fblIt'](_0x5c1b75,0x0))throw new Error(_0x2acd66[_0x9c56f1(0x17b)]);else{if(_0x5c1b75<=0x1)return _0x2acd66[_0x9c56f1(0x184)](_0x2acd66[_0x9c56f1(0x16e)],_0x2acd66['JVmgM'])?![]:![];else{if(_0x2acd66[_0x9c56f1(0x175)](_0x5c1b75,0x3))return _0x2acd66[_0x9c56f1(0x17a)](_0x2acd66[_0x9c56f1(0x171)],_0x2acd66[_0x9c56f1(0x16f)])?!![]:![];else{if(_0x2acd66['RRvmT'](_0x2acd66[_0x9c56f1(0x170)](_0x5c1b75,0x2),0x0)||_0x2acd66[_0x9c56f1(0x17d)](_0x2acd66[_0x9c56f1(0x170)](_0x5c1b75,0x3),0x0))return![];else{if(_0x2acd66[_0x9c56f1(0x187)]('sxcKg',_0x2acd66[_0x9c56f1(0x176)]))return![];else{for(let _0x44516b=0x5;_0x2acd66[_0x9c56f1(0x175)](_0x44516b*_0x44516b,_0x5c1b75);_0x44516b+=0x6){if(_0x2acd66[_0x9c56f1(0x174)](_0x2acd66[_0x9c56f1(0x183)],_0x9c56f1(0x16d)))return!![];else{if(_0x2acd66[_0x9c56f1(0x188)](_0x2acd66[_0x9c56f1(0x170)](_0x5c1b75,_0x44516b),0x0)||_0x2acd66[_0x9c56f1(0x17e)](_0x5c1b75,_0x2acd66[_0x9c56f1(0x185)](_0x44516b,0x2))===0x0)return![];}}return!![];}}}}}}console[a0_0x1bc8d1(0x182)](isPrime(0x1d));
+
+--- Obfuscation LLM ---
+Time: 508.33s
+Result:
+function aBcD_eFgH_iJkL() {
+    var bCdE_fGhI_jKlM = 0;
+    var bCdE_fGhI_jKlM_nO_pQrS = 0;
+    var bCdE_fGhI_jKlM_tU_vWxYz = 0;
+    var bCdE_fGhI_jKlM_aBcDeFgH_iJkL = function(bCdE_fGhI_jKlM_nO_pQrS, bCdE_fGhI_jKlM_tU_vWxYz) {
+        if (bCdE_fGhI_jKlM_nO_pQrS < 0 || !Number.isInteger(bCdE_fGhI_jKlM_nO_pQrS)) {
+            var bCdE_fGhI_jKlM_b = new Error("Input must be a non-negative integer");
+            throw bCdE_fGhI_jKlM_b;
+        }
+        if (bCdE_fGhI_jKlM_nO_pQrS <= 1) {
+            return false;
+        }
+        if (bCdE_fGhI_jKlM_nO_pQrS <= 3) {
+            return true;
+        }
+        if ((bCdE_fGhI_jKlM_nO_pQrS % 2 === 0 || bCdE_fGhI_jKlM_nO_pQrS % 3 === 0) {
+            return false;
+        }
+        var bCdE_fGhI_jKlM_iJkL = 5;
+        while (bCdE_fGhI_jKlM_iJkL * bCdE_fGhI_jKlM_iJkL <= bCdE_fGhI_jKlM_nO_pQrS) {
+            if (bCdE_fGhI_jKlM_nO_pQrS % bCdE_fGhI_jKlM_iJkL === 0 || bCdE_fGhI_jKlM_nO_pQrS % (bCdE_fGhI_jKlM_iJkL + 2) === 0) {
+                return false;
+            }
+            bCdE_fGhI_jKlM_iJkL += 6;
+        }
+        return true;
+    }
+    var bCdE_fGhI_jKlM_b = new Uint8Array([104, 101, 108, 108, 111]);
+    var bCdE_fGhI_jKlM_c = new Uint8Array([97, 110, 116, 32, 105, 115, 116, 46, 99, 111, 114, 108, 100, 48]);
+    var bCdE_fGhI_jKlM_d = new Uint8Array([104, 105, 110, 116, 32, 119, 111, 114, 108, 100, 48]);
+    var bCdE_fGhI_jKlM_e = function(bCdE_fGhI_jKlM_nO_pQrS) {
+        var bCdE_fGhI_jKlM_g = 0;
+        while (bCdE_fGhI_jKlM_g < bCdE_fGhI_jKlM_nO_pQrS.length) {
+            bCdE_fGhI_jKlM_h = bCdE_fGhI_jKlM_nO_pQrS[bCdE_fGhI_jKlM_g];
+            if (bCdE_fGhI_jKlM_h === 0) {
+                break;
+            }
+            bCdE_fGhI_jKlM_i = bCdE_fGhI_jKlM_nO_pQrS[bCdE_fGhI_jKlM_g + 1];
+            if (bCdE_fGhI_jKlM_i === 0) {
+                break;
+            }
+            var bCdE_fGhI_jKlM_j = bCdE_fGhI_jKlM_nO_pQrS[bCdE_fGhI_jKlM_g + 2];
+            if (bCdE_fGhI_jKlM_j === 0) {
+                break;
+            }
+            bCdE_fGhI_jKlM_g += 3;
+        }
+        return bCdE_fGhI_jKlM_g;
+    }
+    var bCdE_fGhI_jKlM_f = function(bCdE_fGhI_jKlM_nO_pQrS) {
+        var bCdE_fGhI_jKlM_g = 0;
+        while (bCdE_fGhI_jKlM_g < bCdE_fGhI_jKlM_nO_pQrS.length) {
+            bCdE_fGhI_jKlM_h = bCdE_fGhI_jKlM_nO_pQrS[bCdE_fGhI_jKlM_g];
+            if (bCdE_fGhI_jKlM_h === 0) {
+                break;
+            }
+            bCdE_fGhI_jKlM_i = bCdE_fGhI_jKlM_nO_pQrS[bCdE_fGhI_jKlM_g + 1];
+            if (bCdE_fGhI_jKlM_i === 0) {
+                break;
+            }
+            var bCdE_fGhI_jKlM_j = bCdE_fGhI_jKlM_nO_pQrS[bCdE_fGhI_jKlM_g + 2];
+            if (bCdE_fGhI_jKlM_j === 0) {
+                break;
+            }
+            bCdE_fGhI_jKlM_g += 3;
+        }
+        return bCdE_fGhI_jKlM_g;
+    }
+    var bCdE_fGhI_jKlM_g = new Uint8Array([104, 105, 110, 116, 32, 119, 111, 114, 108, 100, 48]);
+    var bCdE_fGhI_jKlM_h = new Uint8Array([97, 110, 116, 32, 105, 115, 116, 46, 99, 111, 114, 108, 100, 48]);
+    var bCdE_fGhI_jKlM_i = new Uint8Array([104, 105, 110, 116, 32, 119, 111, 114, 108, 100, 48]);
+    var bCdE_fGhI_jKlM_j = function(bCdE_fGhI_jKlM_nO_pQrS) {
+        var bCdE_fGhI_jKlM_k = 0;
+        while (bCdE_fGhI_jKlM_k < bCdE_fGhI_jKlM_nO_pQrS.length) {
+            bCdE_fGhI_jKlM_l = bCdE_fGhI_jKlM_nO_pQrS[bCdE_fGhI_jKlM_k];
+            if (bCdE_fGhI_jKlM_l === 0) {
+                break;
+            }
+            bCdE_fGhI_jKlM_m = bCdE_fGhI_jKlM_nO_pQrS[bCdE_fGhI_jKlM_k + 1];
+            if (bCdE_fGhI_jKlM_m === 0) {
+                break;
+            }
+            var bCdE_fGhI_jKlM_n = bCdE_fGhI_jKlM_nO_pQrS[bCdE_fGhI_jKlM_k + 2];
+            if (bCdE_fGhI_jKlM_n === 0) {
+                break;
+            }
+            bCdE_fGhI_jKlM_k += 3;
+        }
+        return bCdE_fGhI_jKlM_k;
+    }
+    var bCdE_fGhI_jKlM_l = function(bCdE_fGhI_jKlM_nO_pQrS) {
+        var bCdE_fGhI_jKlM_m = 0;
+        while (bCdE_fGhI_jKlM_m < bCdE_fGhI_jKlM_nO_pQrS.length) {
+            bCdE_fGhI_jKlM_o = bCdE_fGhI_jKlM_nO_pQrS[bCdE_fGhI_jKlM_m];
+            if (bCdE_fGhI_jKlM_o === 0) {
+                break;
+            }
+            bCdE_fGhI_jKlM_p = bCdE_fGhI_jKlM_nO_pQrS[bCdE_fGhI_jKlM_m + 1];
+            if (bCdE_fGhI_jKlM_p === 0) {
+                break;
+            }
+            var bCdE_fGhI_jKlM_q = bCdE_fGhI_jKlM_nO_pQrS[bCdE_fGhI_jKlM_m + 2];
+            if (bCdE_fGhI_jKlM_q === 0) {
+                break;
+            }
+            bCdE_fGhI_jKlM_m += 3;
+        }
+        return bCdE_fGhI_jKlM_m;
+    }
+    var bCdE_fGhI_jKlM_m = function(bCdE_fGhI_jKlM_nO_pQrS) {
+        var bCdE_fGhI_jKlM_n = 0;
+        while (bCdE_fGhI_jKlM_n < bCdE_fGhI_jKlM_nO_pQrS.length) {
+            bCdE_fGhI_jKlM_o = bCdE_fGhI_jKlM_nO_pQrS[bCdE_fGhI_jKlM_n];
+            if (bCdE_fGhI_jKlM_o === 0) {
+                break;
+            }
+            bCdE_fGhI_jKlM_p = bCdE_fGhI_jKlM_nO_pQrS[bCdE_fGhI_jKlM_n + 1];
+            if (bCdE_fGhI_jKlM_p === 0) {
+                break;
+            }
+            var bCdE_fGhI_jKlM_q = bCdE_fGhI_jKlM_nO_pQrS[bCdE_fGhI_jKlM_n + 2];
+            if (bCdE_fGhI_jKlM_q === 0) {
+                break;
+            }
+            bCdE_fGhI_jKlM_n += 3;
+        }
+        return bCdE_fGhI_jKlM_n;
+    }
+    var bCdE_fGhI_jKlM_n = function(bCdE_fGhI_jKlM_nO_pQrS) {
+        var bCdE_fGhI_jKlM_o = 0;
+        while (bCdE_fGhI_jKlM_o < bCdE_fGhI_jKlM_nO_pQrS.length) {
+            bCdE_fGhI_jKlM_p = bCdE_fGhI_jKlM_nO_pQrS[bCdE_fGhI_jKlM_o];
+            if (bCdE_fGhI_jKlM_p === 0) {
+                break;
+            }
+            bCdE_fGhI_jKlM_q = bCdE_fGhI_jKlM_nO_pQrS[bCdE_fGhI_jKlM_o + 1];
+            if (bCdE_fGhI_jKlM_q === 0) {
+                break;
+            }
+            var bCdE_fGhI_jKlM_r = bCdE_fGhI_jKlM_nO_pQrS[bCdE_fGhI_jKlM_o + 2];
+            if (bCdE_fGhI_jKlM_r === 0) {
+                break;
+            }
+            bCd
+
+--- Deobfuscation LLM ---
+Time: 1004.63s
+Result:
+const isPrime = function(n) {
+  const primes = ['fblIt', 'qSkik', 'YwCAK', 'GGlNz', 'JVmgM', 'GhaLR', 'XvWbf', 'SDtQb', 'FrEog', 'RRvmT', 'CnftO'];
+  
+  function checkPrime(num, testNum) {
+    if (num < testNum || primes[testNum] === num) return false;
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelper(n, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(n)) throw new Error(primes['JVmgM'](primeMap, n));
+    
+    for (let i = 2; i <= Math.sqrt(n); i++) {
+      if (n % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoop(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterate(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNested(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInner(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuter(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMost(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeast(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatest(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggest(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargest(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallest(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniest(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTiny(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTinyTeeny(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTinyTeenyWee(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTinyTeenyWeeItsMe(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTinyTeenyWeeItsMeIsIt(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTinyTeenyWeeItsMeIsItMyTurn(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTinyTeenyWeeItsMeIsItMyTurnYouTurn(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTinyTeenyWeeItsMeIsItMyTurnYouTurnIWill(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTinyTeenyWeeItsMeIsItMyTurnYouTurnIWillBe(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTinyTeenyWeeItsMeIsItMyTurnYouTurnIWillBeDone(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTinyTeenyWeeItsMeIsItMyTurnYouTurnIWillBeDoneAnd(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTinyTeenyWeeItsMeIsItMyTurnYouTurnIWillBeDoneAndThen(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTinyTeenyWeeItsMeIsItMyTurnYouTurnIWillBeDoneAndThenNext(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTinyTeenyWeeItsMeIsItMyTurnYouTurnIWillBeDoneAndThenNextAfter(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTinyTeenyWeeItsMeIsItMyTurnYouTurnIWillBeDoneAndThenNextAfterAll(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTinyTeenyWeeItsMeIsItMyTurnYouTurnIWillBeDoneAndThenNextAfterAllAlways(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTinyTeenyWeeItsMeIsItMyTurnYouTurnIWillBeDoneAndThenNextAfterAllAlwaysForever(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTinyTeenyWeeItsMeIsItMyTurnYouTurnIWillBeDoneAndThenNextAfterAllAlwaysForeverFor(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTinyTeenyWeeItsMeIsItMyTurnYouTurnIWillBeDoneAndThenNextAfterAllAlwaysForeverForEver(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTinyTeenyWeeItsMeIsItMyTurnYouTurnIWillBeDoneAndThenNextAfterAllAlwaysForeverForEverAnd(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTinyTeenyWeeItsMeIsItMyTurnYouTurnIWillBeDoneAndThenNextAfterAllAlwaysForeverForEverAndThen(num, testNum) {
+    const primeMap = primes[testNum];
+    
+    if (!Number(primeMap)(num)) throw new Error(primes['JVmgM'](primeMap, num));
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    
+    return true;
+  }
+
+  function isPrimeHelperLoopIterateNestedInnerOuterMostLeastGreatestBiggestLargestSmallestTiniestTinyTeenyWeeItsMeIsItMyTurnYouTurnIWillBeDoneAndThenNextAfterAll
+
+--- Original script ---
+function isPrime(n) {
+    if (!Number.isInteger(n) || n < 0) {
+        throw new Error("Input must be a non-negative integer");
+    } else if (n <= 1) {
+        return false;
+    } else if (n <= 3) {
+        return true;
+    } else if (n % 2 === 0 || n % 3 === 0) {
+        return false;
+    } else {
+        for (let i = 5; i * i <= n; i += 6) {
+            if (n % i === 0 || n % (i + 2) === 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+console.log(isPrime(29));
+
+==== PROMPT OFUSCACIÓN ====
+
+You are an expert in advanced JavaScript obfuscation.
+Heavily obfuscate the following code while preserving EXACT runtime behavior.
+
+Requirements:
+- Rename all identifiers to meaningless names
+- Use hexadecimal numeric literals
+- Convert string literals into encoded representations (e.g., base64 or char codes)
+- Introduce indirection through helper functions
+- Use array-based string lookup tables
+- Apply control flow flattening when possible
+- Avoid clear loop structures if possible
+
+The result should be extremely difficult for a human to understand.
+
+CRITICAL:
+- Output ONLY raw JavaScript code.
+- Do NOT include explanations.
+- Do NOT include comments.
+- Do NOT use markdown.
+- Do NOT include backticks.
+
+Code:
+function isPrime(n) {
+    if (!Number.isInteger(n) || n < 0) {
+        throw new Error("Input must be a non-negative integer");
+    } else if (n <= 1) {
+        return false;
+    } else if (n <= 3) {
+        return true;
+    } else if (n % 2 === 0 || n % 3 === 0) {
+        return false;
+    } else {
+        for (let i = 5; i * i <= n; i += 6) {
+            if (n % i === 0 || n % (i + 2) === 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+console.log(isPrime(29));
+
+===========================
+
+
+
+
+==== PROMPT DESOFUSCACIÓN ====
+
+You are an expert JavaScript reverse engineer specializing in deobfuscation.
+Completely deobfuscate the following JavaScript code.
+
+Requirements:
+- Preserve EXACT runtime behavior.
+- Do NOT change logic, side effects, or edge case handling.
+- Restore meaningful identifier names.
+- Replace hexadecimal and encoded literals with readable equivalents.
+- Simplify control flow (remove unnecessary indirection, flattening, and lookup tables).
+- Remove dead code if it does not affect runtime behavior.
+- Produce clean, idiomatic, well-structured JavaScript.
+
+CRITICAL:
+- Output ONLY raw JavaScript code.
+- Do NOT include explanations.
+- Do NOT include comments.
+- Do NOT use markdown.
+- Do NOT include backticks.
+
+Code:
+const a0_0x1bc8d1=a0_0x4267;(function(_0x5d0536,_0x5c4d89){const 
+_0x1dd8ce=a0_0x4267,_0x5bef97=_0x5d0536();while(!![]){try{const 
+_0x59f4e7=parseInt(_0x1dd8ce(0x178))/0x1*(-parseInt(_0x1dd8ce(0x18e))/0x2)+-parseInt(_0x1dd8ce(0x186))/0x3*(-parseInt(_0
+x1dd8ce(0x18b))/0x4)+parseInt(_0x1dd8ce(0x18c))/0x5*(parseInt(_0x1dd8ce(0x17c))/0x6)+-parseInt(_0x1dd8ce(0x181))/0x7*(pa
+rseInt(_0x1dd8ce(0x18d))/0x8)+-parseInt(_0x1dd8ce(0x17f))/0x9+parseInt(_0x1dd8ce(0x172))/0xa+parseInt(_0x1dd8ce(0x189))/
+0xb;if(_0x59f4e7===_0x5c4d89)break;else 
+_0x5bef97['push'](_0x5bef97['shift']());}catch(_0x3030f9){_0x5bef97['push'](_0x5bef97['shift']());}}}(a0_0xd3f8,0x3411b)
+);function a0_0x4267(_0xf71d85,_0x28d000){_0xf71d85=_0xf71d85-0x16d;const _0xd3f886=a0_0xd3f8();let 
+_0x4267c2=_0xd3f886[_0xf71d85];if(a0_0x4267['AFykIe']===undefined){var _0xbf2963=function(_0x5bb5f3){const 
+_0x3ed89e='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x3d887b='',_0x57bc6c='';for(let 
+_0x23e97d=0x0,_0x4ec1ea,_0x210550,_0x306c8a=0x0;_0x210550=_0x5bb5f3['charAt'](_0x306c8a++);~_0x210550&&(_0x4ec1ea=_0x23e
+97d%0x4?_0x4ec1ea*0x40+_0x210550:_0x210550,_0x23e97d++%0x4)?_0x3d887b+=String['fromCharCode'](0xff&_0x4ec1ea>>(-0x2*_0x2
+3e97d&0x6)):0x0){_0x210550=_0x3ed89e['indexOf'](_0x210550);}for(let 
+_0x4f2510=0x0,_0x2fe689=_0x3d887b['length'];_0x4f2510<_0x2fe689;_0x4f2510++){_0x57bc6c+='%'+('00'+_0x3d887b['charCodeAt'
+](_0x4f2510)['toString'](0x10))['slice'](-0x2);}return 
+decodeURIComponent(_0x57bc6c);};a0_0x4267['XmTJgZ']=_0xbf2963,a0_0x4267['aGsZpQ']={},a0_0x4267['AFykIe']=!![];}const 
+_0x4a21e9=_0xd3f886[0x0],_0x5df11f=_0xf71d85+_0x4a21e9,_0x1e326f=a0_0x4267['aGsZpQ'][_0x5df11f];return!_0x1e326f?(_0x426
+7c2=a0_0x4267['XmTJgZ'](_0x4267c2),a0_0x4267['aGsZpQ'][_0x5df11f]=_0x4267c2):_0x4267c2=_0x1e326f,_0x4267c2;}function 
+a0_0xd3f8(){const 
+_0x2de834=['mZuZnZa4m0f0uLH4ta','A0zkDNq','nhjewu9dvq','ndy4nxPttgnZzW','mJCYv0nIz3vv','nZK0oejvtwnQyW','AxnjBNrLz2vY','
+uuzrALm','qMPkueK','r0DStNO','rNjfB2C','q25MDe8','u0r0uwi','nJm0mtmWtxz6De1s','zhn4q3q','swDXuKm','r2HHtfi','sxfRugG','v
+M5zCuq','odf1re1nEKe','v0DACMO','whzxyMy','CvnRAwS','mtaYrwnpvujj','quvhAwC','rvrVD3m','mtm2ndiXmvPnCgD5Eq','sw5WDxqGBxv
+ZDcbIzsbHig5VBI1UzwDHDgL2zsbPBNrLz2vY','mJi3ntDIy0LItMS','Bg9N','t0XmDKu','wxDdquS','B2jACxi','mte4ote2mu1IEwHwva','uxnf
+wuu','uLj2Bvq'];a0_0xd3f8=function(){return _0x2de834;};return a0_0xd3f8();}function isPrime(_0x5c1b75){const 
+_0x9c56f1=a0_0x4267,_0x2acd66={'fblIt':function(_0xe3d058,_0xc17234){return 
+_0xe3d058<_0xc17234;},'qSkik':_0x9c56f1(0x180),'YwCAK':function(_0x3a7c3f,_0x5cba28){return 
+_0x3a7c3f!==_0x5cba28;},'GGlNz':'JHYOO','JVmgM':_0x9c56f1(0x173),'GhaLR':function(_0x2e77d5,_0x4202f4){return 
+_0x2e77d5<=_0x4202f4;},'XvWbf':function(_0x179e9a,_0x1b7e04){return 
+_0x179e9a!==_0x1b7e04;},'SDtQb':_0x9c56f1(0x177),'FrEog':_0x9c56f1(0x18a),'RRvmT':function(_0x4da9ce,_0x492a3d){return 
+_0x4da9ce===_0x492a3d;},'CnftO':function(_0x12d1b6,_0x59a3fe){return 
+_0x12d1b6%_0x59a3fe;},'AEGig':function(_0x3e5dc6,_0x53a8f9){return 
+_0x3e5dc6===_0x53a8f9;},'QsEYE':function(_0x36871f,_0x53d803){return 
+_0x36871f===_0x53d803;},'IqkPh':_0x9c56f1(0x190),'IgqRC':function(_0x34f561,_0x4227f3){return 
+_0x34f561===_0x4227f3;},'OLLvE':_0x9c56f1(0x179),'ETows':function(_0x237291,_0x1945fe){return 
+_0x237291%_0x1945fe;},'obZqr':function(_0x3c3531,_0x5d2638){return 
+_0x3c3531+_0x5d2638;}};if(!Number[_0x9c56f1(0x18f)](_0x5c1b75)||_0x2acd66['fblIt'](_0x5c1b75,0x0))throw new 
+Error(_0x2acd66[_0x9c56f1(0x17b)]);else{if(_0x5c1b75<=0x1)return 
+_0x2acd66[_0x9c56f1(0x184)](_0x2acd66[_0x9c56f1(0x16e)],_0x2acd66['JVmgM'])?![]:![];else{if(_0x2acd66[_0x9c56f1(0x175)](
+_0x5c1b75,0x3))return 
+_0x2acd66[_0x9c56f1(0x17a)](_0x2acd66[_0x9c56f1(0x171)],_0x2acd66[_0x9c56f1(0x16f)])?!![]:![];else{if(_0x2acd66['RRvmT']
+(_0x2acd66[_0x9c56f1(0x170)](_0x5c1b75,0x2),0x0)||_0x2acd66[_0x9c56f1(0x17d)](_0x2acd66[_0x9c56f1(0x170)](_0x5c1b75,0x3)
+,0x0))return![];else{if(_0x2acd66[_0x9c56f1(0x187)]('sxcKg',_0x2acd66[_0x9c56f1(0x176)]))return![];else{for(let 
+_0x44516b=0x5;_0x2acd66[_0x9c56f1(0x175)](_0x44516b*_0x44516b,_0x5c1b75);_0x44516b+=0x6){if(_0x2acd66[_0x9c56f1(0x174)](
+_0x2acd66[_0x9c56f1(0x183)],_0x9c56f1(0x16d)))return!![];else{if(_0x2acd66[_0x9c56f1(0x188)](_0x2acd66[_0x9c56f1(0x170)]
+(_0x5c1b75,_0x44516b),0x0)||_0x2acd66[_0x9c56f1(0x17e)](_0x5c1b75,_0x2acd66[_0x9c56f1(0x185)](_0x44516b,0x2))===0x0)retu
+rn![];}}return!![];}}}}}}console(isPrime(0x1d));
+
+
+==============================
+
+
+

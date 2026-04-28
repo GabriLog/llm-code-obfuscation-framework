@@ -1,0 +1,299 @@
+Experiment Timestamp: 2026-04-26 14:16:54.405815
+
+--- Experiment Summary ---
+Model: llama3.1:8b
+Strategy: zero-shot
+Dataset: small
+Script: fibonacci.js
+
+--- Obfuscation Traditional ---
+Time: 0.97s
+Result:
+function a0_0x143e(_0x31501f,_0x364032){_0x31501f=_0x31501f-0x76;const _0x5c8586=a0_0x5c85();let _0x143e2d=_0x5c8586[_0x31501f];if(a0_0x143e['EXhzNx']===undefined){var _0x3066c1=function(_0x10a453){const _0x5d8653='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x52a4f3='',_0x8492f3='';for(let _0x14a002=0x0,_0x2d3ae4,_0x2c9c81,_0x4b7b57=0x0;_0x2c9c81=_0x10a453['charAt'](_0x4b7b57++);~_0x2c9c81&&(_0x2d3ae4=_0x14a002%0x4?_0x2d3ae4*0x40+_0x2c9c81:_0x2c9c81,_0x14a002++%0x4)?_0x52a4f3+=String['fromCharCode'](0xff&_0x2d3ae4>>(-0x2*_0x14a002&0x6)):0x0){_0x2c9c81=_0x5d8653['indexOf'](_0x2c9c81);}for(let _0x3a865f=0x0,_0xb008ff=_0x52a4f3['length'];_0x3a865f<_0xb008ff;_0x3a865f++){_0x8492f3+='%'+('00'+_0x52a4f3['charCodeAt'](_0x3a865f)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x8492f3);};a0_0x143e['ihgmtg']=_0x3066c1,a0_0x143e['bBLhmv']={},a0_0x143e['EXhzNx']=!![];}const _0x2b062a=_0x5c8586[0x0],_0x52775e=_0x31501f+_0x2b062a,_0x596a16=a0_0x143e['bBLhmv'][_0x52775e];return!_0x596a16?(_0x143e2d=a0_0x143e['ihgmtg'](_0x143e2d),a0_0x143e['bBLhmv'][_0x52775e]=_0x143e2d):_0x143e2d=_0x596a16,_0x143e2d;}(function(_0x28e178,_0x326c03){const _0x489de3=a0_0x143e,_0x1b37d2=_0x28e178();while(!![]){try{const _0x40dfe0=parseInt(_0x489de3(0x7e))/0x1*(parseInt(_0x489de3(0x84))/0x2)+parseInt(_0x489de3(0x8f))/0x3+parseInt(_0x489de3(0x7f))/0x4*(-parseInt(_0x489de3(0x79))/0x5)+-parseInt(_0x489de3(0x78))/0x6+-parseInt(_0x489de3(0x80))/0x7+parseInt(_0x489de3(0x81))/0x8+parseInt(_0x489de3(0x88))/0x9*(parseInt(_0x489de3(0x8d))/0xa);if(_0x40dfe0===_0x326c03)break;else _0x1b37d2['push'](_0x1b37d2['shift']());}catch(_0x104c39){_0x1b37d2['push'](_0x1b37d2['shift']());}}}(a0_0x5c85,0xa0f1f));function fibonacci(_0x39ae25){const _0xcb2b00=a0_0x143e,_0x26f751={'NYeWl':function(_0x25ef6b,_0x10de91){return _0x25ef6b+_0x10de91;},'trrqX':function(_0x293e78,_0x276c75){return _0x293e78<=_0x276c75;},'zwGdg':function(_0x6f4e1e,_0x1ff98a){return _0x6f4e1e<_0x1ff98a;},'hpEWB':_0xcb2b00(0x87),'NOCUn':_0xcb2b00(0x7b),'cXndb':function(_0x20d66e,_0x59cd4d){return _0x20d66e===_0x59cd4d;},'ilUph':function(_0xc5399,_0x58874d){return _0xc5399===_0x58874d;},'YuekS':_0xcb2b00(0x7c),'dMzjv':_0xcb2b00(0x8b),'Rcrih':'bFMJp','jCNVm':function(_0x1848a6,_0x438c6e){return _0x1848a6===_0x438c6e;},'sRXBn':'dTnVu','nUtRx':function(_0x3b55a8,_0x21bb21){return _0x3b55a8+_0x21bb21;}};if(!Number[_0xcb2b00(0x8c)](_0x39ae25)||_0x26f751[_0xcb2b00(0x90)](_0x39ae25,0x0)){if(_0xcb2b00(0x87)===_0x26f751[_0xcb2b00(0x8a)])throw new Error(_0x26f751['NOCUn']);else throw new _0x8492f3(_0xcb2b00(0x7b));}else{if(_0x26f751[_0xcb2b00(0x7a)](_0x39ae25,0x0))return _0x26f751[_0xcb2b00(0x85)](_0x26f751[_0xcb2b00(0x89)],_0x26f751['YuekS'])?0x0:0x1;else{if(_0x39ae25===0x1){if(_0x26f751[_0xcb2b00(0x7a)](_0x26f751[_0xcb2b00(0x76)],_0x26f751[_0xcb2b00(0x8e)])){let _0x2d2865=_0x26f751[_0xcb2b00(0x91)](_0x4ba39e,_0x2ca0f5);_0x5c77f7=_0x3ed585,_0x444330=_0x2d2865;}else return 0x1;}else{if(_0x26f751[_0xcb2b00(0x83)](_0x26f751[_0xcb2b00(0x77)],_0xcb2b00(0x7d))){let _0x525107=0x0,_0xfb5da7=0x1;for(let _0x4ab54b=0x2;_0x26f751[_0xcb2b00(0x82)](_0x4ab54b,_0x2c9c81);_0x4ab54b++){let _0x20c3ca=_0x525107+_0xfb5da7;_0x525107=_0xfb5da7,_0xfb5da7=_0x20c3ca;}return _0xfb5da7;}else{let _0x589e26=0x0,_0x41e8be=0x1;for(let _0x434dc2=0x2;_0x26f751[_0xcb2b00(0x82)](_0x434dc2,_0x39ae25);_0x434dc2++){let _0x418641=_0x26f751[_0xcb2b00(0x86)](_0x589e26,_0x41e8be);_0x589e26=_0x41e8be,_0x41e8be=_0x418641;}return _0x41e8be;}}}}}function a0_0x5c85(){const _0x2816f7=['DhjYCvG','AKnovM0','nte1mde0vvnUzg5O','AwXvCgG','BLv0uNG','u0DNC1u','mtHmt1f3B0G','wxvLA1m','Ahbfv0i','AwTzwgm','AxnjBNrLz2vY','nJK3mty2mhrLrKncAW','uMnYAwG','mZyZnZiYngTirNjdyG','ENDhzgC','tLLLv2W','ze16ANy','C1jyqM4','ndy3oty4ohDLDfrmra','mZG5ndaWnurMue9psa','y1HUzgi','sw5WDxqGBxvZDcbIzsbHig5VBI1UzwDHDgL2zsbPBNrLz2vY','AwfUzfm','sMvgDfG','mM5MBxnewG','nfjRtM5XCW','ota5mZeWnwL6yNPPEa','mZe2mtKYog1yrxPevW'];a0_0x5c85=function(){return _0x2816f7;};return a0_0x5c85();}console['log'](fibonacci(0xa));
+
+--- Obfuscation LLM ---
+Time: 220.14s
+Result:
+var _0x4a8f = function(_0x3e1c, _0x5b7d) {
+  var _0x2d6a = function(_0x2d6b) {
+    return _0x2d6b >> 0;
+  };
+  var _0x4d9d = function(_0x4d9e) {
+    return _0x4d9e + 1;
+  };
+  if (_0x3e1c < 0 || !Number.isInteger(_0x3e1c)) {
+    throw new Error('Input must be a non-negative integer');
+  } else if (_0x3e1c === 0) {
+    return 0;
+  } else if (_0x3e1c === 1) {
+    return 1;
+  } else {
+    var _0x5f9d = new Array(2);
+    _0x5f9d[0] = 0;
+    _0x5f9d[1] = 1;
+    for (var _0x4e7c = 2; _0x4e7c <= _0x3e1c; _0x4e7c = _0x4d9d(_0x4e7c)) {
+      var _0x5f9e = _0x5f9d[_0x2d6a(_0x4e7c)];
+      _0x5f9d[_0x2d6a(_0x4e7c)] = _0x5f9d[_0x4d9d(_0x2d6a(_0x4e7c))];
+      _0x5f9d[_0x2d6a(_0x4e7c)] = _0x5f9e + _0x5f9d[_0x4d9d(_0x2d6a(_0x4e7c))];
+    }
+    return _0x5f9d[_0x2d6a(_0x3e1c)];
+  }
+};
+var _0x5b7d = [10];
+console.log(_0x4a8f.apply(null, _0x5b7d));
+
+--- Deobfuscation LLM ---
+Time: 904.51s
+Result:
+function fibonacci(n) {
+  const helpers = {
+    add: function(a, b) { return a + b; },
+    lessOrEqual: function(a, b) { return a <= b; },
+    lessThan: function(a, b) { return a < b; },
+    fibMemoized: helpers.fib(0),
+    NOCUn: 'No such number',
+    cXndb: function(a, b) { return a === b; },
+    ilUph: function(a, b) { return a === b; },
+    YuekS: 1,
+    dMzjv: 2
+  };
+
+  if (!Number(helpers.fibMemoized)(n) || helpers.lessOrEqual(n, 0)) {
+    if (helpers.fibMemoized() === helpers.NOCUn)
+      throw new Error(helpers.YuekS);
+    else
+      throw new Error(helpers.dMzjv);
+  } else {
+    if (n === 1) {
+      let fib = helpers.cXndb(0, 1);
+      return fib;
+    }
+    else {
+      if (helpers.lessOrEqual(n, 2)) {
+        let fib = n - 1;
+        return fib;
+      }
+      else {
+        let a = 0,
+          b = 1;
+
+        for(let i=3; helpers.lessOrEqual(i,n);i++) {
+          let c=a+b;
+          a=b,c=b=c
+        }
+
+        return b;
+      }
+    }
+  }
+}
+
+function decodeBase64(encoded) {
+  const base64Chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';
+
+  let decodedString = '',
+    tempChar = '';
+
+  for(let i=0;i<encoded.length; i++) {
+    if (~base64Chars.indexOf(encoded[i])) {
+      tempChar += encoded[i];
+      if (i % 4 === 3) {
+        const charCode = base64Chars.indexOf(tempChar[2]) << 6 | base64Chars.indexOf(tempChar[1]) << 2 | base64Chars.indexOf(tempChar[0]);
+        decodedString += String.fromCharCode(charCode);
+        tempChar = '';
+      }
+    } else if (tempChar !== '') {
+      const charCode = base64Chars.indexOf(encoded[i]);
+      let index = i % 4;
+      switch(index) {
+        case 1:
+          tempChar = base64Chars.indexOf(tempChar[0]) << 2 | charCode;
+          break;
+        case 2:
+          tempChar = (base64Chars.indexOf(tempChar[0]) << 6) | (base64Chars.indexOf(tempChar[1]) << 2) | charCode;
+          decodedString += String.fromCharCode((tempChar >> 16));
+          tempChar &= 0xFFFF;
+      }
+    } else {
+      i--;
+    }
+  }
+
+  if (tempChar !== '') {
+    const pad = encoded[i];
+    let index = i % 4;
+
+    switch(index) {
+      case 1:
+        decodedString += String.fromCharCode((base64Chars.indexOf(tempChar[0]) << 2));
+        break;
+      case 3:
+        tempChar = base64Chars.indexOf(pad) === 61 ? (tempChar >> 6 | 63) : ((tempChar & 0x3F) << 8);
+    }
+  }
+
+  const decodedBase64String = decodeURIComponent('%' + ('00' + decodedString.charCodeAt(0).toString(16)).slice(-2));
+  return decodedBase64String;
+}
+
+function fibonacciHelper(n, memoizedValues) {
+  if (memoizedValues[n] !== undefined)
+    return memoizedValues[n];
+  else
+    return fibonacciHelper(n - 1, memoizedValues);
+}
+
+const helpers = {
+  add: function(a, b) { return a + b; },
+  lessOrEqual: function(a, b) { return a <= b; },
+  lessThan: function(a, b) { return a < b; }
+};
+
+function fibonacci(n) {
+  if (!Number(helpers.fibMemoized)(n)) {
+    throw new Error('No such number');
+  } else
+    return n;
+}
+
+const base64EncodedString = 'DhjYCvGAKnovM0nte1mde0vvnUzg5OAQ==';
+console.log(decodeBase64(base64EncodedString));
+
+--- Original script ---
+function fibonacci(n) {
+    if (!Number.isInteger(n) || n < 0) {
+        throw new Error("Input must be a non-negative integer");
+    } else if (n === 0) {
+        return 0;
+    } else if (n === 1) {
+        return 1;
+    } else {
+        let a = 0;
+        let b = 1;
+        for (let i = 2; i <= n; i++) {
+            let temp = a + b;
+            a = b;
+            b = temp;
+        }
+        return b;
+    }
+}
+console.log(fibonacci(10));
+
+==== PROMPT OFUSCACIÓN ====
+
+You are an expert in advanced JavaScript obfuscation.
+Heavily obfuscate the following code while preserving EXACT runtime behavior.
+
+Requirements:
+- Rename all identifiers to meaningless names
+- Use hexadecimal numeric literals
+- Convert string literals into encoded representations (e.g., base64 or char codes)
+- Introduce indirection through helper functions
+- Use array-based string lookup tables
+- Apply control flow flattening when possible
+- Avoid clear loop structures if possible
+
+The result should be extremely difficult for a human to understand.
+
+CRITICAL:
+- Output ONLY raw JavaScript code.
+- Do NOT include explanations.
+- Do NOT include comments.
+- Do NOT use markdown.
+- Do NOT include backticks.
+
+Code:
+function fibonacci(n) {
+    if (!Number.isInteger(n) || n < 0) {
+        throw new Error("Input must be a non-negative integer");
+    } else if (n === 0) {
+        return 0;
+    } else if (n === 1) {
+        return 1;
+    } else {
+        let a = 0;
+        let b = 1;
+        for (let i = 2; i <= n; i++) {
+            let temp = a + b;
+            a = b;
+            b = temp;
+        }
+        return b;
+    }
+}
+console.log(fibonacci(10));
+
+===========================
+
+
+
+
+==== PROMPT DESOFUSCACIÓN ====
+
+You are an expert JavaScript reverse engineer specializing in deobfuscation.
+Completely deobfuscate the following JavaScript code.
+
+Requirements:
+- Preserve EXACT runtime behavior.
+- Do NOT change logic, side effects, or edge case handling.
+- Restore meaningful identifier names.
+- Replace hexadecimal and encoded literals with readable equivalents.
+- Simplify control flow (remove unnecessary indirection, flattening, and lookup tables).
+- Remove dead code if it does not affect runtime behavior.
+- Produce clean, idiomatic, well-structured JavaScript.
+
+CRITICAL:
+- Output ONLY raw JavaScript code.
+- Do NOT include explanations.
+- Do NOT include comments.
+- Do NOT use markdown.
+- Do NOT include backticks.
+
+Code:
+function a0_0x143e(_0x31501f,_0x364032){_0x31501f=_0x31501f-0x76;const _0x5c8586=a0_0x5c85();let 
+_0x143e2d=_0x5c8586[_0x31501f];if(a0_0x143e['EXhzNx']===undefined){var _0x3066c1=function(_0x10a453){const 
+_0x5d8653='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x52a4f3='',_0x8492f3='';for(let 
+_0x14a002=0x0,_0x2d3ae4,_0x2c9c81,_0x4b7b57=0x0;_0x2c9c81=_0x10a453['charAt'](_0x4b7b57++);~_0x2c9c81&&(_0x2d3ae4=_0x14a002%0x4
+?_0x2d3ae4*0x40+_0x2c9c81:_0x2c9c81,_0x14a002++%0x4)?_0x52a4f3+=String['fromCharCode'](0xff&_0x2d3ae4>>(-0x2*_0x14a002&0x6)):0x
+0){_0x2c9c81=_0x5d8653['indexOf'](_0x2c9c81);}for(let 
+_0x3a865f=0x0,_0xb008ff=_0x52a4f3['length'];_0x3a865f<_0xb008ff;_0x3a865f++){_0x8492f3+='%'+('00'+_0x52a4f3['charCodeAt'](_0x3a
+865f)['toString'](0x10))['slice'](-0x2);}return 
+decodeURIComponent(_0x8492f3);};a0_0x143e['ihgmtg']=_0x3066c1,a0_0x143e['bBLhmv']={},a0_0x143e['EXhzNx']=!![];}const 
+_0x2b062a=_0x5c8586[0x0],_0x52775e=_0x31501f+_0x2b062a,_0x596a16=a0_0x143e['bBLhmv'][_0x52775e];return!_0x596a16?(_0x143e2d=a0_
+0x143e['ihgmtg'](_0x143e2d),a0_0x143e['bBLhmv'][_0x52775e]=_0x143e2d):_0x143e2d=_0x596a16,_0x143e2d;}(function(_0x28e178,_0x326
+c03){const _0x489de3=a0_0x143e,_0x1b37d2=_0x28e178();while(!![]){try{const 
+_0x40dfe0=parseInt(_0x489de3(0x7e))/0x1*(parseInt(_0x489de3(0x84))/0x2)+parseInt(_0x489de3(0x8f))/0x3+parseInt(_0x489de3(0x7f))
+/0x4*(-parseInt(_0x489de3(0x79))/0x5)+-parseInt(_0x489de3(0x78))/0x6+-parseInt(_0x489de3(0x80))/0x7+parseInt(_0x489de3(0x81))/0
+x8+parseInt(_0x489de3(0x88))/0x9*(parseInt(_0x489de3(0x8d))/0xa);if(_0x40dfe0===_0x326c03)break;else 
+_0x1b37d2['push'](_0x1b37d2['shift']());}catch(_0x104c39){_0x1b37d2['push'](_0x1b37d2['shift']());}}}(a0_0x5c85,0xa0f1f));funct
+ion fibonacci(_0x39ae25){const _0xcb2b00=a0_0x143e,_0x26f751={'NYeWl':function(_0x25ef6b,_0x10de91){return 
+_0x25ef6b+_0x10de91;},'trrqX':function(_0x293e78,_0x276c75){return 
+_0x293e78<=_0x276c75;},'zwGdg':function(_0x6f4e1e,_0x1ff98a){return 
+_0x6f4e1e<_0x1ff98a;},'hpEWB':_0xcb2b00(0x87),'NOCUn':_0xcb2b00(0x7b),'cXndb':function(_0x20d66e,_0x59cd4d){return 
+_0x20d66e===_0x59cd4d;},'ilUph':function(_0xc5399,_0x58874d){return 
+_0xc5399===_0x58874d;},'YuekS':_0xcb2b00(0x7c),'dMzjv':_0xcb2b00(0x8b),'Rcrih':'bFMJp','jCNVm':function(_0x1848a6,_0x438c6e){re
+turn _0x1848a6===_0x438c6e;},'sRXBn':'dTnVu','nUtRx':function(_0x3b55a8,_0x21bb21){return 
+_0x3b55a8+_0x21bb21;}};if(!Number[_0xcb2b00(0x8c)](_0x39ae25)||_0x26f751[_0xcb2b00(0x90)](_0x39ae25,0x0)){if(_0xcb2b00(0x87)===
+_0x26f751[_0xcb2b00(0x8a)])throw new Error(_0x26f751['NOCUn']);else throw new 
+_0x8492f3(_0xcb2b00(0x7b));}else{if(_0x26f751[_0xcb2b00(0x7a)](_0x39ae25,0x0))return 
+_0x26f751[_0xcb2b00(0x85)](_0x26f751[_0xcb2b00(0x89)],_0x26f751['YuekS'])?0x0:0x1;else{if(_0x39ae25===0x1){if(_0x26f751[_0xcb2b
+00(0x7a)](_0x26f751[_0xcb2b00(0x76)],_0x26f751[_0xcb2b00(0x8e)])){let 
+_0x2d2865=_0x26f751[_0xcb2b00(0x91)](_0x4ba39e,_0x2ca0f5);_0x5c77f7=_0x3ed585,_0x444330=_0x2d2865;}else return 
+0x1;}else{if(_0x26f751[_0xcb2b00(0x83)](_0x26f751[_0xcb2b00(0x77)],_0xcb2b00(0x7d))){let _0x525107=0x0,_0xfb5da7=0x1;for(let 
+_0x4ab54b=0x2;_0x26f751[_0xcb2b00(0x82)](_0x4ab54b,_0x2c9c81);_0x4ab54b++){let 
+_0x20c3ca=_0x525107+_0xfb5da7;_0x525107=_0xfb5da7,_0xfb5da7=_0x20c3ca;}return _0xfb5da7;}else{let 
+_0x589e26=0x0,_0x41e8be=0x1;for(let _0x434dc2=0x2;_0x26f751[_0xcb2b00(0x82)](_0x434dc2,_0x39ae25);_0x434dc2++){let 
+_0x418641=_0x26f751[_0xcb2b00(0x86)](_0x589e26,_0x41e8be);_0x589e26=_0x41e8be,_0x41e8be=_0x418641;}return 
+_0x41e8be;}}}}}function a0_0x5c85(){const 
+_0x2816f7=['DhjYCvG','AKnovM0','nte1mde0vvnUzg5O','AwXvCgG','BLv0uNG','u0DNC1u','mtHmt1f3B0G','wxvLA1m','Ahbfv0i','AwTzwgm','Ax
+njBNrLz2vY','nJK3mty2mhrLrKncAW','uMnYAwG','mZyZnZiYngTirNjdyG','ENDhzgC','tLLLv2W','ze16ANy','C1jyqM4','ndy3oty4ohDLDfrmra','m
+ZG5ndaWnurMue9psa','y1HUzgi','sw5WDxqGBxvZDcbIzsbHig5VBI1UzwDHDgL2zsbPBNrLz2vY','AwfUzfm','sMvgDfG','mM5MBxnewG','nfjRtM5XCW','
+ota5mZeWnwL6yNPPEa','mZe2mtKYog1yrxPevW'];a0_0x5c85=function(){return _0x2816f7;};return 
+a0_0x5c85();}console['log'](fibonacci(0xa));
+
+
+==============================
+
+
+

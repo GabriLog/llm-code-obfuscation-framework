@@ -59,9 +59,8 @@ def build_summary(df, df_obf, df_deob):
 
     summary["ast_overview"] = {
         model: {
-            "ast_score_obf":  safe(df_llm.groupby("model")["ast_score"].mean().get(model)),  # 👈
+            "ast_score_obf":  safe(df_llm.groupby("model")["ast_score"].mean().get(model)),
             "ast_score_deob": safe(df_deob.groupby("model")["ast_score"].mean().get(model)),
-            "node_ratio_obf": safe(df_llm.groupby("model")["node_ratio"].mean().get(model)), # 👈
         }
         for model in sorted(df["model"].dropna().unique())
     }

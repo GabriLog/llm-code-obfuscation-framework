@@ -1,0 +1,381 @@
+Experiment Timestamp: 2026-04-28 14:22:39.051932
+
+--- Experiment Summary ---
+Model: llama3.1:8b
+Strategy: zero-shot
+Dataset: large
+Script: simple_calculator.js
+
+--- Obfuscation Traditional ---
+Time: 1.07s
+Result:
+(function(_0xb15181,_0x14bb8){const _0x53d6f1=a0_0x41ac,_0x433aaa=_0xb15181();while(!![]){try{const _0x44ad0e=-parseInt(_0x53d6f1(0xe5))/0x1*(parseInt(_0x53d6f1(0xe7))/0x2)+parseInt(_0x53d6f1(0xeb))/0x3+-parseInt(_0x53d6f1(0xd7))/0x4*(parseInt(_0x53d6f1(0xe8))/0x5)+-parseInt(_0x53d6f1(0xea))/0x6+-parseInt(_0x53d6f1(0xe9))/0x7+-parseInt(_0x53d6f1(0xec))/0x8*(parseInt(_0x53d6f1(0xd8))/0x9)+parseInt(_0x53d6f1(0xe4))/0xa;if(_0x44ad0e===_0x14bb8)break;else _0x433aaa['push'](_0x433aaa['shift']());}catch(_0x51e323){_0x433aaa['push'](_0x433aaa['shift']());}}}(a0_0x1122,0x432c1));function sum(_0x235908,_0xbceb0e){return _0x235908+_0xbceb0e;}function subtract(_0x18f74a,_0x438ef1){const _0x3c972d=a0_0x41ac,_0xfaf682={'OhwyL':function(_0x13daa3,_0x17efa5){return _0x13daa3-_0x17efa5;}};return _0xfaf682[_0x3c972d(0xee)](_0x18f74a,_0x438ef1);}function multiply(_0x2ce953,_0x10497b){const _0xa5144a={'pJnDL':function(_0x272d31,_0x1ed5ae){return _0x272d31*_0x1ed5ae;}};return _0xa5144a['pJnDL'](_0x2ce953,_0x10497b);}function divide(_0x195663,_0x38c999){const _0x3db04b=a0_0x41ac,_0x258a06={'wXhPe':function(_0x739e6a,_0x21e7fa){return _0x739e6a===_0x21e7fa;},'QOpTo':_0x3db04b(0xdb)};if(_0x258a06[_0x3db04b(0xe0)](_0x38c999,0x0))return _0x258a06[_0x3db04b(0xef)];return _0x195663/_0x38c999;}function power(_0x3eee92,_0xd64af3){const _0x4c43ce=a0_0x41ac;return Math[_0x4c43ce(0xe6)](_0x3eee92,_0xd64af3);}function a0_0x1122(){const _0x1b8cb8=['uu9Wvg8','Bg9N','ic8G','C0DTvvK','rxjYB3i6iezHy3rVCMLHBcbKzsbUW7PTzxjVig5Lz2f0AxzV','q2fSy3vSywrVCMeGC2LTCgXLcG','mZeXndHNEMPvA0O','ndu3nZe5m1PUrgfdtq','C3fYDa','v3zYrLe','rxjYB3i6ierPDMLZACoZBIbWB3iGy2vYBW','BLHxsNa','id0G','if4G','B1rLC1e','D1HOugu','z2fLuha','igvZihbYAw1VpYa','shHfDhC','mtq4nda2mJbJwLr4rLe','otK1C2DvC1P4','Cg93','mZmWsNbgB2XY','mJK1vLLdqLrq','nJe5mZC0qMTLtgDp','mtK5mZyYmg5pzMTrtW','mtaZmJaZnNzvCLftsW','ohvkyvPkEq','B2ftrum','t2H3EuW'];a0_0x1122=function(){return _0x1b8cb8;};return a0_0x1122();}function sqrt(_0x31736d){const _0x49f19e=a0_0x41ac;return Math[_0x49f19e(0xd9)](_0x31736d);}function factorial(_0xecaef4){const _0x318f76=a0_0x41ac,_0x3ba000={'ImmLL':function(_0x4c9e39,_0x16a3d5){return _0x4c9e39<_0x16a3d5;},'oTesQ':function(_0x11e29c,_0x3e2125){return _0x11e29c<=_0x3e2125;}};if(_0x3ba000['ImmLL'](_0xecaef4,0x0))return _0x318f76(0xd5);let _0x1f3bb6=0x1;for(let _0x1d94b2=0x2;_0x3ba000[_0x318f76(0xdf)](_0x1d94b2,_0xecaef4);_0x1d94b2++)_0x1f3bb6*=_0x1d94b2;return _0x1f3bb6;}function isPrime(_0x54c9a3){const _0x540d89=a0_0x41ac,_0x1a7a91={'gaePp':function(_0x1be4f3,_0x223348){return _0x1be4f3<=_0x223348;},'pYVCh':function(_0x4c36d8,_0x4f85b){return _0x4c36d8===_0x4f85b;},'WvrFQ':function(_0x3a5791,_0xa8613f){return _0x3a5791%_0xa8613f;}};if(_0x54c9a3<=0x1)return![];for(let _0x40cacb=0x2;_0x1a7a91[_0x540d89(0xe1)](_0x40cacb,Math[_0x540d89(0xd9)](_0x54c9a3));_0x40cacb++){if(_0x1a7a91['pYVCh'](_0x1a7a91[_0x540d89(0xda)](_0x54c9a3,_0x40cacb),0x0))return![];}return!![];}function a0_0x41ac(_0x43442e,_0x3e1eb1){_0x43442e=_0x43442e-0xd2;const _0x1122ba=a0_0x1122();let _0x41ac9d=_0x1122ba[_0x43442e];if(a0_0x41ac['iWhrHF']===undefined){var _0x9cef73=function(_0x4ea7ee){const _0x3874fb='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x4d9d6f='',_0x3070e4='';for(let _0xcc0e8f=0x0,_0x3de6ef,_0x90e20a,_0x445c91=0x0;_0x90e20a=_0x4ea7ee['charAt'](_0x445c91++);~_0x90e20a&&(_0x3de6ef=_0xcc0e8f%0x4?_0x3de6ef*0x40+_0x90e20a:_0x90e20a,_0xcc0e8f++%0x4)?_0x4d9d6f+=String['fromCharCode'](0xff&_0x3de6ef>>(-0x2*_0xcc0e8f&0x6)):0x0){_0x90e20a=_0x3874fb['indexOf'](_0x90e20a);}for(let _0xe2435f=0x0,_0xd94323=_0x4d9d6f['length'];_0xe2435f<_0xd94323;_0xe2435f++){_0x3070e4+='%'+('00'+_0x4d9d6f['charCodeAt'](_0xe2435f)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x3070e4);};a0_0x41ac['DsWQlR']=_0x9cef73,a0_0x41ac['blMYNX']={},a0_0x41ac['iWhrHF']=!![];}const _0x42e66f=_0x1122ba[0x0],_0x43b2d3=_0x43442e+_0x42e66f,_0x4b3735=a0_0x41ac['blMYNX'][_0x43b2d3];return!_0x4b3735?(_0x41ac9d=a0_0x41ac['DsWQlR'](_0x41ac9d),a0_0x41ac['blMYNX'][_0x43b2d3]=_0x41ac9d):_0x41ac9d=_0x4b3735,_0x41ac9d;}function main(){const _0x537b8e=a0_0x41ac,_0x50dab8={'HxEtw':function(_0x548284,_0x4eb475,_0x2658a3){return _0x548284(_0x4eb475,_0x2658a3);},'oaSEC':function(_0x43fef8,_0x22e521,_0x13558e){return _0x43fef8(_0x22e521,_0x13558e);},'sGmUY':function(_0x40124b,_0x479192,_0xe5bebc){return _0x40124b(_0x479192,_0xe5bebc);},'nXWJp':function(_0x43d7d0,_0xb5bbbf){return _0x43d7d0(_0xb5bbbf);}},_0x5ad160=0xc,_0x326787=0x5;console['log'](_0x537b8e(0xd6)),console[_0x537b8e(0xd2)](_0x5ad160+'\x20+\x20'+_0x326787+_0x537b8e(0xdd)+sum(_0x5ad160,_0x326787)),console[_0x537b8e(0xd2)](_0x5ad160+'\x20-\x20'+_0x326787+_0x537b8e(0xdd)+_0x50dab8[_0x537b8e(0xe3)](subtract,_0x5ad160,_0x326787)),console[_0x537b8e(0xd2)](_0x5ad160+'\x20*\x20'+_0x326787+'\x20=\x20'+_0x50dab8[_0x537b8e(0xed)](multiply,_0x5ad160,_0x326787)),console[_0x537b8e(0xd2)](_0x5ad160+_0x537b8e(0xd3)+_0x326787+_0x537b8e(0xdd)+divide(_0x5ad160,_0x326787)),console[_0x537b8e(0xd2)](_0x5ad160+_0x537b8e(0xde)+_0x326787+_0x537b8e(0xdd)+_0x50dab8[_0x537b8e(0xd4)](power,_0x5ad160,_0x326787)),console['log']('√'+_0x5ad160+'\x20=\x20'+_0x50dab8['nXWJp'](sqrt,_0x5ad160)),console['log'](_0x5ad160+'!\x20=\x20'+_0x50dab8[_0x537b8e(0xdc)](factorial,_0x5ad160)),console[_0x537b8e(0xd2)](_0x5ad160+_0x537b8e(0xe2)+_0x50dab8[_0x537b8e(0xdc)](isPrime,_0x5ad160));}main();
+
+--- Obfuscation LLM ---
+Time: 410.36s
+Result:
+var _0x2f4d = function(_0x1e3c, _0x1f6b) {
+    return _0x1e3c + _0x1f6b;
+};
+var _0x5a8e = function(_0x1e3c, _0x1f6b) {
+    return _0x1e3c - _0x1f6b;
+};
+var _0x4d7f = function(_0x1e3c, _0x1f6b) {
+    return _0x1e3c * _0x1f6b;
+};
+var _0x2a9f = function(_0x1e3c, _0x1f6b) {
+    if (_0x1f6b === 0) return "Error: División por cero";
+    return _0x1e3c / _0x1f6b;
+};
+var _0x4a5d = function(_0x1e3c, _0x1f6b) {
+    return Math.pow(_0x1e3c, _0x1f6b);
+};
+var _0x5b2e = function(_0x1e3c) {
+    return Math.sqrt(_0x1e3c);
+};
+var _0x4d7c = function(_0x1e3c) {
+    if (_0x1e3c < 0) return "Error: Factorial de número negativo";
+    var _0x2a9f = 1;
+    for (var _0x5a8e = 2; _0x5a8e <= _0x1e3c; _0x5a8e++) _0x2a9f *= _0x5a8e;
+    return _0x2a9f;
+};
+var _0x4d7b = function(_0x1e3c) {
+    if (_0x1e3c <= 1) return false;
+    for (var _0x5a8e = 2; _0x5a8e <= Math.sqrt(_0x1e3c); _0x5a8e++) {
+        if (_0x1e3c % _0x5a8e === 0) return false;
+    }
+    return true;
+};
+var _0x4d7a = function() {
+    var _0x2f4d = 12;
+    var _0x5a8e = 5;
+    var _0x1f6b = [
+        "Calculadora simple",
+        `%c[${_0x2f4d} + ${_0x5a8e}] = %c[${_0x2f4d}] + [%c[${_0x5a8e}]]`,
+        `%c[${_0x2f4d} - ${_0x5a8e}] = %c[${_0x2f4d}] - [%c[${_0x5a8e}]]`,
+        `%c[${_0x2f4d} * ${_0x5a8e}] = %c[${_0x2f4d}] * [%c[${_0x5a8e}]]`,
+        `%c[${_0x2f4d} / ${_0x5a8e}] = %c[${_0x2f4d}] / [%c[${_0x5a8e}]]`,
+        `%c[${_0x2f4d} ^ ${_0x5a8e}] = %c[${_0x2f4d}] ^ [%c[${_0x5a8e}]]`,
+        `%c[√${_0x2f4d}] = %c[${_0x2f4d}]`,
+        `%c[${_0x2f4d}!] = %c[${_0x2f4d}]`,
+        `%c[${_0x2f4d}] es primo? %c[${_0x2f4d}]`
+    ];
+    var _0x1e3c = 0;
+    for (; _0x1e3c < _0x1f6b.length; _0x1e3c++) {
+        console.log(_0x1f6b[_0x1e3c]);
+    }
+};
+_0x4d7a();
+
+--- Deobfuscation LLM ---
+Time: 1260.89s
+Result:
+(function(a, b) {
+  const c = a0_41ac;
+  let d = [];
+  while (true) {
+    try {
+      const e = -parseInt(c(0xe5)) / 1 * parseInt(c(0xe7)) / 2 + parseInt(c(0xeb)) / 3 - parseInt(c(0xd7)) / 4 * parseInt(c(0xe8)) / 5 - parseInt(c(0xea)) / 6 - parseInt(c(0xe9)) / 7 - parseInt(c(0xec)) / 8 * parseInt(c(0xd8)) / 9 + parseInt(c(0xe4)) / 10;
+      if (e === b) break;
+      else d.push(d.shift());
+    } catch (_f) {
+      d.push(d.shift());
+    }
+  }
+})(a0_1122, 432c1);
+
+function sum(a, b) {
+  return a + b;
+}
+
+function subtract(a, b) {
+  const c = a0_41ac,
+        f = {'OhwyL': function(g, h) {return g - h; }};
+  return f[c(0xee)](a, b);
+}
+
+function multiply(a, b) {
+  const e = {'pJnDL': function(f, d) {return f * d; }};
+  return e['pJnDL'](a, b);
+}
+
+function divide(a, b) {
+  const c = a0_41ac,
+        g = {'wXhPe': function(h, i) {return h === i; },
+             'QOpTo': c(0xdb)};
+  if (g[c(0xe0)](b, 0)) return g['QOpTo'];
+  else return a / b;
+}
+
+function power(a, b) {
+  const e = a0_41ac;
+  return Math[e(0xe6)](a, b);
+}
+
+function a0_1122() {
+  const f = ['uu9Wvg8', 'Bg9N', 'ic8G', 'C0DTvvK', 'rxjYB3i6iezHy3rVCMLHBcbKzsbUW7PTzxjVig5Lz2f0AxzV',
+             'q2fSy3vSywrVCMeGC2LTCgXLcG', 'mZeXndHNEMPvA0O', 'ndu3nZe5m1PUrgfdtq', 'C3fYDa', 'v3zYrLe',
+             'rxjYB3i6ierPDMLZACoZBIbWB3iGy2vYBW', 'BLHxsNa', 'id0G', 'if4G', 'B1rLC1e', 'D1HOugu',
+             'z2fLuha', 'igvZihbYAw1VpYa', 'shHfDhC', 'mtq4nda2mJbJwLr4rLe', 'otK1C2DvC1P4', 'Cg93',
+             'mZmWsNbgB2XY', 'mJK1vLLdqLrq', 'nJe5mZC0qMTLtgDp', 'mtK5mZyYmg5pzMTrtW', 'mtaZmJaZnNzvCLftsW',
+             'ohvkyvPkEq', 'B2ftrum', 't2H3EuW'];
+  a0_1122 = function() {return f;};
+  return a0_1122();
+}
+
+function sqrt(a) {
+  const e = a0_41ac;
+  return Math[e(0xd9)](a);
+}
+
+function factorial(a) {
+  const c = a0_41ac,
+        g = {'ImmLL': function(h, i) {return h < i; },
+             'oTesQ': function(f, d) {return f <= d; }};
+  if (g[c(0xdf)](a, 0)) return c(0xd5);
+  let b = 1;
+  for (let e = 2; g[c(0xe3)](e, a); e++) {
+    b *= e;
+  }
+  return b;
+}
+
+function a0_41ac() {
+  const f = a0_1122(),
+        c = f[0],
+        d = f.length,
+        e = f[d - 1];
+  if (!a0_41ac['blMYNX'][c]) {
+    a0_41ac['DsWQlR'] = function(f) {return decodeURIComponent(escape(f)); };
+    a0_41ac['blMYNX'] = {};
+    a0_41ac['iWhrHF'] = true;
+  }
+  const g = f[d - c],
+        h = d + c,
+        i = a0_41ac['blMYNX'][g];
+  return !i ? (a0_41ac[c] = a0_41ac['DsWQlR'](f), a0_41ac['blMYNX'][g] = f) : f;
+}
+
+function main() {
+  const c = a0_41ac,
+        d = {'HxEtw': function(e, g, h) {return e(g, h); },
+             'oaSEC': function(f, i, j) {return f(i, j); },
+             'sGmUY': function(h, k, l) {return h(k, l); },
+             'nXWJp': function(m, n) {return m(n); }};
+  console.log(c(0xd6));
+  console[d[c(0xe3)]](432c1 + '\x20+\x20' + c(0xdd) + sum(432c1, c(0xdd)));
+  console[d[c(0xe3)]](432c1 + '\x20-\x20' + c(0xdd) + d['oaSEC'](subtract, 432c1, c(0/dd)]);
+  console[d[c(0xe3)]](432c1 + '\x20*\x20' + c(0/dd) + '=\x20' + d['sGmUY'](multiply, 432c1, c(0/dd)));
+  console[d[c(0xe3)]](432c1 + c(0xd4) + c(0/dd) + divide(432c1, c(0/dd)));
+  console[d[c(0xe3)]](432c1 + c(0xde) + c(0/dd) + d['oaSEC'](power, 432c1, c(0/dd)));
+  console.log('√' + 432c1 + '=\x20' + d['nXWJp'](sqrt, 432c1));
+  console.log(432c1 + '! =\x20' + d[c(0xdc)](factorial, 432c1));
+  console[d[c(0xe3)]](432c1 + c(0xe2) + d['nXWJp'](isPrime, 432c1));
+}
+
+main();
+
+--- Original script ---
+function sum(a, b) {
+    return a + b;
+}
+function subtract(a, b) {
+    return a - b;
+}
+function multiply(a, b) {
+    return a * b;
+}
+function divide(a, b) {
+    if (b === 0) return "Error: División por cero";
+    return a / b;
+}
+function power(a, b) {
+    return Math.pow(a, b);
+}
+function sqrt(a) {
+    return Math.sqrt(a);
+}
+function factorial(n) {
+    if (n < 0) return "Error: Factorial de número negativo";
+    let result = 1;
+    for (let i = 2; i <= n; i++) result *= i;
+    return result;
+}
+function isPrime(n) {
+    if (n <= 1) return false;
+    for (let i = 2; i <= Math.sqrt(n); i++) {
+        if (n % i === 0) return false;
+    }
+    return true;
+}
+function main() {
+    const a = 12;
+    const b = 5;
+    console.log("Calculadora simple\n");
+    console.log(`${a} + ${b} = ${sum(a, b)}`);
+    console.log(`${a} - ${b} = ${subtract(a, b)}`);
+    console.log(`${a} * ${b} = ${multiply(a, b)}`);
+    console.log(`${a} / ${b} = ${divide(a, b)}`);
+    console.log(`${a} ^ ${b} = ${power(a, b)}`);
+    console.log(`√${a} = ${sqrt(a)}`);
+    console.log(`${a}! = ${factorial(a)}`);
+    console.log(`${a} es primo? ${isPrime(a)}`);
+}
+main();
+
+==== PROMPT OFUSCACIÓN ====
+
+You are an expert in advanced JavaScript obfuscation.
+Heavily obfuscate the following code while preserving EXACT runtime behavior.
+
+Requirements:
+- Rename all identifiers to meaningless names
+- Use hexadecimal numeric literals
+- Convert string literals into encoded representations (e.g., base64 or char codes)
+- Introduce indirection through helper functions
+- Use array-based string lookup tables
+- Apply control flow flattening when possible
+- Avoid clear loop structures if possible
+
+The result should be extremely difficult for a human to understand.
+
+CRITICAL:
+- Output ONLY raw JavaScript code.
+- Do NOT include explanations.
+- Do NOT include comments.
+- Do NOT use markdown.
+- Do NOT include backticks.
+
+Code:
+function sum(a, b) {
+    return a + b;
+}
+function subtract(a, b) {
+    return a - b;
+}
+function multiply(a, b) {
+    return a * b;
+}
+function divide(a, b) {
+    if (b === 0) return "Error: División por cero";
+    return a / b;
+}
+function power(a, b) {
+    return Math.pow(a, b);
+}
+function sqrt(a) {
+    return Math.sqrt(a);
+}
+function factorial(n) {
+    if (n < 0) return "Error: Factorial de número negativo";
+    let result = 1;
+    for (let i = 2; i <= n; i++) result *= i;
+    return result;
+}
+function isPrime(n) {
+    if (n <= 1) return false;
+    for (let i = 2; i <= Math.sqrt(n); i++) {
+        if (n % i === 0) return false;
+    }
+    return true;
+}
+function main() {
+    const a = 12;
+    const b = 5;
+    console.log("Calculadora simple\n");
+    console.log(`${a} + ${b} = ${sum(a, b)}`);
+    console.log(`${a} - ${b} = ${subtract(a, b)}`);
+    console.log(`${a} * ${b} = ${multiply(a, b)}`);
+    console.log(`${a} / ${b} = ${divide(a, b)}`);
+    console.log(`${a} ^ ${b} = ${power(a, b)}`);
+    console.log(`√${a} = ${sqrt(a)}`);
+    console.log(`${a}! = ${factorial(a)}`);
+    console.log(`${a} es primo? ${isPrime(a)}`);
+}
+main();
+
+===========================
+
+
+
+
+==== PROMPT DESOFUSCACIÓN ====
+
+You are an expert JavaScript reverse engineer specializing in deobfuscation.
+Completely deobfuscate the following JavaScript code.
+
+Requirements:
+- Preserve EXACT runtime behavior.
+- Do NOT change logic, side effects, or edge case handling.
+- Restore meaningful identifier names.
+- Replace hexadecimal and encoded literals with readable equivalents.
+- Simplify control flow (remove unnecessary indirection, flattening, and lookup tables).
+- Remove dead code if it does not affect runtime behavior.
+- Produce clean, idiomatic, well-structured JavaScript.
+
+CRITICAL:
+- Output ONLY raw JavaScript code.
+- Do NOT include explanations.
+- Do NOT include comments.
+- Do NOT use markdown.
+- Do NOT include backticks.
+
+Code:
+(function(_0xb15181,_0x14bb8){const _0x53d6f1=a0_0x41ac,_0x433aaa=_0xb15181();while(!![]){try{const 
+_0x44ad0e=-parseInt(_0x53d6f1(0xe5))/0x1*(parseInt(_0x53d6f1(0xe7))/0x2)+parseInt(_0x53d6f1(0xeb))/0x3+-parseInt(_0x53d6f1(0xd7
+))/0x4*(parseInt(_0x53d6f1(0xe8))/0x5)+-parseInt(_0x53d6f1(0xea))/0x6+-parseInt(_0x53d6f1(0xe9))/0x7+-parseInt(_0x53d6f1(0xec))
+/0x8*(parseInt(_0x53d6f1(0xd8))/0x9)+parseInt(_0x53d6f1(0xe4))/0xa;if(_0x44ad0e===_0x14bb8)break;else 
+_0x433aaa['push'](_0x433aaa['shift']());}catch(_0x51e323){_0x433aaa['push'](_0x433aaa['shift']());}}}(a0_0x1122,0x432c1));funct
+ion sum(_0x235908,_0xbceb0e){return _0x235908+_0xbceb0e;}function subtract(_0x18f74a,_0x438ef1){const 
+_0x3c972d=a0_0x41ac,_0xfaf682={'OhwyL':function(_0x13daa3,_0x17efa5){return _0x13daa3-_0x17efa5;}};return 
+_0xfaf682[_0x3c972d(0xee)](_0x18f74a,_0x438ef1);}function multiply(_0x2ce953,_0x10497b){const 
+_0xa5144a={'pJnDL':function(_0x272d31,_0x1ed5ae){return _0x272d31*_0x1ed5ae;}};return 
+_0xa5144a['pJnDL'](_0x2ce953,_0x10497b);}function divide(_0x195663,_0x38c999){const 
+_0x3db04b=a0_0x41ac,_0x258a06={'wXhPe':function(_0x739e6a,_0x21e7fa){return 
+_0x739e6a===_0x21e7fa;},'QOpTo':_0x3db04b(0xdb)};if(_0x258a06[_0x3db04b(0xe0)](_0x38c999,0x0))return 
+_0x258a06[_0x3db04b(0xef)];return _0x195663/_0x38c999;}function power(_0x3eee92,_0xd64af3){const _0x4c43ce=a0_0x41ac;return 
+Math[_0x4c43ce(0xe6)](_0x3eee92,_0xd64af3);}function a0_0x1122(){const 
+_0x1b8cb8=['uu9Wvg8','Bg9N','ic8G','C0DTvvK','rxjYB3i6iezHy3rVCMLHBcbKzsbUW7PTzxjVig5Lz2f0AxzV','q2fSy3vSywrVCMeGC2LTCgXLcG','m
+ZeXndHNEMPvA0O','ndu3nZe5m1PUrgfdtq','C3fYDa','v3zYrLe','rxjYB3i6ierPDMLZACoZBIbWB3iGy2vYBW','BLHxsNa','id0G','if4G','B1rLC1e',
+'D1HOugu','z2fLuha','igvZihbYAw1VpYa','shHfDhC','mtq4nda2mJbJwLr4rLe','otK1C2DvC1P4','Cg93','mZmWsNbgB2XY','mJK1vLLdqLrq','nJe5
+mZC0qMTLtgDp','mtK5mZyYmg5pzMTrtW','mtaZmJaZnNzvCLftsW','ohvkyvPkEq','B2ftrum','t2H3EuW'];a0_0x1122=function(){return 
+_0x1b8cb8;};return a0_0x1122();}function sqrt(_0x31736d){const _0x49f19e=a0_0x41ac;return 
+Math[_0x49f19e(0xd9)](_0x31736d);}function factorial(_0xecaef4){const 
+_0x318f76=a0_0x41ac,_0x3ba000={'ImmLL':function(_0x4c9e39,_0x16a3d5){return 
+_0x4c9e39<_0x16a3d5;},'oTesQ':function(_0x11e29c,_0x3e2125){return 
+_0x11e29c<=_0x3e2125;}};if(_0x3ba000['ImmLL'](_0xecaef4,0x0))return _0x318f76(0xd5);let _0x1f3bb6=0x1;for(let 
+_0x1d94b2=0x2;_0x3ba000[_0x318f76(0xdf)](_0x1d94b2,_0xecaef4);_0x1d94b2++)_0x1f3bb6*=_0x1d94b2;return _0x1f3bb6;}function 
+isPrime(_0x54c9a3){const _0x540d89=a0_0x41ac,_0x1a7a91={'gaePp':function(_0x1be4f3,_0x223348){return 
+_0x1be4f3<=_0x223348;},'pYVCh':function(_0x4c36d8,_0x4f85b){return 
+_0x4c36d8===_0x4f85b;},'WvrFQ':function(_0x3a5791,_0xa8613f){return _0x3a5791%_0xa8613f;}};if(_0x54c9a3<=0x1)return![];for(let 
+_0x40cacb=0x2;_0x1a7a91[_0x540d89(0xe1)](_0x40cacb,Math[_0x540d89(0xd9)](_0x54c9a3));_0x40cacb++){if(_0x1a7a91['pYVCh'](_0x1a7a
+91[_0x540d89(0xda)](_0x54c9a3,_0x40cacb),0x0))return![];}return!![];}function 
+a0_0x41ac(_0x43442e,_0x3e1eb1){_0x43442e=_0x43442e-0xd2;const _0x1122ba=a0_0x1122();let 
+_0x41ac9d=_0x1122ba[_0x43442e];if(a0_0x41ac['iWhrHF']===undefined){var _0x9cef73=function(_0x4ea7ee){const 
+_0x3874fb='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x4d9d6f='',_0x3070e4='';for(let 
+_0xcc0e8f=0x0,_0x3de6ef,_0x90e20a,_0x445c91=0x0;_0x90e20a=_0x4ea7ee['charAt'](_0x445c91++);~_0x90e20a&&(_0x3de6ef=_0xcc0e8f%0x4
+?_0x3de6ef*0x40+_0x90e20a:_0x90e20a,_0xcc0e8f++%0x4)?_0x4d9d6f+=String['fromCharCode'](0xff&_0x3de6ef>>(-0x2*_0xcc0e8f&0x6)):0x
+0){_0x90e20a=_0x3874fb['indexOf'](_0x90e20a);}for(let 
+_0xe2435f=0x0,_0xd94323=_0x4d9d6f['length'];_0xe2435f<_0xd94323;_0xe2435f++){_0x3070e4+='%'+('00'+_0x4d9d6f['charCodeAt'](_0xe2
+435f)['toString'](0x10))['slice'](-0x2);}return 
+decodeURIComponent(_0x3070e4);};a0_0x41ac['DsWQlR']=_0x9cef73,a0_0x41ac['blMYNX']={},a0_0x41ac['iWhrHF']=!![];}const 
+_0x42e66f=_0x1122ba[0x0],_0x43b2d3=_0x43442e+_0x42e66f,_0x4b3735=a0_0x41ac['blMYNX'][_0x43b2d3];return!_0x4b3735?(_0x41ac9d=a0_
+0x41ac['DsWQlR'](_0x41ac9d),a0_0x41ac['blMYNX'][_0x43b2d3]=_0x41ac9d):_0x41ac9d=_0x4b3735,_0x41ac9d;}function main(){const 
+_0x537b8e=a0_0x41ac,_0x50dab8={'HxEtw':function(_0x548284,_0x4eb475,_0x2658a3){return 
+_0x548284(_0x4eb475,_0x2658a3);},'oaSEC':function(_0x43fef8,_0x22e521,_0x13558e){return 
+_0x43fef8(_0x22e521,_0x13558e);},'sGmUY':function(_0x40124b,_0x479192,_0xe5bebc){return 
+_0x40124b(_0x479192,_0xe5bebc);},'nXWJp':function(_0x43d7d0,_0xb5bbbf){return 
+_0x43d7d0(_0xb5bbbf);}},_0x5ad160=0xc,_0x326787=0x5;console['log'](_0x537b8e(0xd6)),console[_0x537b8e(0xd2)](_0x5ad160+'\x20+\x
+20'+_0x326787+_0x537b8e(0xdd)+sum(_0x5ad160,_0x326787)),console[_0x537b8e(0xd2)](_0x5ad160+'\x20-\x20'+_0x326787+_0x537b8e(0xdd
+)+_0x50dab8[_0x537b8e(0xe3)](subtract,_0x5ad160,_0x326787)),console[_0x537b8e(0xd2)](_0x5ad160+'\x20*\x20'+_0x326787+'\x20=\x20
+'+_0x50dab8[_0x537b8e(0xed)](multiply,_0x5ad160,_0x326787)),console[_0x537b8e(0xd2)](_0x5ad160+_0x537b8e(0xd3)+_0x326787+_0x537
+b8e(0xdd)+divide(_0x5ad160,_0x326787)),console[_0x537b8e(0xd2)](_0x5ad160+_0x537b8e(0xde)+_0x326787+_0x537b8e(0xdd)+_0x50dab8[_
+0x537b8e(0xd4)](power,_0x5ad160,_0x326787)),console['log']('√'+_0x5ad160+'\x20=\x20'+_0x50dab8['nXWJp'](sqrt,_0x5ad160)),consol
+e['log'](_0x5ad160+'!\x20=\x20'+_0x50dab8[_0x537b8e(0xdc)](factorial,_0x5ad160)),console[_0x537b8e(0xd2)](_0x5ad160+_0x537b8e(0
+xe2)+_0x50dab8[_0x537b8e(0xdc)](isPrime,_0x5ad160));}main();
+
+
+==============================
+
+
+

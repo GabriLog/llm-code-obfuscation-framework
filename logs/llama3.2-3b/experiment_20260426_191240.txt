@@ -1,0 +1,232 @@
+Experiment Timestamp: 2026-04-26 19:12:40.198197
+
+--- Experiment Summary ---
+Model: llama3.2:3b
+Strategy: zero-shot
+Dataset: large
+Script: simple_calculator.js
+
+--- Obfuscation Traditional ---
+Time: 0.95s
+Result:
+(function(_0x5926a0,_0x4b8123){const _0x56aa32=a0_0x538f,_0x533184=_0x5926a0();while(!![]){try{const _0xb2999a=parseInt(_0x56aa32(0xb8))/0x1+-parseInt(_0x56aa32(0xa4))/0x2*(-parseInt(_0x56aa32(0xb6))/0x3)+parseInt(_0x56aa32(0xc2))/0x4*(parseInt(_0x56aa32(0xa3))/0x5)+-parseInt(_0x56aa32(0xad))/0x6*(parseInt(_0x56aa32(0xa6))/0x7)+parseInt(_0x56aa32(0xc0))/0x8*(-parseInt(_0x56aa32(0xbd))/0x9)+parseInt(_0x56aa32(0xb1))/0xa*(parseInt(_0x56aa32(0xbe))/0xb)+-parseInt(_0x56aa32(0xbf))/0xc*(parseInt(_0x56aa32(0xb0))/0xd);if(_0xb2999a===_0x4b8123)break;else _0x533184['push'](_0x533184['shift']());}catch(_0x565b36){_0x533184['push'](_0x533184['shift']());}}}(a0_0x134b,0x905b0));function sum(_0xcfbaf1,_0x1e4364){const _0x160a6b={'GvIMa':function(_0x3c0691,_0x122f0e){return _0x3c0691+_0x122f0e;}};return _0x160a6b['GvIMa'](_0xcfbaf1,_0x1e4364);}function subtract(_0x24dce2,_0xb9aaf5){const _0x586e86=a0_0x538f,_0x4d3619={'QNQjs':function(_0x14be57,_0x3eb7e9){return _0x14be57-_0x3eb7e9;}};return _0x4d3619[_0x586e86(0xaf)](_0x24dce2,_0xb9aaf5);}function multiply(_0x109370,_0x1699a0){const _0x7597b4=a0_0x538f,_0x1d14ac={'bJsku':function(_0x44cab5,_0x58a183){return _0x44cab5*_0x58a183;}};return _0x1d14ac[_0x7597b4(0xb4)](_0x109370,_0x1699a0);}function divide(_0x9b1b9f,_0x158750){const _0x6780fb=a0_0x538f,_0x6ddc08={'naBIc':function(_0x4578c7,_0x4bee4c){return _0x4578c7===_0x4bee4c;},'QJXXn':function(_0x4ffb11,_0x40d2fa){return _0x4ffb11/_0x40d2fa;}};if(_0x6ddc08[_0x6780fb(0xa9)](_0x158750,0x0))return _0x6780fb(0xb7);return _0x6ddc08[_0x6780fb(0xa7)](_0x9b1b9f,_0x158750);}function a0_0x134b(){const _0x36cdbd=['mta3oty5nezbDeDNDW','s1PjuLa','ic8G','icSG','id0G','owTptgnpAG','nJaZndmYnw5YCg5bDW','ntm3otzbDxzvuei','nZK0otyXnKzpqwfMzW','y2XKBvi','mZq4nda4ngHrC0fAEa','q2fSy3vSywrVCMeGC2LTCgXLcG','Denvuwu','nxvdCvHYrW','mZu1mdzWzfDmwhi','isa9ia','ote2mtmYsMHowMz4','uuPywg4','rxjYB3i6iezHy3rVCMLHBcbKzsbUW7PTzxjVig5Lz2f0AxzV','BMfcswm','C3fYDa','ic0G','sgPbBwu','ndHqDhn0CMu','v01rug8','uu5rANm','mtmWs2fquNDn','mtbTuhPwCha','Bg9N','icOG','yKPZA3u','EgXSv1i','mZbhBunWwuK','rxjYB3i6ierPDMLZACoZBIbWB3iGy2vYBW'];a0_0x134b=function(){return _0x36cdbd;};return a0_0x134b();}function power(_0xce6134,_0x500577){return Math['pow'](_0xce6134,_0x500577);}function sqrt(_0x2832b5){const _0x591cef=a0_0x538f;return Math[_0x591cef(0xaa)](_0x2832b5);}function factorial(_0x18ca3f){const _0x2a1fbc=a0_0x538f,_0x57cdb4={'adBzD':function(_0x1c5b8a,_0x3f4f80){return _0x1c5b8a<_0x3f4f80;},'jzaGw':_0x2a1fbc(0xa8),'WMQPo':function(_0x147d03,_0x5bc381){return _0x147d03<=_0x5bc381;}};if(_0x57cdb4['adBzD'](_0x18ca3f,0x0))return _0x57cdb4['jzaGw'];let _0xe7bd59=0x1;for(let _0x5cb65c=0x2;_0x57cdb4[_0x2a1fbc(0xae)](_0x5cb65c,_0x18ca3f);_0x5cb65c++)_0xe7bd59*=_0x5cb65c;return _0xe7bd59;}function isPrime(_0x33d572){const _0x1e32a4=a0_0x538f,_0x4f4510={'tCUQe':function(_0x1af206,_0xd947c7){return _0x1af206<=_0xd947c7;},'bStzF':function(_0x1d6219,_0xff24bb){return _0x1d6219===_0xff24bb;},'LbAav':function(_0x44eadc,_0xfd7fbb){return _0x44eadc%_0xfd7fbb;}};if(_0x4f4510[_0x1e32a4(0xa2)](_0x33d572,0x1))return![];for(let _0x2ce2f8=0x2;_0x2ce2f8<=Math[_0x1e32a4(0xaa)](_0x33d572);_0x2ce2f8++){if(_0x4f4510['bStzF'](_0x4f4510['LbAav'](_0x33d572,_0x2ce2f8),0x0))return![];}return!![];}function a0_0x538f(_0x2ad6e3,_0x4a21a5){_0x2ad6e3=_0x2ad6e3-0xa1;const _0x134bab=a0_0x134b();let _0x538ff3=_0x134bab[_0x2ad6e3];if(a0_0x538f['EKqjQl']===undefined){var _0x52e5ae=function(_0x303c1b){const _0x2a38f5='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x27bd11='',_0x5a2ba6='';for(let _0x14b11d=0x0,_0x4516d6,_0x3f94f0,_0xf71017=0x0;_0x3f94f0=_0x303c1b['charAt'](_0xf71017++);~_0x3f94f0&&(_0x4516d6=_0x14b11d%0x4?_0x4516d6*0x40+_0x3f94f0:_0x3f94f0,_0x14b11d++%0x4)?_0x27bd11+=String['fromCharCode'](0xff&_0x4516d6>>(-0x2*_0x14b11d&0x6)):0x0){_0x3f94f0=_0x2a38f5['indexOf'](_0x3f94f0);}for(let _0x345865=0x0,_0x26d8cc=_0x27bd11['length'];_0x345865<_0x26d8cc;_0x345865++){_0x5a2ba6+='%'+('00'+_0x27bd11['charCodeAt'](_0x345865)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x5a2ba6);};a0_0x538f['dkegcP']=_0x52e5ae,a0_0x538f['VffaTO']={},a0_0x538f['EKqjQl']=!![];}const _0x4364ed=_0x134bab[0x0],_0xb75a52=_0x2ad6e3+_0x4364ed,_0xd901de=a0_0x538f['VffaTO'][_0xb75a52];return!_0xd901de?(_0x538ff3=a0_0x538f['dkegcP'](_0x538ff3),a0_0x538f['VffaTO'][_0xb75a52]=_0x538ff3):_0x538ff3=_0xd901de,_0x538ff3;}function main(){const _0x1d969a=a0_0x538f,_0x2467b0={'KZIRP':function(_0x220924,_0x4889cb,_0x2848c1){return _0x220924(_0x4889cb,_0x2848c1);},'cldmR':function(_0x1e0c07,_0x33e9cb,_0x5d6780){return _0x1e0c07(_0x33e9cb,_0x5d6780);},'xllWR':function(_0x19c94c,_0xd39a5a){return _0x19c94c(_0xd39a5a);},'HjAme':function(_0x1de56a,_0x261664){return _0x1de56a(_0x261664);}},_0x17e11d=0xc,_0x3b79c1=0x5;console[_0x1d969a(0xb2)](_0x1d969a(0xa1)),console[_0x1d969a(0xb2)](_0x17e11d+_0x1d969a(0xbb)+_0x3b79c1+_0x1d969a(0xbc)+_0x2467b0['KZIRP'](sum,_0x17e11d,_0x3b79c1)),console[_0x1d969a(0xb2)](_0x17e11d+_0x1d969a(0xab)+_0x3b79c1+_0x1d969a(0xbc)+_0x2467b0[_0x1d969a(0xb9)](subtract,_0x17e11d,_0x3b79c1)),console[_0x1d969a(0xb2)](_0x17e11d+_0x1d969a(0xb3)+_0x3b79c1+_0x1d969a(0xbc)+_0x2467b0['KZIRP'](multiply,_0x17e11d,_0x3b79c1)),console[_0x1d969a(0xb2)](_0x17e11d+_0x1d969a(0xba)+_0x3b79c1+_0x1d969a(0xbc)+_0x2467b0[_0x1d969a(0xb9)](divide,_0x17e11d,_0x3b79c1)),console['log'](_0x17e11d+'\x20^\x20'+_0x3b79c1+_0x1d969a(0xbc)+_0x2467b0[_0x1d969a(0xc1)](power,_0x17e11d,_0x3b79c1)),console['log']('√'+_0x17e11d+_0x1d969a(0xbc)+_0x2467b0[_0x1d969a(0xb5)](sqrt,_0x17e11d)),console[_0x1d969a(0xb2)](_0x17e11d+_0x1d969a(0xa5)+factorial(_0x17e11d)),console['log'](_0x17e11d+'\x20es\x20primo?\x20'+_0x2467b0[_0x1d969a(0xac)](isPrime,_0x17e11d));}main();
+
+--- Obfuscation LLM ---
+Time: 45.03s
+Result:
+4a3d5b2f6c2e8a1f7e1f3d3c6b3e8c4a2a7d3b6c3b8a3b4d2c6a1b2a3b1d3a3b2a1b3
+
+--- Deobfuscation LLM ---
+Time: 1076.86s
+Result:
+(function(a,b){const c=a[0],d=a[1];let e=0,f=0,g=0,h=0,i=0,j=0,k=0,l=0,m=0,n=0,o=0,p=0,q=0,r=0,s=0,t=0,u=0,v=0,w=0,x=0,y=0,z=0;function A(a,b){return a+b;}function B(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (c==d&&e==f&&g==h&&i==j&&k==l&&m==n&&o==p&&q==r&&s==t&&u==v&&w==x&&y==z){return true;}else{return false;}}function C(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a!=b||c!=d||e!=f||g!=h||i!=j||k!=l||m!=n||o!=p||q!=r||s!=t||u!=v||w!=x||y!=z){return false;}else{return true;}}function D(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a==b&&c==d&&e==f&&g==h&&i==j&&k==l&&m==n&&o==p&&q==r&&s==t&&u==v&&w==x&&y==z){return true;}else{return false;}}function E(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a!=b||c!=d||e!=f||g!=h||i!=j||k!=l||m!=n||o!=p||q!=r||s!=t||u!=v||w!=x||y!=z){return false;}else{return true;}}function F(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a==b&&c==d&&e==f&&g==h&&i==j&&k==l&&m==n&&o==p||q==r||s==t||u==v||w==x||y==z){return true;}else{return false;}}function G(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a!=b||c!=d||e!=f||g!=h||i!=j||k!=l||m!=n||o!=p||q!=r||s!=t||u!=v||w!=x||y!=z){return false;}else{return true;}}function H(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a==b&&c==d&&e==f&&g==h&&i==j&&k==l&&m==n&&o==p||q==r||s==t||u==v||w==x||y==z){return true;}else{return false;}}function I(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a!=b||c!=d||e!=f||g!=h||i!=j||k!=l||m!=n||o!=p||q!=r||s!=t||u!=v||w!=x||y!=z){return false;}else{return true;}}function J(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a==b&&c==d&&e==f&&g==h&&i==j&&k==l&&m==n&&o==p||q==r||s==t||u==v||w==x||y==z){return true;}else{return false;}}function K(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a!=b||c!=d||e!=f||g!=h||i!=j||k!=l||m!=n||o!=p||q!=r||s!=t||u!=v||w!=x||y!=z){return false;}else{return true;}}function L(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a==b&&c==d&&e==f&&g==h&&i==j&&k==l&&m==n&&o==p||q==r||s==t||u==v||w==x||y==z){return true;}else{return false;}}function M(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a!=b||c!=d||e!=f||g!=h||i!=j||k!=l||m!=n||o!=p||q!=r||s!=t||u!=v||w!=x||y!=z){return false;}else{return true;}}function N(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a==b&&c==d&&e==f&&g==h&&i==j&&k==l&&m==n&&o==p||q==r||s==t||u==v||w==x||y==z){return true;}else{return false;}}function O(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a!=b||c!=d||e!=f||g!=h||i!=j||k!=l||m!=n||o!=p||q!=r||s!=t||u!=v||w!=x||y!=z){return false;}else{return true;}}function P(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a==b&&c==d&&e==f&&g==h&&i==j&&k==l&&m==n&&o==p||q==r||s==t||u==v||w==x||y==z){return true;}else{return false;}}function Q(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a!=b||c!=d||e!=f||g!=h||i!=j||k!=l||m!=n||o!=p||q!=r||s!=t||u!=v||w!=x||y!=z){return false;}else{return true;}}function R(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a==b&&c==d&&e==f&&g==h&&i==j&&k==l&&m==n&&o==p||q==r||s==t||u==v||w==x||y==z){return true;}else{return false;}}function S(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a!=b||c!=d||e!=f||g!=h||i!=j||k!=l||m!=n||o!=p||q!=r||s!=t||u!=v||w!=x||y!=z){return false;}else{return true;}}function T(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a==b&&c==d&&e==f&&g==h&&i==j&&k==l&&m==n&&o==p||q==r||s==t||u==v||w==x||y==z){return true;}else{return false;}}function U(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a!=b||c!=d||e!=f||g!=h||i!=j||k!=l||m!=n||o!=p||q!=r||s!=t||u!=v||w!=x||y!=z){return false;}else{return true;}}function V(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a==b&&c==d&&e==f&&g==h&&i==j&&k==l&&m==n&&o==p||q==r||s==t||u==v||w==x||y==z){return true;}else{return false;}}function W(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a!=b||c!=d||e!=f||g!=h||i!=j||k!=l||m!=n||o!=p||q!=r||s!=t||u!=v||w!=x||y!=z){return false;}else{return true;}}function X(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a==b&&c==d&&e==f&&g==h&&i==j&&k==l&&m==n&&o==p||q==r||s==t||u==v||w==x||y==z){return true;}else{return false;}}function Y(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a!=b||c!=d||e!=f||g!=h||i!=j||k!=l||m!=n||o!=p||q!=r||s!=t||u!=v||w!=x||y!=z){return false;}else{return true;}}function Z(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a==b&&c==d&&e==f&&g==h&&i==j&&k==l&&m==n&&o==p||q==r||s==t||u==v||w==x||y==z){return true;}else{return false;}}function aa(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a!=b||c!=d||e!=f||g!=h||i!=j||k!=l||m!=n||o!=p||q!=r||s!=t||u!=v||w!=x||y!=z){return false;}else{return true;}}function bb(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a==b&&c==d&&e==f&&g==h&&i==j&&k==l&&m==n&&o==p||q==r||s==t||u==v||w==x||y==z){return true;}else{return false;}}function cc(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a!=b||c!=d||e!=f||g!=h||i!=j||k!=l||m!=n||o!=p||q!=r||s!=t||u!=v||w!=x||y!=z){return false;}else{return true;}}function dd(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a==b&&c==d&&e==f&&g==h&&i==j&&k==l&&m==n&&o==p||q==r||s==t||u==v||w==x||y==z){return true;}else{return false;}}function ee(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a!=b||c!=d||e!=f||g!=h||i!=j||k!=l||m!=n||o!=p||q!=r||s!=t||u!=v||w!=x||y!=z){return false;}else{return true;}}function ff(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a==b&&c==d&&e==f&&g==h&&i==j&&k==l&&m==n&&o==p||q==r||s==t||u==v||w==x||y==z){return true;}else{return false;}}function gg(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a!=b||c!=d||e!=f||g!=h||i!=j||k!=l||m!=n||o!=p||q!=r||s!=t||u!=v||w!=x||y!=z){return false;}else{return true;}}function hh(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a==b&&c==d&&e==f&&g==h&&i==j&&k==l&&m==n&&o==p||q==r||s==t||u==v||w==x||y==z){return true;}else{return false;}}function ii(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a!=b||c!=d||e!=f||g!=h||i!=j||k!=l||m!=n||o!=p||q!=r||s!=t||u!=v||w!=x||y!=z){return false;}else{return true;}}function jj(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a==b&&c==d&&e==f&&g==h&&i==j&&k==l&&m==n&&o==p||q==r||s==t||u==v||w==x||y==z){return true;}else{return false;}}function kk(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a!=b||c!=d||e!=f||g!=h||i!=j||k!=l||m!=n||o!=p||q!=r||s!=t||u!=v||w!=x||y!=z){return false;}else{return true;}}function ll(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a==b&&c==d&&e==f&&g==h&&i==j&&k==l&&m==n&&o==p||q==r||s==t||u==v||w==x||y==z){return true;}else{return false;}}function mm(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a!=b||c!=d||e!=f||g!=h||i!=j||k!=l||m!=n||o!=p||q!=r||s!=t||u!=v||w!=x||y!=z){return false;}else{return true;}}function nn(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a==b&&c==d&&e==f&&g==h&&i==j&&k==l&&m==n&&o==p||q==r||s==t||u==v||w==x||y==z){return true;}else{return false;}}function oo(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a!=b||c!=d||e!=f||g!=h||i!=j||k!=l||m!=n||o!=p||q!=r||s!=t||u!=v||w!=x||y!=z){return false;}else{return true;}}function pp(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a==b&&c==d&&e==f&&g==h&&i==j&&k==l&&m==n&&o==p||q==r||s==t||u==v||w==x||y==z){return true;}else{return false;}}function qq(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a!=b||c!=d||e!=f||g!=h||i!=j||k!=l||m!=n||o!=p||q!=r||s!=t||u!=v||w!=x||y!=z){return false;}else{return true;}}function rr(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) {if (a==b&&c==d&&e==f&&g==h&&
+
+--- Original script ---
+function sum(a, b) {
+    return a + b;
+}
+function subtract(a, b) {
+    return a - b;
+}
+function multiply(a, b) {
+    return a * b;
+}
+function divide(a, b) {
+    if (b === 0) return "Error: División por cero";
+    return a / b;
+}
+function power(a, b) {
+    return Math.pow(a, b);
+}
+function sqrt(a) {
+    return Math.sqrt(a);
+}
+function factorial(n) {
+    if (n < 0) return "Error: Factorial de número negativo";
+    let result = 1;
+    for (let i = 2; i <= n; i++) result *= i;
+    return result;
+}
+function isPrime(n) {
+    if (n <= 1) return false;
+    for (let i = 2; i <= Math.sqrt(n); i++) {
+        if (n % i === 0) return false;
+    }
+    return true;
+}
+function main() {
+    const a = 12;
+    const b = 5;
+    console.log("Calculadora simple\n");
+    console.log(`${a} + ${b} = ${sum(a, b)}`);
+    console.log(`${a} - ${b} = ${subtract(a, b)}`);
+    console.log(`${a} * ${b} = ${multiply(a, b)}`);
+    console.log(`${a} / ${b} = ${divide(a, b)}`);
+    console.log(`${a} ^ ${b} = ${power(a, b)}`);
+    console.log(`√${a} = ${sqrt(a)}`);
+    console.log(`${a}! = ${factorial(a)}`);
+    console.log(`${a} es primo? ${isPrime(a)}`);
+}
+main();
+
+==== PROMPT OFUSCACIÓN ====
+
+You are an expert in advanced JavaScript obfuscation.
+Heavily obfuscate the following code while preserving EXACT runtime behavior.
+
+Requirements:
+- Rename all identifiers to meaningless names
+- Use hexadecimal numeric literals
+- Convert string literals into encoded representations (e.g., base64 or char codes)
+- Introduce indirection through helper functions
+- Use array-based string lookup tables
+- Apply control flow flattening when possible
+- Avoid clear loop structures if possible
+
+The result should be extremely difficult for a human to understand.
+
+CRITICAL:
+- Output ONLY raw JavaScript code.
+- Do NOT include explanations.
+- Do NOT include comments.
+- Do NOT use markdown.
+- Do NOT include backticks.
+
+Code:
+function sum(a, b) {
+    return a + b;
+}
+function subtract(a, b) {
+    return a - b;
+}
+function multiply(a, b) {
+    return a * b;
+}
+function divide(a, b) {
+    if (b === 0) return "Error: División por cero";
+    return a / b;
+}
+function power(a, b) {
+    return Math.pow(a, b);
+}
+function sqrt(a) {
+    return Math.sqrt(a);
+}
+function factorial(n) {
+    if (n < 0) return "Error: Factorial de número negativo";
+    let result = 1;
+    for (let i = 2; i <= n; i++) result *= i;
+    return result;
+}
+function isPrime(n) {
+    if (n <= 1) return false;
+    for (let i = 2; i <= Math.sqrt(n); i++) {
+        if (n % i === 0) return false;
+    }
+    return true;
+}
+function main() {
+    const a = 12;
+    const b = 5;
+    console.log("Calculadora simple\n");
+    console.log(`${a} + ${b} = ${sum(a, b)}`);
+    console.log(`${a} - ${b} = ${subtract(a, b)}`);
+    console.log(`${a} * ${b} = ${multiply(a, b)}`);
+    console.log(`${a} / ${b} = ${divide(a, b)}`);
+    console.log(`${a} ^ ${b} = ${power(a, b)}`);
+    console.log(`√${a} = ${sqrt(a)}`);
+    console.log(`${a}! = ${factorial(a)}`);
+    console.log(`${a} es primo? ${isPrime(a)}`);
+}
+main();
+
+===========================
+
+
+
+
+==== PROMPT DESOFUSCACIÓN ====
+
+You are an expert JavaScript reverse engineer specializing in deobfuscation.
+Completely deobfuscate the following JavaScript code.
+
+Requirements:
+- Preserve EXACT runtime behavior.
+- Do NOT change logic, side effects, or edge case handling.
+- Restore meaningful identifier names.
+- Replace hexadecimal and encoded literals with readable equivalents.
+- Simplify control flow (remove unnecessary indirection, flattening, and lookup tables).
+- Remove dead code if it does not affect runtime behavior.
+- Produce clean, idiomatic, well-structured JavaScript.
+
+CRITICAL:
+- Output ONLY raw JavaScript code.
+- Do NOT include explanations.
+- Do NOT include comments.
+- Do NOT use markdown.
+- Do NOT include backticks.
+
+Code:
+(function(_0x5926a0,_0x4b8123){const _0x56aa32=a0_0x538f,_0x533184=_0x5926a0();while(!![]){try{const 
+_0xb2999a=parseInt(_0x56aa32(0xb8))/0x1+-parseInt(_0x56aa32(0xa4))/0x2*(-parseInt(_0x56aa32(0xb6))/0x3)+parseInt(_0x56aa
+32(0xc2))/0x4*(parseInt(_0x56aa32(0xa3))/0x5)+-parseInt(_0x56aa32(0xad))/0x6*(parseInt(_0x56aa32(0xa6))/0x7)+parseInt(_0
+x56aa32(0xc0))/0x8*(-parseInt(_0x56aa32(0xbd))/0x9)+parseInt(_0x56aa32(0xb1))/0xa*(parseInt(_0x56aa32(0xbe))/0xb)+-parse
+Int(_0x56aa32(0xbf))/0xc*(parseInt(_0x56aa32(0xb0))/0xd);if(_0xb2999a===_0x4b8123)break;else 
+_0x533184['push'](_0x533184['shift']());}catch(_0x565b36){_0x533184['push'](_0x533184['shift']());}}}(a0_0x134b,0x905b0)
+);function sum(_0xcfbaf1,_0x1e4364){const _0x160a6b={'GvIMa':function(_0x3c0691,_0x122f0e){return 
+_0x3c0691+_0x122f0e;}};return _0x160a6b['GvIMa'](_0xcfbaf1,_0x1e4364);}function subtract(_0x24dce2,_0xb9aaf5){const 
+_0x586e86=a0_0x538f,_0x4d3619={'QNQjs':function(_0x14be57,_0x3eb7e9){return _0x14be57-_0x3eb7e9;}};return 
+_0x4d3619[_0x586e86(0xaf)](_0x24dce2,_0xb9aaf5);}function multiply(_0x109370,_0x1699a0){const 
+_0x7597b4=a0_0x538f,_0x1d14ac={'bJsku':function(_0x44cab5,_0x58a183){return _0x44cab5*_0x58a183;}};return 
+_0x1d14ac[_0x7597b4(0xb4)](_0x109370,_0x1699a0);}function divide(_0x9b1b9f,_0x158750){const 
+_0x6780fb=a0_0x538f,_0x6ddc08={'naBIc':function(_0x4578c7,_0x4bee4c){return 
+_0x4578c7===_0x4bee4c;},'QJXXn':function(_0x4ffb11,_0x40d2fa){return 
+_0x4ffb11/_0x40d2fa;}};if(_0x6ddc08[_0x6780fb(0xa9)](_0x158750,0x0))return _0x6780fb(0xb7);return 
+_0x6ddc08[_0x6780fb(0xa7)](_0x9b1b9f,_0x158750);}function a0_0x134b(){const 
+_0x36cdbd=['mta3oty5nezbDeDNDW','s1PjuLa','ic8G','icSG','id0G','owTptgnpAG','nJaZndmYnw5YCg5bDW','ntm3otzbDxzvuei','nZK0
+otyXnKzpqwfMzW','y2XKBvi','mZq4nda4ngHrC0fAEa','q2fSy3vSywrVCMeGC2LTCgXLcG','Denvuwu','nxvdCvHYrW','mZu1mdzWzfDmwhi','is
+a9ia','ote2mtmYsMHowMz4','uuPywg4','rxjYB3i6iezHy3rVCMLHBcbKzsbUW7PTzxjVig5Lz2f0AxzV','BMfcswm','C3fYDa','ic0G','sgPbBwu
+','ndHqDhn0CMu','v01rug8','uu5rANm','mtmWs2fquNDn','mtbTuhPwCha','Bg9N','icOG','yKPZA3u','EgXSv1i','mZbhBunWwuK','rxjYB3
+i6ierPDMLZACoZBIbWB3iGy2vYBW'];a0_0x134b=function(){return _0x36cdbd;};return a0_0x134b();}function 
+power(_0xce6134,_0x500577){return Math['pow'](_0xce6134,_0x500577);}function sqrt(_0x2832b5){const 
+_0x591cef=a0_0x538f;return Math[_0x591cef(0xaa)](_0x2832b5);}function factorial(_0x18ca3f){const 
+_0x2a1fbc=a0_0x538f,_0x57cdb4={'adBzD':function(_0x1c5b8a,_0x3f4f80){return 
+_0x1c5b8a<_0x3f4f80;},'jzaGw':_0x2a1fbc(0xa8),'WMQPo':function(_0x147d03,_0x5bc381){return 
+_0x147d03<=_0x5bc381;}};if(_0x57cdb4['adBzD'](_0x18ca3f,0x0))return _0x57cdb4['jzaGw'];let _0xe7bd59=0x1;for(let 
+_0x5cb65c=0x2;_0x57cdb4[_0x2a1fbc(0xae)](_0x5cb65c,_0x18ca3f);_0x5cb65c++)_0xe7bd59*=_0x5cb65c;return 
+_0xe7bd59;}function isPrime(_0x33d572){const _0x1e32a4=a0_0x538f,_0x4f4510={'tCUQe':function(_0x1af206,_0xd947c7){return
+_0x1af206<=_0xd947c7;},'bStzF':function(_0x1d6219,_0xff24bb){return 
+_0x1d6219===_0xff24bb;},'LbAav':function(_0x44eadc,_0xfd7fbb){return 
+_0x44eadc%_0xfd7fbb;}};if(_0x4f4510[_0x1e32a4(0xa2)](_0x33d572,0x1))return![];for(let 
+_0x2ce2f8=0x2;_0x2ce2f8<=Math[_0x1e32a4(0xaa)](_0x33d572);_0x2ce2f8++){if(_0x4f4510['bStzF'](_0x4f4510['LbAav'](_0x33d57
+2,_0x2ce2f8),0x0))return![];}return!![];}function a0_0x538f(_0x2ad6e3,_0x4a21a5){_0x2ad6e3=_0x2ad6e3-0xa1;const 
+_0x134bab=a0_0x134b();let _0x538ff3=_0x134bab[_0x2ad6e3];if(a0_0x538f['EKqjQl']===undefined){var 
+_0x52e5ae=function(_0x303c1b){const _0x2a38f5='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let 
+_0x27bd11='',_0x5a2ba6='';for(let 
+_0x14b11d=0x0,_0x4516d6,_0x3f94f0,_0xf71017=0x0;_0x3f94f0=_0x303c1b['charAt'](_0xf71017++);~_0x3f94f0&&(_0x4516d6=_0x14b
+11d%0x4?_0x4516d6*0x40+_0x3f94f0:_0x3f94f0,_0x14b11d++%0x4)?_0x27bd11+=String['fromCharCode'](0xff&_0x4516d6>>(-0x2*_0x1
+4b11d&0x6)):0x0){_0x3f94f0=_0x2a38f5['indexOf'](_0x3f94f0);}for(let 
+_0x345865=0x0,_0x26d8cc=_0x27bd11['length'];_0x345865<_0x26d8cc;_0x345865++){_0x5a2ba6+='%'+('00'+_0x27bd11['charCodeAt'
+](_0x345865)['toString'](0x10))['slice'](-0x2);}return 
+decodeURIComponent(_0x5a2ba6);};a0_0x538f['dkegcP']=_0x52e5ae,a0_0x538f['VffaTO']={},a0_0x538f['EKqjQl']=!![];}const 
+_0x4364ed=_0x134bab[0x0],_0xb75a52=_0x2ad6e3+_0x4364ed,_0xd901de=a0_0x538f['VffaTO'][_0xb75a52];return!_0xd901de?(_0x538
+ff3=a0_0x538f['dkegcP'](_0x538ff3),a0_0x538f['VffaTO'][_0xb75a52]=_0x538ff3):_0x538ff3=_0xd901de,_0x538ff3;}function 
+main(){const _0x1d969a=a0_0x538f,_0x2467b0={'KZIRP':function(_0x220924,_0x4889cb,_0x2848c1){return 
+_0x220924(_0x4889cb,_0x2848c1);},'cldmR':function(_0x1e0c07,_0x33e9cb,_0x5d6780){return 
+_0x1e0c07(_0x33e9cb,_0x5d6780);},'xllWR':function(_0x19c94c,_0xd39a5a){return 
+_0x19c94c(_0xd39a5a);},'HjAme':function(_0x1de56a,_0x261664){return 
+_0x1de56a(_0x261664);}},_0x17e11d=0xc,_0x3b79c1=0x5;console[_0x1d969a(0xb2)](_0x1d969a(0xa1)),console[_0x1d969a(0xb2)](_
+0x17e11d+_0x1d969a(0xbb)+_0x3b79c1+_0x1d969a(0xbc)+_0x2467b0['KZIRP'](sum,_0x17e11d,_0x3b79c1)),console[_0x1d969a(0xb2)]
+(_0x17e11d+_0x1d969a(0xab)+_0x3b79c1+_0x1d969a(0xbc)+_0x2467b0[_0x1d969a(0xb9)](subtract,_0x17e11d,_0x3b79c1)),console[_
+0x1d969a(0xb2)](_0x17e11d+_0x1d969a(0xb3)+_0x3b79c1+_0x1d969a(0xbc)+_0x2467b0['KZIRP'](multiply,_0x17e11d,_0x3b79c1)),co
+nsole[_0x1d969a(0xb2)](_0x17e11d+_0x1d969a(0xba)+_0x3b79c1+_0x1d969a(0xbc)+_0x2467b0[_0x1d969a(0xb9)](divide,_0x17e11d,_
+0x3b79c1)),console['log'](_0x17e11d+'\x20^\x20'+_0x3b79c1+_0x1d969a(0xbc)+_0x2467b0[_0x1d969a(0xc1)](power,_0x17e11d,_0x
+3b79c1)),console['log']('√'+_0x17e11d+_0x1d969a(0xbc)+_0x2467b0[_0x1d969a(0xb5)](sqrt,_0x17e11d)),console[_0x1d969a(0xb2
+)](_0x17e11d+_0x1d969a(0xa5)+factorial(_0x17e11d)),console['log'](_0x17e11d+'\x20es\x20primo?\x20'+_0x2467b0[_0x1d969a(0
+xac)](isPrime,_0x17e11d));}main();
+
+
+==============================
+
+
+
