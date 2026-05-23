@@ -14,7 +14,7 @@ def _label_bars(ax, bars, fmt="{:.2f}", offset=0.01):
                 fmt.format(h),
                 ha="center",
                 va="bottom",
-                fontsize=7
+                fontsize=12
             )
 
 def plot_ast(df, df_obf, df_deob):

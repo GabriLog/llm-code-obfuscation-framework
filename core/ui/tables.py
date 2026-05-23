@@ -11,13 +11,15 @@ console = Console()
 
 
 def select_option(options, column):
-    table = Table(title=column+"s disponibles", show_lines=True)
+    table = Table(title=column + "s disponibles", show_lines=True)
     table.add_column("#", justify="center")
     table.add_column(column, style="bright_cyan")
-
     for i, item in enumerate(options, 1):
-        table.add_row(str(i), str(item))
-
+        extra = ""
+        if column == "Dataset":
+            loc_range = "20-40 loc" if item == "few-shot" else "10-20 loc"
+            extra = f" (3 scripts de {loc_range})"
+        table.add_row(str(i), f"{item}{extra}")
     console.print("\n", table)
     choice = IntPrompt.ask(
         "Selecciona una opción",

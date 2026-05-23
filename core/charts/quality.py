@@ -7,7 +7,7 @@ SUBDIR = "charts"
 def _label_bars(ax, bar_labels, bar_values, fmt="{:.2f}", offset=0.02):
     for i, v in enumerate(bar_values):
         if v is not None and not (isinstance(v, float) and np.isnan(v)):
-            ax.text(i, v + offset, fmt.format(v), ha="center", va="bottom", fontsize=8)
+            ax.text(i, v + offset, fmt.format(v), ha="center", va="bottom", fontsize=12)
 
 def plot_quality(df, df_obf):
     df_llm  = df_obf[df_obf["label"] == "obf_llm"]

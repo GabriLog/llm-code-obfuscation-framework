@@ -9,7 +9,7 @@ def _label_bars(ax, bars, fmt="{:.2f}", offset=0.01):
         h = bar.get_height()
         if h > 0:
             ax.text(bar.get_x() + bar.get_width() / 2, h + offset,
-                    fmt.format(h), ha="center", va="bottom", fontsize=7)
+                    fmt.format(h), ha="center", va="bottom", fontsize=12)
 
 def plot_error(df, df_obf, df_deob):
     models = sorted(df["model"].dropna().unique())

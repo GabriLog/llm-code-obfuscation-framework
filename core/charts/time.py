@@ -23,7 +23,7 @@ def _label_bars(ax, bars, fmt="{:.1f}s", offset=0.5):
         if h > 0:
             ax.text(
                 bar.get_x() + bar.get_width() / 2, h + offset,
-                fmt.format(h), ha="center", va="bottom", fontsize=7
+                fmt.format(h), ha="center", va="bottom", fontsize=12
             )
 
 
