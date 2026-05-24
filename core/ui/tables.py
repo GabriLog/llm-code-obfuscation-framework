@@ -17,7 +17,7 @@ def select_option(options, column):
     for i, item in enumerate(options, 1):
         extra = ""
         if column == "Dataset":
-            loc_range = "20-40 loc" if item == "few-shot" else "10-20 loc"
+            loc_range = "20-40 loc" if item == "large" else "10-20 loc"
             extra = f" (3 scripts de {loc_range})"
         table.add_row(str(i), f"{item}{extra}")
     console.print("\n", table)
